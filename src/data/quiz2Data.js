@@ -417,5 +417,201 @@ export const ALL_QUESTIONS = [
     ],
     answer: 1,
     explanation: "Perawatan atau pengobatan yang diberikan tanpa persetujuan langsung dari pasien (biasanya karena darurat atau hilangnya kapasitas) disebut Involuntary treatment."
+  },
+  {
+    id: 35, category: "Perawatan Paksa",
+    question: "Selain memberikan obat penenang di IGD untuk pasien gaduh gelisah yang membahayakan orang lain, psikiater juga berwenang untuk...",
+    options: [
+      "Menjebloskannya ke penjara",
+      "Merujuk pasien ke Rumah Sakit Jiwa untuk perawatan paksa/intensif",
+      "Mengembalikan pasien ke jalanan",
+      "Mencabut hak kependudukan pasien"
+    ],
+    answer: 1,
+    explanation: "Jika pasien agresif membahayakan orang lain, selain memberi sedasi darurat, dokter berwenang merujuk pasien ke RS Jiwa untuk diobservasi dan dirawat inap secara paksa."
+  },
+  {
+    id: 36, category: "Perawatan Paksa",
+    question: "Isu Eutanasia dan Bunuh Diri adalah masalah etika yang amat kontroversial. Pandangan dasar Islam terhadap isu ini berpedoman pada...",
+    options: [
+      "Otonomi penuh untuk mengakhiri penderitaan kapan saja",
+      "Hak hidup mutlak di bawah ketetapan Allah dan larangan merusak kehidupan",
+      "Kewajiban dokter mengabulkan semua permintaan pasien",
+      "Pertimbangan biaya rumah sakit semata"
+    ],
+    answer: 1,
+    explanation: "Islam melarang eutanasia dan bunuh diri karena kehidupan adalah hak mutlak di bawah otoritas Tuhan, meskipun dalam kondisi penderitaan mental/fisik."
+  },
+  {
+    id: 37, category: "Perawatan Paksa",
+    question: "Penggunaan obat-obatan psikotropika dalam eksperimen medis tanpa izin yang jelas pada pasien jiwa termasuk dalam isu...",
+    options: [
+      "Kemajuan teknologi medis",
+      "Pelanggaran etika eksperimen medis dan penyalahgunaan obat",
+      "Tindakan yang didukung pemerintah",
+      "Standar keadilan internasional"
+    ],
+    answer: 1,
+    explanation: "Eksperimen medis dan uji coba obat psikotropika tanpa consent pada kelompok rentan (pasien psikiatri) adalah isu kontroversial yang melanggar etik berat."
+  },
+
+  // ── 7. PENYALAHGUNAAN MEDIS (7 Soal) ────────────────────────────────────
+  {
+    id: 38, category: "Penyalahgunaan Medis",
+    question: "Contoh kasus 'Penyalahgunaan Wewenang dalam Memberikan Pengobatan' adalah...",
+    options: [
+      "Merujuk pasien ke poli spesialis lain sesuai indikasi",
+      "Memberikan obat psikotropika (penenang) kepada pasien yang secara medis tidak memerlukannya",
+      "Mengurangi dosis obat perlahan saat pasien mulai sembuh",
+      "Melakukan visum et repertum atas permintaan penyidik"
+    ],
+    answer: 1,
+    explanation: "Penyalahgunaan wewenang klinis (abuse of power) terjadi ketika tenaga medis meresepkan obat keras seperti penenang (psikotropika) tanpa adanya indikasi medis yang jelas."
+  },
+  {
+    id: 39, category: "Penyalahgunaan Medis",
+    question: "Seorang dokter melakukan terapi kejut listrik (ECT) kepada pasien tanpa menjelaskan risiko, alternatif, maupun meminta tanda tangan keluarga. Dokter tersebut melanggar aturan terkait...",
+    options: [
+      "Pemalsuan dokumen medis",
+      "Pemberian pengobatan tanpa Informed Consent (persetujuan)",
+      "Eksploitasi finansial",
+      "Diskriminasi pasien"
+    ],
+    answer: 1,
+    explanation: "Melakukan prosedur invasif tanpa penjelasan dan izin tertulis adalah bentuk pelanggaran pemaksaan pengobatan tanpa Informed Consent."
+  },
+  {
+    id: 40, category: "Penyalahgunaan Medis",
+    question: "Dokter meminta 'uang pelicin' di luar tarif resmi rumah sakit sebagai syarat pasien bisa dirawat inap. Ini diklasifikasikan sebagai pelanggaran...",
+    options: [
+      "Otonomi klinis",
+      "Pemalsuan rekam medis",
+      "Eksploitasi pasien untuk keuntungan finansial/pribadi",
+      "Tindakan preventif medis"
+    ],
+    answer: 2,
+    explanation: "Meminta biaya tambahan gelap atau hadiah sebagai syarat layanan (di luar tarif resmi RS) adalah kejahatan etika berat: eksploitasi finansial/pribadi pasien."
+  },
+  {
+    id: 41, category: "Penyalahgunaan Medis",
+    question: "Seorang perawat salah menyuntikkan obat, lalu ia menghapus dan mengubah catatan di status pasien agar terlihat seolah-olah ia menyuntikkan obat yang benar. Pelanggaran ini disebut...",
+    options: [
+      "Eksploitasi seksual pasien",
+      "Diskriminasi perawatan",
+      "Pemalsuan dokumen/rekam medis untuk menutupi kesalahan",
+      "Menolak merawat pasien"
+    ],
+    answer: 2,
+    explanation: "Mengubah, menghapus, atau memalsukan rekam medis untuk menyembunyikan malapraktik medis adalah bentuk pelanggaran pemalsuan dokumen medis."
+  },
+  {
+    id: 42, category: "Penyalahgunaan Medis",
+    question: "Untuk menolong temannya agar terhindar dari hukuman penjara, seorang dokter jiwa membuat diagnosis palsu menyatakan temannya menderita Skizofrenia berat. Ini adalah pelanggaran...",
+    options: [
+      "Penyalahgunaan kewenangan dalam penanganan kasus pidana/kriminal",
+      "Pemaksaan informed consent",
+      "Tindakan pro bono klinis",
+      "Hak menolak pengobatan"
+    ],
+    answer: 0,
+    explanation: "Memberikan laporan medis (visum psikiatrikum) palsu agar seseorang lolos dari jerat hukum adalah kejahatan dan penyalahgunaan wewenang profesi dalam peradilan pidana."
+  },
+  {
+    id: 43, category: "Penyalahgunaan Medis",
+    question: "Seorang dokter menolak memeriksa pasien dengan gangguan jiwa gelandangan karena menganggap pasien tersebut kotor dan miskin. Ini melanggar hukum dan etik terkait...",
+    options: [
+      "Eutanasia paksa",
+      "Penolakan Perawatan atau Diskriminasi terhadap Pasien",
+      "Involuntary treatment",
+      "Pemalsuan rekam medis"
+    ],
+    answer: 1,
+    explanation: "Menolak pasien berdasarkan status sosial ekonomi (miskin/gelandangan) atau kondisi mentalnya adalah bentuk diskriminasi langsung dan penolakan layanan klinis."
+  },
+  {
+    id: 44, category: "Penyalahgunaan Medis",
+    question: "Tindakan eksploitasi dan penyalahgunaan medis dalam praktik psikiatri berisiko membuat psikiater tersebut kehilangan perlindungan dari...",
+    options: [
+      "Hak atas asuransi pasien",
+      "Tuntutan hukum (menghadapi jerat pidana/malapraktik)",
+      "Pajak penghasilan rumah sakit",
+      "Sumbangan amal pasien"
+    ],
+    answer: 1,
+    explanation: "Psikiater yang melakukan pelanggaran hukum (seperti eksploitasi, diskriminasi, pemalsuan) akan berhadapan dengan tuntutan hukum/malapraktik dari hukum yang berlaku."
+  },
+
+  // ── 8. REGULASI & UU (6 Soal) ─────────────────────────────────────────────
+  {
+    id: 45, category: "Regulasi & UU",
+    question: "Undang-Undang di Indonesia yang secara spesifik mengatur dan menjamin hak-hak pasien dengan gangguan jiwa adalah...",
+    options: [
+      "UU No. 39 Tahun 1999",
+      "UU No. 23 Tahun 2004",
+      "UU No. 18 Tahun 2014 tentang Kesehatan Jiwa",
+      "PP No. 25 Tahun 2008"
+    ],
+    answer: 2,
+    explanation: "Undang-Undang Nomor 18 Tahun 2014 adalah regulasi spesifik yang mengatur tentang Kesehatan Jiwa di Indonesia."
+  },
+  {
+    id: 46, category: "Regulasi & UU",
+    question: "Landasan hukum umum yang mengatur tentang kesehatan, termasuk di dalamnya mengenai perawatan pasien gangguan jiwa, tertuang pada...",
+    options: [
+      "UU No. 36 Tahun 2009",
+      "UU No. 18 Tahun 2014",
+      "UU Perlindungan Anak",
+      "Permenkes No. 8 Tahun 2012"
+    ],
+    answer: 0,
+    explanation: "UU No. 36 Tahun 2009 adalah payung hukum pokok tentang Kesehatan di Indonesia, yang juga mencakup aturan dasar perawatan pasien gangguan jiwa."
+  },
+  {
+    id: 47, category: "Regulasi & UU",
+    question: "Peraturan yang mengatur secara teknis tentang standar pelayanan kesehatan jiwa di rumah sakit diatur melalui...",
+    options: [
+      "UU No. 39 Tahun 1999 tentang HAM",
+      "Permenkes No. 33 Tahun 2017",
+      "Keputusan Presiden",
+      "UU No. 23 Tahun 2004"
+    ],
+    answer: 1,
+    explanation: "Peraturan Menteri Kesehatan (Permenkes) Nomor 33 Tahun 2017 secara spesifik mengatur tentang Standar Pelayanan Kesehatan Jiwa di Rumah Sakit."
+  },
+  {
+    id: 48, category: "Regulasi & UU",
+    question: "Bila gangguan mental pasien disebabkan oleh KDRT, maka perlindungan pasien dan hukumnya dapat ditarik pada undang-undang...",
+    options: [
+      "UU No. 36 Tahun 2009",
+      "UU No. 23 Tahun 2004 tentang Penghapusan KDRT",
+      "Kepmenkes No. 51 Tahun 2004",
+      "PP No. 25 Tahun 2008"
+    ],
+    answer: 1,
+    explanation: "Undang-Undang Nomor 23 Tahun 2004 mengatur tentang Penghapusan Kekerasan dalam Rumah Tangga (KDRT)."
+  },
+  {
+    id: 49, category: "Regulasi & UU",
+    question: "Menelantarkan dan memasung pasien gangguan jiwa melanggar undang-undang dasar kemanusiaan yang diatur dalam...",
+    options: [
+      "UU No. 39 Tahun 1999 tentang Hak Asasi Manusia",
+      "Permenkes No. 8 Tahun 2012",
+      "UU No. 36 Tahun 2009",
+      "Kepmenkes Tahun 2004"
+    ],
+    answer: 0,
+    explanation: "Tindakan tidak manusiawi (seperti pasung/penelantaran) tidak hanya melanggar UU Kesehatan Jiwa tetapi juga UU No. 39 Tahun 1999 tentang Hak Asasi Manusia (HAM)."
+  },
+  {
+    id: 50, category: "Regulasi & UU",
+    question: "Kesimpulan utama materi: Dalam mengambil keputusan klinis psikiatri, dokter tidak hanya membutuhkan pengetahuan medis, tetapi juga harus memperhatikan...",
+    options: [
+      "Profit bulanan RS",
+      "Tingkat pendidikan akademik pasien saja",
+      "Kepekaan terhadap hak-hak pasien, prinsip moral/etik, dan hukum yang berlaku",
+      "Opini dari netizen media sosial"
+    ],
+    answer: 2,
+    explanation: "Keputusan klinis yang komprehensif mengintegrasikan keahlian medis dengan sensitivitas hak pasien, prinsip etik/moral agama, keadilan, dan hukum legal yang berlaku."
   }
 ];

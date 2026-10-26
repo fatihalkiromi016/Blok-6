@@ -10,7 +10,7 @@ export const ALL_QUESTIONS = [
       "Tahun 1910"
     ],
     answer: 1,
-    explanation: "Movement Disorders telah dijelaskan dalam literatur India kuno yang berasal dari setidaknya 600 SM, di mana bradikinesia dirujuk dan diobati[span_2](start_span)[span_2](end_span)."
+    explanation: "Movement Disorders telah dijelaskan dalam literatur India kuno yang berasal dari setidaknya 600 SM, di mana bradikinesia dirujuk dan diobati[cite: 6]."
   },
   {
     id: 2, category: "Sejarah & Epidemiologi",
@@ -22,7 +22,7 @@ export const ALL_QUESTIONS = [
       "18 - 21 tahun"
     ],
     answer: 1,
-    explanation: "Idiopatik atau primary tics umumnya timbul pada anak-anak di rentang usia 5-6 tahun[span_3](start_span)[span_3](end_span)."
+    explanation: "Idiopatik atau primary tics umumnya timbul pada anak-anak di rentang usia 5-6 tahun[cite: 6]."
   },
   {
     id: 3, category: "Sejarah & Epidemiologi",
@@ -34,7 +34,7 @@ export const ALL_QUESTIONS = [
       "Laki-laki sangat dominan (10:1)"
     ],
     answer: 2,
-    explanation: "Kejadian tics lebih sering terjadi pada laki-laki dibandingkan perempuan dengan rasio 4:1 hingga 6:1[span_4](start_span)[span_4](end_span)."
+    explanation: "Kejadian tics lebih sering terjadi pada laki-laki dibandingkan perempuan dengan rasio 4:1 hingga 6:1[cite: 6]."
   },
   {
     id: 4, category: "Sejarah & Epidemiologi",
@@ -46,7 +46,7 @@ export const ALL_QUESTIONS = [
       "5 / 500.000 penduduk"
     ],
     answer: 1,
-    explanation: "Prevalensi untuk distonia umum (generalized) adalah 3.4/100.000, sedangkan untuk distonia fokal (focal dystonia) mencapai 29.5/100.000[span_5](start_span)[span_5](end_span)."
+    explanation: "Prevalensi untuk distonia umum (generalized) adalah 3.4/100.000, sedangkan untuk distonia fokal (focal dystonia) mencapai 29.5/100.000[cite: 6]."
   },
   {
     id: 5, category: "Sejarah & Epidemiologi",
@@ -58,7 +58,7 @@ export const ALL_QUESTIONS = [
       "Pria:Wanita = 6:1, onset 10-20 tahun"
     ],
     answer: 1,
-    explanation: "Blepharospasm lebih sering mengenai wanita (Woman:man = 3:1) dengan onset usia khas pada 50-70 tahun[span_6](start_span)[span_6](end_span)."
+    explanation: "Blepharospasm lebih sering mengenai wanita (Woman:man = 3:1) dengan onset usia khas pada 50-70 tahun[cite: 6]."
   },
   {
     id: 6, category: "Sejarah & Epidemiologi",
@@ -70,7 +70,7 @@ export const ALL_QUESTIONS = [
       "Henry Meige (1910)"
     ],
     answer: 2,
-    explanation: "'Torticolis spasmodique' atau spasmodic torticollis pertama kali diperkenalkan oleh Desterac pada tahun 1901[span_7](start_span)[span_7](end_span)."
+    explanation: "'Torticolis spasmodique' atau spasmodic torticollis pertama kali diperkenalkan oleh Desterac pada tahun 1901[cite: 6]."
   },
   {
     id: 7, category: "Sejarah & Epidemiologi",
@@ -82,7 +82,7 @@ export const ALL_QUESTIONS = [
       "1910"
     ],
     answer: 1,
-    explanation: "George Huntington mendeskripsikan gerakan abnormal ini dalam manuskripnya 'On Chorea' pada tahun 1872 setelah lulus dari Sekolah Kedokteran Columbia[span_8](start_span)[span_8](end_span)."
+    explanation: "George Huntington mendeskripsikan gerakan abnormal ini dalam manuskripnya 'On Chorea' pada tahun 1872 setelah lulus dari Sekolah Kedokteran Columbia[cite: 6]."
   },
 
   // ── 2. KLASIFIKASI & KRITERIA TICS (7 Soal) ───────────────────────────────
@@ -96,7 +96,7 @@ export const ALL_QUESTIONS = [
       "Complex Vocal Tics"
     ],
     answer: 2,
-    explanation: "Simple Motor Tics adalah gerakan cepat, darting, tanpa tujuan mengenai otot tertentu seperti kedipan mata, wajah menyeringai, atau kedutan hidung[span_9](start_span)[span_9](end_span)."
+    explanation: "Simple Motor Tics adalah gerakan cepat, darting, tanpa tujuan mengenai otot tertentu seperti kedipan mata, wajah menyeringai, atau kedutan hidung[cite: 6]."
   },
   {
     id: 9, category: "Klasifikasi & Kriteria Tics",
@@ -108,7 +108,7 @@ export const ALL_QUESTIONS = [
       "Echolalia"
     ],
     answer: 1,
-    explanation: "Copropraxia (melakukan gerakan-gerakan yang kotor/tidak etis) termasuk dalam klasifikasi Complex Motor Tics[span_10](start_span)[span_10](end_span)."
+    explanation: "Copropraxia (melakukan gerakan-gerakan yang kotor/tidak etis) termasuk dalam klasifikasi Complex Motor Tics[cite: 6]."
   },
   {
     id: 10, category: "Klasifikasi & Kriteria Tics",
@@ -120,7 +120,7 @@ export const ALL_QUESTIONS = [
       "Hanya terjadi saat tidur (sleep phase)"
     ],
     answer: 0,
-    explanation: "Transient tic disorder didefinisikan sebagai adanya tics motorik atau vokal yang terjadi lebih dari 4 minggu tetapi kurang dari 1 tahun[span_11](start_span)[span_11](end_span)."
+    explanation: "Transient tic disorder didefinisikan sebagai adanya tics motorik atau vokal yang terjadi lebih dari 4 minggu tetapi kurang dari 1 tahun[cite: 6]."
   },
   {
     id: 11, category: "Klasifikasi & Kriteria Tics",
@@ -132,7 +132,7 @@ export const ALL_QUESTIONS = [
       "Non-specified tic disorders"
     ],
     answer: 3,
-    explanation: "Non-specified tic disorders didefinisikan dengan adanya tics dengan onset pada usia 18 tahun dengan durasi kurang dari 4 minggu[span_12](start_span)[span_12](end_span)."
+    explanation: "Non-specified tic disorders didefinisikan dengan adanya tics dengan onset pada usia 18 tahun dengan durasi kurang dari 4 minggu[cite: 6]."
   },
   {
     id: 12, category: "Klasifikasi & Kriteria Tics",
@@ -144,7 +144,7 @@ export const ALL_QUESTIONS = [
       "Tics yang disertai kejang demam (seizure)"
     ],
     answer: 0,
-    explanation: "Chronic motor or vocal tic disorder adalah adanya tics motorik ATAU tics vokal (bukan kombinasi keduanya) yang terjadi secara kronis lebih dari 1 tahun[span_13](start_span)[span_13](end_span)."
+    explanation: "Chronic motor or vocal tic disorder adalah adanya tics motorik ATAU tics vokal (bukan kombinasi keduanya) yang terjadi secara kronis lebih dari 1 tahun[cite: 6]."
   },
   {
     id: 13, category: "Klasifikasi & Kriteria Tics",
@@ -156,7 +156,7 @@ export const ALL_QUESTIONS = [
       "Asterixis"
     ],
     answer: 1,
-    explanation: "Contoh dorongan (urge) semi-voluntary adalah Restless legs (kaki gelisah), di mana pasien merasakan dorongan menggerakkan kaki saat duduk yang meningkat sehingga perlu berjalan[span_14](start_span)[span_14](end_span)."
+    explanation: "Contoh dorongan (urge) semi-voluntary adalah Restless legs (kaki gelisah), di mana pasien merasakan dorongan menggerakkan kaki saat duduk yang meningkat sehingga perlu berjalan[cite: 6]."
   },
   {
     id: 14, category: "Klasifikasi & Kriteria Tics",
@@ -168,7 +168,7 @@ export const ALL_QUESTIONS = [
       "Bersiul, batuk, bersin, atau suara uh-uh"
     ],
     answer: 3,
-    explanation: "Simple Vocal Tics meliputi timbulnya suara-suara tanpa arti seperti bersiul, batuk, bersin, menghisap, dan suara tidak jelas seperti uh-uh, ee-ee, dan ah[span_15](start_span)[span_15](end_span)."
+    explanation: "Simple Vocal Tics meliputi timbulnya suara-suara tanpa arti seperti bersiul, batuk, bersin, menghisap, dan suara tidak jelas seperti uh-uh, ee-ee, dan ah[cite: 6]."
   },
 
   // ── 3. FARMAKOTERAPI TICS & DISTONIA (7 Soal) ─────────────────────────────
@@ -182,7 +182,7 @@ export const ALL_QUESTIONS = [
       "Risperidone dan Clozapine"
     ],
     answer: 1,
-    explanation: "Obat golongan non-neuroleptik yang bekerja pada noradrenalin untuk tics adalah clonidine dan guanfacin[span_16](start_span)[span_16](end_span)."
+    explanation: "Obat golongan non-neuroleptik yang bekerja pada noradrenalin untuk tics adalah clonidine dan guanfacin[cite: 6]."
   },
   {
     id: 16, category: "Farmakologi Terapan",
@@ -194,7 +194,7 @@ export const ALL_QUESTIONS = [
       "Biperiden dan Trihexyphenidyl"
     ],
     answer: 2,
-    explanation: "Golongan anti konvulsan yang digunakan untuk mengobati Tics meliputi topiramate, levetiracetam, clonazepam, dan asam valproat[span_17](start_span)[span_17](end_span)."
+    explanation: "Golongan anti konvulsan yang digunakan untuk mengobati Tics meliputi topiramate, levetiracetam, clonazepam, dan asam valproat[cite: 6]."
   },
   {
     id: 17, category: "Farmakologi Terapan",
@@ -206,7 +206,7 @@ export const ALL_QUESTIONS = [
       "Menurunkan regulasi reseptor dopamin D2"
     ],
     answer: 2,
-    explanation: "Obat-obatan antikolinergik (seperti diphenhydramine, ipratropium) bekerja dengan mengeblok asetilkolin agar tidak berikatan dengan reseptor di post-sinaps[span_18](start_span)[span_18](end_span)."
+    explanation: "Obat-obatan antikolinergik (seperti diphenhydramine, ipratropium) bekerja dengan mengeblok asetilkolin agar tidak berikatan dengan reseptor di post-sinaps[cite: 6]."
   },
   {
     id: 18, category: "Farmakologi Terapan",
@@ -218,7 +218,7 @@ export const ALL_QUESTIONS = [
       "Hemisferektomi"
     ],
     answer: 1,
-    explanation: "Tindakan bedah untuk kelainan tingkah laku pada tics meliputi thalamotomy dan cingulotomy[span_19](start_span)[span_19](end_span)."
+    explanation: "Tindakan bedah untuk kelainan tingkah laku pada tics meliputi thalamotomy dan cingulotomy[cite: 6]."
   },
   {
     id: 19, category: "Farmakologi Terapan",
@@ -230,7 +230,7 @@ export const ALL_QUESTIONS = [
       "Vagus Nerve Stimulation (VNS)"
     ],
     answer: 1,
-    explanation: "Terapi non-farmakologis untuk Tics salah satunya menggunakan Repetitive transcranial magnetic stimulation (rTMS)[span_20](start_span)[span_20](end_span)."
+    explanation: "Terapi non-farmakologis untuk Tics salah satunya menggunakan Repetitive transcranial magnetic stimulation (rTMS)[cite: 6]."
   },
   {
     id: 20, category: "Farmakologi Terapan",
@@ -242,7 +242,7 @@ export const ALL_QUESTIONS = [
       "Lithium"
     ],
     answer: 1,
-    explanation: "Pada wanita hamil dengan chorea gravidarum, neuroleptik tidak boleh diberikan karena membahayakan janin; pasien dapat diberikan mild benzodiazepine tranquilizer[span_21](start_span)[span_21](end_span)."
+    explanation: "Pada wanita hamil dengan chorea gravidarum, neuroleptik tidak boleh diberikan karena membahayakan janin; pasien dapat diberikan mild benzodiazepine tranquilizer[cite: 6]."
   },
   {
     id: 21, category: "Farmakologi Terapan",
@@ -254,7 +254,7 @@ export const ALL_QUESTIONS = [
       "Sertraline dan Paroxetine"
     ],
     answer: 2,
-    explanation: "Golongan neuroleptik atipikal (anti psikotik) untuk tics meliputi Risperidon, Clozapin, dan olanzapine[span_22](start_span)[span_22](end_span)."
+    explanation: "Golongan neuroleptik atipikal (anti psikotik) untuk tics meliputi Risperidon, Clozapin, dan olanzapine[cite: 6]."
   },
 
   // ── 4. ANALISIS TREMOR SPESIFIK (7 Soal) ──────────────────────────────────
@@ -268,7 +268,7 @@ export const ALL_QUESTIONS = [
       "Neuropathy diabetikum"
     ],
     answer: 1,
-    explanation: "Berdasarkan etiologi tremor, Chin tremor (tremor dagu) disebabkan oleh Hereditary geniospasm dan Parkinson Disease (PD)[span_23](start_span)[span_23](end_span)."
+    explanation: "Berdasarkan etiologi tremor, Chin tremor (tremor dagu) disebabkan oleh Hereditary geniospasm dan Parkinson Disease (PD)[cite: 6]."
   },
   {
     id: 23, category: "Analisis Tremor Spesifik",
@@ -280,7 +280,7 @@ export const ALL_QUESTIONS = [
       "Third ventricular cysts"
     ],
     answer: 2,
-    explanation: "Jaw tremor (tremor rahang) dapat disebabkan oleh Parkinson's Disease (PD), dystonia, dan Essential Tremor (ET)[span_24](start_span)[span_24](end_span)."
+    explanation: "Jaw tremor (tremor rahang) dapat disebabkan oleh Parkinson's Disease (PD), dystonia, dan Essential Tremor (ET)[cite: 6]."
   },
   {
     id: 24, category: "Analisis Tremor Spesifik",
@@ -292,7 +292,7 @@ export const ALL_QUESTIONS = [
       "Stroke hemoragik lobus frontal"
     ],
     answer: 2,
-    explanation: "Palatal tremor disebabkan oleh Essential Tremor (ET) dan kondisi simptomatik yang berhubungan dengan ataxia[span_25](start_span)[span_25](end_span)."
+    explanation: "Palatal tremor disebabkan oleh Essential Tremor (ET) dan kondisi simptomatik yang berhubungan dengan ataxia[cite: 6]."
   },
   {
     id: 25, category: "Analisis Tremor Spesifik",
@@ -304,7 +304,7 @@ export const ALL_QUESTIONS = [
       "Kinetic tremor pada jari tangan"
     ],
     answer: 0,
-    explanation: "Head tremor dapat disebabkan oleh essential tremor, dystonia, cerebellar disease, dan third ventricular cysts[span_26](start_span)[span_26](end_span)."
+    explanation: "Head tremor dapat disebabkan oleh essential tremor, dystonia, cerebellar disease, dan third ventricular cysts[cite: 6]."
   },
   {
     id: 26, category: "Analisis Tremor Spesifik",
@@ -316,7 +316,7 @@ export const ALL_QUESTIONS = [
       "Sindrom Tourette"
     ],
     answer: 1,
-    explanation: "Kinetic tremor dapat disebabkan oleh cerebellar disease, Holmes tremor, Wilson's disease, dan psychogenic tremor[span_27](start_span)[span_27](end_span)."
+    explanation: "Kinetic tremor dapat disebabkan oleh cerebellar disease, Holmes tremor, Wilson's disease, dan psychogenic tremor[cite: 6]."
   },
   {
     id: 27, category: "Analisis Tremor Spesifik",
@@ -328,7 +328,7 @@ export const ALL_QUESTIONS = [
       "Tremor persisten sepanjang gerakan dan memburuk saat mendekat hidung"
     ],
     answer: 2,
-    explanation: "Pada pasien Parkinson's disease, tremor biasanya ada di awal pergerakan (resting) dan kemudian menjadi halus (smooth out) saat jari mendekati hidung[span_28](start_span)[span_28](end_span)."
+    explanation: "Pada pasien Parkinson's disease, tremor biasanya ada di awal pergerakan (resting) dan kemudian menjadi halus (smooth out) saat jari mendekati hidung[cite: 6]."
   },
   {
     id: 28, category: "Analisis Tremor Spesifik",
@@ -340,7 +340,7 @@ export const ALL_QUESTIONS = [
       "Kinetic tremor"
     ],
     answer: 2,
-    explanation: "Peripheral neuropathy, seperti pada Hereditary Sensorimotor Neuropathy (HSMN) dan CIDP, memicu bentuk postural tremor[span_29](start_span)[span_29](end_span)."
+    explanation: "Peripheral neuropathy, seperti pada Hereditary Sensorimotor Neuropathy (HSMN) dan CIDP, memicu bentuk postural tremor[cite: 6]."
   },
 
   // ── 5. ETIOLOGI & PATOFISIOLOGI CHOREA (8 Soal) ───────────────────────────
@@ -354,7 +354,7 @@ export const ALL_QUESTIONS = [
       "Lebih dari 40 pengulangan"
     ],
     answer: 2,
-    explanation: "Pengulangan CAG 36-39 dikategorikan sebagai risiko menengah dengan penetrasi tidak lengkap (incomplete penetrance)[span_30](start_span)[span_30](end_span)."
+    explanation: "Pengulangan CAG 36-39 dikategorikan sebagai risiko menengah dengan penetrasi tidak lengkap (incomplete penetrance)[cite: 6]."
   },
   {
     id: 30, category: "Etiologi Chorea Khusus",
@@ -366,7 +366,7 @@ export const ALL_QUESTIONS = [
       "> 40 pengulangan"
     ],
     answer: 3,
-    explanation: "Pengulangan trinukleotida CAG >40 adalah 100% penetran untuk Penyakit Huntington[span_31](start_span)[span_31](end_span)."
+    explanation: "Pengulangan trinukleotida CAG >40 adalah 100% penetran untuk Penyakit Huntington[cite: 6]."
   },
   {
     id: 31, category: "Etiologi Chorea Khusus",
@@ -378,7 +378,7 @@ export const ALL_QUESTIONS = [
       "Neuroacanthocytosis"
     ],
     answer: 2,
-    explanation: "Sydenham's chorea adalah penyebab autoimun (pasca infeksi streptokokus), bukan penyakit degeneratif turunan seperti Wilson's, neuroacanthocytosis, atau Ataxia telangiectasia[span_32](start_span)[span_32](end_span)."
+    explanation: "Sydenham's chorea adalah penyebab autoimun (pasca infeksi streptokokus), bukan penyakit degeneratif turunan seperti Wilson's, neuroacanthocytosis, atau Ataxia telangiectasia[cite: 6]."
   },
   {
     id: 32, category: "Etiologi Chorea Khusus",
@@ -390,7 +390,7 @@ export const ALL_QUESTIONS = [
       "Myasthenia Gravis dan GBS"
     ],
     answer: 0,
-    explanation: "Penyebab autoimun untuk chorea meliputi SLE, Bechet's syndrome, vasculitis, Hashimoto's thyroiditis, Sydenham's chorea, dan PANDAS[span_33](start_span)[span_33](end_span)."
+    explanation: "Penyebab autoimun untuk chorea meliputi SLE, Bechet's syndrome, vasculitis, Hashimoto's thyroiditis, Sydenham's chorea, dan PANDAS[cite: 6]."
   },
   {
     id: 33, category: "Etiologi Chorea Khusus",
@@ -402,7 +402,7 @@ export const ALL_QUESTIONS = [
       "Mycoplasma pneumoniae"
     ],
     answer: 1,
-    explanation: "Penyebab infeksi untuk chorea meliputi HIV, abses, dan Creutzfeldt-Jakob disease[span_34](start_span)[span_34](end_span)."
+    explanation: "Penyebab infeksi untuk chorea meliputi HIV, abses, dan Creutzfeldt-Jakob disease[cite: 6]."
   },
   {
     id: 34, category: "Etiologi Chorea Khusus",
@@ -414,7 +414,7 @@ export const ALL_QUESTIONS = [
       "Captopril dan Ramipril"
     ],
     answer: 1,
-    explanation: "Calcium channel blockers yang dapat menginduksi chorea di antaranya adalah Cinnarizine dan Flunarizine[span_35](start_span)[span_35](end_span)."
+    explanation: "Calcium channel blockers yang dapat menginduksi chorea di antaranya adalah Cinnarizine dan Flunarizine[cite: 6]."
   },
   {
     id: 35, category: "Etiologi Chorea Khusus",
@@ -426,6 +426,190 @@ export const ALL_QUESTIONS = [
       "Hampir 90%"
     ],
     answer: 1,
-    explanation: "Insidensi Chorea (Sydenham) terjadi pada sekitar 26% kasus demam rematik[span_36](start_span)[span_36](end_span)."
+    explanation: "Insidensi Chorea (Sydenham) terjadi pada sekitar 26% kasus demam rematik[cite: 6]."
+  },
+  {
+    id: 36, category: "Etiologi Chorea Khusus",
+    question: "Hemichorea yang dipicu oleh lesi vaskular akut (Vascular Chorea) ditemukan dengan angka insidensi sebesar...",
+    options: [
+      "10% pada pasien TIA",
+      "1% pada pasien stroke akut",
+      "26% pada demam rematik",
+      "100% pada perdarahan pons"
+    ],
+    answer: 1,
+    explanation: "Insidensi Vascular Chorea (hemichorea) terjadi pada 1% penderita pasien stroke akut[cite: 6]."
+  },
+
+  // ── 6. DISTONIA & KLASIFIKASI ONSET (7 Soal) ──────────────────────────────
+  {
+    id: 37, category: "Distonia Lanjutan",
+    question: "Distonia dapat diklasifikasikan berdasarkan waktu munculnya (Onset Usia). Distonia yang muncul pada rentang usia 3-12 tahun dikategorikan sebagai...",
+    options: [
+      "Infancy dystonia",
+      "Childhood dystonia",
+      "Adolescence dystonia",
+      "Early adulthood dystonia"
+    ],
+    answer: 1,
+    explanation: "Berdasarkan onset usia, Childhood dystonia bermanifestasi pada rentang usia 3-12 tahun[cite: 6]."
+  },
+  {
+    id: 38, category: "Distonia Lanjutan",
+    question: "Distribusi distonia yang menyerang dua area tubuh yang berdekatan secara segmental (contohnya bibrachial dystonia) disebut...",
+    options: [
+      "Focal dystonia",
+      "Multifocal dystonia",
+      "Segmental dystonia",
+      "Hemidystonia"
+    ],
+    answer: 2,
+    explanation: "Segmental dystonia adalah distribusi yang mengenai bagian tubuh yang berdekatan, contohnya cranial dystonia atau bibrachial dystonia[cite: 6]."
+  },
+  {
+    id: 39, category: "Distonia Lanjutan",
+    question: "Berdasarkan etiologinya, 'Acquired Dystonia' (distonia sekunder) dapat dipicu oleh faktor di bawah ini, KECUALI...",
+    options: [
+      "Perinatal brain injury dan Infeksi",
+      "Obat-obatan (Drug) dan Toksik",
+      "Mutasi Autosomal Resesif",
+      "Penyakit Vaskular dan Neoplastik"
+    ],
+    answer: 2,
+    explanation: "Mutasi autosomal resesif termasuk dalam kelompok 'Inherited' (diturunkan genetik), sedangkan Acquired dystonia disebabkan oleh perinatal brain injury, infeksi, obat, toksik, vaskular, neoplastik, trauma, dan psikogenik[cite: 6]."
+  },
+  {
+    id: 40, category: "Distonia Lanjutan",
+    question: "Meige's Syndrome dinamai berdasarkan dokter Henry Meige yang mempublikasikan sindrom ini pada tahun...",
+    options: [
+      "1817",
+      "1872",
+      "1901",
+      "1910"
+    ],
+    answer: 3,
+    explanation: "Meige's syndrome (kombinasi OMD dan blepharospasm) diperkenalkan oleh Henry Meige pada tahun 1910[cite: 6]."
+  },
+  {
+    id: 41, category: "Distonia Lanjutan",
+    question: "Oromandibular Dystonia (OMD) sering kali memburuk atau dipicu (triggered) ketika pasien melakukan...",
+    options: [
+      "Relaksasi tidur",
+      "Kontraksi otot volunter: berbicara (talking) atau tertawa (laughing)",
+      "Menyentuh pelan area dagu",
+      "Mendengar suara keras"
+    ],
+    answer: 1,
+    explanation: "Gerakan distonik pada OMD dipicu oleh kontraksi otot volunter seperti saat pasien berbicara (talking) atau tertawa (laughing)[cite: 6]."
+  },
+  {
+    id: 42, category: "Distonia Lanjutan",
+    question: "Sedangkan, gerakan distonia pada OMD dapat diredakan atau disupresi sementara melalui manipulasi 'sensory trick' berupa...",
+    options: [
+      "Mengunyah (chewing), menggigit benda, atau memposisikan tangan di bawah dagu",
+      "Menjulurkan lidah terus-menerus",
+      "Menutup kedua mata rapat-rapat",
+      "Memutar leher ke arah berlawanan"
+    ],
+    answer: 0,
+    explanation: "OMD dapat disupresi oleh gerakan mengunyah (chewing), menggigit benda (biting on a object), atau memposisikan tangan di bawah dagu sebagai bentuk sensory trick[cite: 6]."
+  },
+  {
+    id: 43, category: "Distonia Lanjutan",
+    question: "Contoh dari 'Task-specific dystonia' yang mengganggu aktivitas spesifik pasien meliputi...",
+    options: [
+      "Kedipan mata tak terkontrol saat terkena cahaya",
+      "Menulis (writer's cramp), mengetik (typing), atau memainkan alat musik",
+      "Leher melintir saat bangun tidur",
+      "Gigi bergemeretak saat kedinginan"
+    ],
+    answer: 1,
+    explanation: "Task-specific dystonia muncul saat melakukan kegiatan tertentu seperti menulis (writing), mengetik (typing), atau memainkan instrumen musik (playing instruments)[cite: 6]."
+  },
+
+  // ── 7. KLASIFIKASI & TERAPI MIOKLONUS (7 Soal) ────────────────────────────
+  {
+    id: 44, category: "Mioklonus & Klasifikasi",
+    question: "Mioklonus diklasifikasikan berdasarkan letak anatomi pusat asalnya (Anatomic Origin). Yang BUKAN termasuk titik awal munculnya mioklonus adalah...",
+    options: [
+      "Cortical (Kortikal)",
+      "Subcortical (Subkortikal)",
+      "Epidermal (Kulit)",
+      "Spinal dan Peripheral"
+    ],
+    answer: 2,
+    explanation: "Berdasarkan anatomic origin, mioklonus berasal dari Cortical, Subcortical, Spinal, dan Peripheral[cite: 6]."
+  },
+  {
+    id: 45, category: "Mioklonus & Klasifikasi",
+    question: "Cortical myoclonus memiliki pusat pergerakan di area sensorimotor. Karena bentuk ini sering menjadi fragmen dari epilepsi, terapi andalannya adalah...",
+    options: [
+      "Haloperidol",
+      "Anti convulsant (valproic acid, clonazepam, levetiracetam, primidone)",
+      "Botulinum toxin dosis masif",
+      "Propranolol"
+    ],
+    answer: 1,
+    explanation: "Cortical myoclonus adalah fragmen dari epilepsi sehingga diterapi dengan agen antikonvulsan: valproic acid, clonazepam, levetiracetam, dan primidone[cite: 6]."
+  },
+  {
+    id: 46, category: "Mioklonus & Klasifikasi",
+    question: "Obat yang dinyatakan sebagai terapi terbaik (best treatment) spesifik untuk 'Propriospinal Myoclonus' adalah...",
+    options: [
+      "Tetrabenazine",
+      "Carbamazepine",
+      "Clonazepam",
+      "Levodopa"
+    ],
+    answer: 2,
+    explanation: "Clonazepam adalah terapi terbaik (best treatment) untuk menangani kasus propriospinal myoclonus[cite: 6]."
+  },
+  {
+    id: 47, category: "Mioklonus & Klasifikasi",
+    question: "Untuk mioklonus tipe Segmental (Segmental Myoclonus), obat pilihan yang direkomendasikan adalah...",
+    options: [
+      "Carbamazepine atau Tetrabenazine",
+      "Aspirin",
+      "Fluoxetine",
+      "Guanfacine"
+    ],
+    answer: 0,
+    explanation: "Untuk segmental myoclonus, pilihan terapinya adalah Carbamazepine atau tetrabenazine[cite: 6]."
+  },
+  {
+    id: 48, category: "Mioklonus & Klasifikasi",
+    question: "Berdasarkan etiologinya, Physiological Myoclonus (mioklonus fisiologis) dapat timbul pada subjek normal dalam kondisi...",
+    options: [
+      "Keracunan logam berat tembaga",
+      "Stroke hemoragik",
+      "Tidur (jerking saat tidur), kecemasan (anxiety), atau diinduksi oleh olahraga (exercise-induced)",
+      "Gagal ginjal kronik stadium akhir"
+    ],
+    answer: 2,
+    explanation: "Physiological myoclonus terjadi pada subjek normal, termasuk sentakan saat tidur, serta mioklonus yang diinduksi oleh kecemasan (anxiety-induced) atau olahraga (exercise-induced)[cite: 6]."
+  },
+  {
+    id: 49, category: "Mioklonus & Klasifikasi",
+    question: "Lance-Adams Syndrome merupakan komplikasi mioklonus pasca hipoksia (Post-Hypoxic Myoclonus/PHM). Kapan sentakan mioklonik ini biasanya tampak sangat jelas?",
+    options: [
+      "Langsung saat pasien mengalami henti jantung (cardiac arrest)",
+      "Setelah pasien bangun/pulih dari fase koma panjang (beberapa hari hingga 2 minggu)",
+      "Hanya terjadi ketika pasien masuk dalam tidur fase REM",
+      "Tepat 10 tahun setelah cedera otak ringan"
+    ],
+    answer: 1,
+    explanation: "Pada sindrom Lance-Adams (PHM), pasien biasanya koma 2 minggu; setelah pemulihan (bangun) dari koma barulah sentakan myoklonik menjadi sangat jelas[cite: 6]."
+  },
+  {
+    id: 50, category: "Mioklonus & Klasifikasi",
+    question: "Kategori 'Symptomatic Myoclonus' ditetapkan jika pasien memiliki tanda-tanda klinis...",
+    options: [
+      "Gerakan mata ke atas tanpa henti",
+      "Tidak ada defisit neurologis kasar sama sekali (gross deficits)",
+      "Adanya ensefalopati yang progresif atau statis, di mana mioklonus hanya menjadi salah satu tanda klinis bagian darinya",
+      "Gangguan tulang belakang bawaan sejak lahir"
+    ],
+    answer: 2,
+    explanation: "Pada symptomatic myoclonus, mioklonus hanyalah salah satu tanda klinis dari suatu ensefalopati progresif atau statis yang mendasari[cite: 6]."
   }
 ];

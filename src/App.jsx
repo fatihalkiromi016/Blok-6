@@ -13,6 +13,14 @@ import { ALL_QUESTIONS as quiz7 } from './data/quiz7Data.js';
 import { ALL_QUESTIONS as quiz8 } from './data/quiz8Data.js';
 import { ALL_QUESTIONS as quiz9 } from './data/quiz9Data.js';
 import { ALL_QUESTIONS as quiz10 } from './data/quiz10Data.js';
+import { ALL_QUESTIONS as quiz11 } from './data/quiz11Data.js';
+import { ALL_QUESTIONS as quiz12 } from './data/quiz12Data.js';
+import { ALL_QUESTIONS as quiz13 } from './data/quiz13Data.js';
+import { ALL_QUESTIONS as quiz14 } from './data/quiz14Data.js';
+import { ALL_QUESTIONS as quiz15 } from './data/quiz15Data.js';
+import { ALL_QUESTIONS as quiz16 } from './data/quiz16Data.js';
+import { ALL_QUESTIONS as quiz17 } from './data/quiz17Data.js';
+import { ALL_QUESTIONS as quiz18 } from './data/quiz18Data.js';
 
 const QUIZ_DATA_MAP = {
   1: quiz1,
@@ -24,7 +32,15 @@ const QUIZ_DATA_MAP = {
   7: quiz7,
   8: quiz8,
   9: quiz9,
-  10: quiz10
+  10: quiz10,
+  11: quiz11,
+  12: quiz12,
+  13: quiz13,
+  14: quiz14,
+  15: quiz15,
+  16: quiz16,
+  17: quiz17,
+  18: quiz18
 };
 
 function QuizRouteWrapper() {

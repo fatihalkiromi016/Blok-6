@@ -10,7 +10,7 @@ export const ALL_QUESTIONS = [
       "Kelumpuhan flaksid akut pada radiks medula spinalis bawah"
     ],
     answer: 0,
-    explanation: "Entrapment neuropathies adalah sekelompok gangguan saraf perifer yang dikarakterisasi oleh nyeri dan/atau kehilangan fungsi (motorik dan/atau sensorik) akibat kompresi kronis[span_0](start_span)[span_0](end_span)."
+    explanation: "Entrapment neuropathies adalah sekelompok gangguan saraf perifer yang dikarakterisasi oleh nyeri dan/atau kehilangan fungsi (motorik dan/atau sensorik) akibat kompresi kronis[cite: 7]."
   },
   {
     id: 2, category: "Patofisiologi & Dasar",
@@ -22,7 +22,7 @@ export const ALL_QUESTIONS = [
       "Robeknya epineurium secara mekanis"
     ],
     answer: 1,
-    explanation: "Intraneural ischemia (iskemia intraneural) adalah ciri khas dari mild entrapment neuropathies. Iskemia berkepanjangan memicu gangguan blood-nerve interface dan edema[span_1](start_span)[span_1](end_span)."
+    explanation: "Intraneural ischemia (iskemia intraneural) adalah ciri khas dari mild entrapment neuropathies. Iskemia berkepanjangan memicu gangguan blood-nerve interface dan edema[cite: 7]."
   },
   {
     id: 3, category: "Patofisiologi & Dasar",
@@ -34,7 +34,7 @@ export const ALL_QUESTIONS = [
       "Pembentukan kalsifikasi tulang di sekitar terowongan"
     ],
     answer: 1,
-    explanation: "Persistent edema may eventually lead to intraneural and extraneural fibrotic changes, diikuti demielinasi fokal dan degenerasi akson[span_2](start_span)[span_2](end_span)."
+    explanation: "Persistent edema may eventually lead to intraneural and extraneural fibrotic changes, diikuti demielinasi fokal dan degenerasi akson[cite: 7]."
   },
   {
     id: 4, category: "Patofisiologi & Dasar",
@@ -46,7 +46,7 @@ export const ALL_QUESTIONS = [
       "Oksidasi mitokondria berlebihan"
     ],
     answer: 0,
-    explanation: "Focal demyelination is a hallmark of entrapment neuropathies, often characterized by nerve conduction slowing or block[span_3](start_span)[span_3](end_span)."
+    explanation: "Focal demyelination is a hallmark of entrapment neuropathies, often characterized by nerve conduction slowing or block[cite: 7]."
   },
   {
     id: 5, category: "Patofisiologi & Dasar",
@@ -58,7 +58,7 @@ export const ALL_QUESTIONS = [
       "Infeksi saluran pernapasan atas oleh virus influenza"
     ],
     answer: 0,
-    explanation: "Predisposing systemic diseases meliputi diabetes, hypothyroidism, pregnancy, dan rheumatoid arthritis[span_4](start_span)[span_4](end_span)."
+    explanation: "Predisposing systemic diseases meliputi diabetes, hypothyroidism, pregnancy, dan rheumatoid arthritis[cite: 7]."
   },
   {
     id: 6, category: "Patofisiologi & Dasar",
@@ -70,7 +70,7 @@ export const ALL_QUESTIONS = [
       "Di dalam kornu anterior medula spinalis"
     ],
     answer: 2,
-    explanation: "Nerve entrapment syndromes result from chronic injury to a nerve as it travels through an osseoligamentous tunnel (antara kanal ligamen dan permukaan tulang)[span_5](start_span)[span_5](end_span)."
+    explanation: "Nerve entrapment syndromes result from chronic injury to a nerve as it travels through an osseoligamentous tunnel (antara kanal ligamen dan permukaan tulang)[cite: 7]."
   },
   {
     id: 7, category: "Patofisiologi & Dasar",
@@ -82,7 +82,7 @@ export const ALL_QUESTIONS = [
       "Computed Tomography (CT) scan servikal"
     ],
     answer: 1,
-    explanation: "Ultrasonography is often preferred over MRI for distal entrapment neuropathies due to its cost-effectiveness, ease of access, and possibility of quick contralateral comparison[span_6](start_span)[span_6](end_span)."
+    explanation: "Ultrasonography is often preferred over MRI for distal entrapment neuropathies due to its cost-effectiveness, ease of access, and possibility of quick contralateral comparison[cite: 7]."
   },
 
   // ── 2. ANATOMI & FAKTOR RISIKO (6 Soal) ───────────────────────────────────
@@ -96,7 +96,7 @@ export const ALL_QUESTIONS = [
       "Mengontrol metabolisme basal tubuh secara hormonal"
     ],
     answer: 0,
-    explanation: "The peripheral nervous system (PNS) connects brain or spinal cord to organs, sending information from various parts back to brain, and carrying out instructions from brain[span_7](start_span)[span_7](end_span)."
+    explanation: "The peripheral nervous system (PNS) connects brain or spinal cord to organs, sending information from various parts back to brain, and carrying out instructions from brain[cite: 7]."
   },
   {
     id: 9, category: "Anatomi & Risiko",
@@ -108,7 +108,7 @@ export const ALL_QUESTIONS = [
       "Pigmen melanin kulit"
     ],
     answer: 0,
-    explanation: "Genetic predisposition genes are related to connective tissue and extracellular matrix architecture, altering vulnerability of the nerve or tunnel[span_8](start_span)[span_8](end_span)."
+    explanation: "Genetic predisposition genes are related to connective tissue and extracellular matrix architecture, altering vulnerability of the nerve or tunnel[cite: 7]."
   },
   {
     id: 10, category: "Anatomi & Risiko",
@@ -120,7 +120,7 @@ export const ALL_QUESTIONS = [
       "Black flags"
     ],
     answer: 1,
-    explanation: "Psychological or behavioural factors are categorized as orange/yellow flags, social/economic as blue flags, occupational as black flags, and serious pathologies as red flags[span_9](start_span)[span_9](end_span)."
+    explanation: "Psychological or behavioural factors are categorized as orange/yellow flags, social/economic as blue flags, occupational as black flags, and serious pathologies as red flags[cite: 7]."
   },
   {
     id: 11, category: "Anatomi & Risiko",
@@ -132,7 +132,7 @@ export const ALL_QUESTIONS = [
       "Black flags"
     ],
     answer: 2,
-    explanation: "Social and economic factors are referred to as blue flags[span_10](start_span)[span_10](end_span)."
+    explanation: "Social and economic factors are referred to as blue flags[cite: 7]."
   },
   {
     id: 12, category: "Anatomi & Risiko",
@@ -144,7 +144,7 @@ export const ALL_QUESTIONS = [
       "Black flags"
     ],
     answer: 3,
-    explanation: "Occupational factors are classified as black flags[span_11](start_span)[span_11](end_span)."
+    explanation: "Occupational factors are classified as black flags[cite: 7]."
   },
   {
     id: 13, category: "Anatomi & Risiko",
@@ -156,7 +156,7 @@ export const ALL_QUESTIONS = [
       "Black flags"
     ],
     answer: 0,
-    explanation: "Serious pathologies are known as red flags[span_12](start_span)[span_12](end_span)."
+    explanation: "Serious pathologies are known as red flags[cite: 7]."
   },
 
   // ── 3. EVALUASI KLINIS UMUM (6 Soal) ──────────────────────────────────────
@@ -170,7 +170,7 @@ export const ALL_QUESTIONS = [
       "Sensitivitas bau terhadap aroma tajam"
     ],
     answer: 0,
-    explanation: "Motor function assessment comprises the examination of reflex responses and muscle strength testing[span_13](start_span)[span_13](end_span)."
+    explanation: "Motor function assessment comprises the examination of reflex responses and muscle strength testing[cite: 7]."
   },
   {
     id: 15, category: "Evaluasi Klinis",
@@ -182,7 +182,7 @@ export const ALL_QUESTIONS = [
       "Refleks patologis Babinski"
     ],
     answer: 2,
-    explanation: "Sensory examination must include the assessment of large and small sensory fibres[span_14](start_span)[span_14](end_span)."
+    explanation: "Sensory examination must include the assessment of large and small sensory fibres[cite: 7]."
   },
   {
     id: 16, category: "Evaluasi Klinis",
@@ -194,7 +194,7 @@ export const ALL_QUESTIONS = [
       "Tinel test pada pergelangan tangan"
     ],
     answer: 0,
-    explanation: "The straight leg raise test has been widely used to assess heightened nerve mechano-sensitivity in the lower limb[span_15](start_span)[span_15](end_span)."
+    explanation: "The straight leg raise test has been widely used to assess heightened nerve mechano-sensitivity in the lower limb[cite: 7]."
   },
   {
     id: 17, category: "Evaluasi Klinis",
@@ -206,7 +206,7 @@ export const ALL_QUESTIONS = [
       "Gangguan muskuloskeletal murni tanpa lesi saraf"
     ],
     answer: 0,
-    explanation: "Nerve conduction tests are particularly useful in the diagnosis of distal entrapment neuropathies (e.g.: CTS)[span_16](start_span)[span_16](end_span)."
+    explanation: "Nerve conduction tests are particularly useful in the diagnosis of distal entrapment neuropathies (e.g.: CTS)[cite: 7]."
   },
   {
     id: 18, category: "Evaluasi Klinis",
@@ -218,7 +218,7 @@ export const ALL_QUESTIONS = [
       "Bone scan isotop"
     ],
     answer: 1,
-    explanation: "MRI is commonly used for proximal entrapment neuropathies (eg, 'sciatica', herniated disc)[span_17](start_span)[span_17](end_span)."
+    explanation: "MRI is commonly used for proximal entrapment neuropathies (eg, 'sciatica', herniated disc)[cite: 7]."
   },
   {
     id: 19, category: "Evaluasi Klinis",
@@ -230,7 +230,7 @@ export const ALL_QUESTIONS = [
       "Atrofi otot wajah bilateral simetris"
     ],
     answer: 0,
-    explanation: "Entrapment neuropathies are characterized by pain and/or loss of function (motor and/or sensory) of the nerves as a result of chronic compression[span_18](start_span)[span_18](end_span)."
+    explanation: "Entrapment neuropathies are characterized by pain and/or loss of function (motor and/or sensory) of the nerves as a result of chronic compression[cite: 7]."
   },
 
   // ── 4. CARPAL TUNNEL SYNDROME: ANATOMI & GEJALA (7 Soal) ──────────────────
@@ -244,7 +244,7 @@ export const ALL_QUESTIONS = [
       "Nervus Medianus di siku (fossa antecubital)"
     ],
     answer: 1,
-    explanation: "Carpal Tunnel Syndrome adalah jepitan saraf tersering akibat kompresi N. Medianus di pergelangan tangan saat melewati carpal tunnel[span_19](start_span)[span_19](end_span)."
+    explanation: "Carpal Tunnel Syndrome adalah jepitan saraf tersering akibat kompresi N. Medianus di pergelangan tangan saat melewati carpal tunnel[cite: 7]."
   },
   {
     id: 21, category: "CTS: Anatomi & Gejala",
@@ -256,7 +256,7 @@ export const ALL_QUESTIONS = [
       "Annular ligament of radius"
     ],
     answer: 0,
-    explanation: "Transverse carpal ligament lies across the arch of carpal bones and forms the roof of the carpal tunnel (flexor retinaculum)[span_20](start_span)[span_20](end_span)."
+    explanation: "Transverse carpal ligament lies across the arch of carpal bones and forms the roof of the carpal tunnel (flexor retinaculum)[cite: 7]."
   },
   {
     id: 22, category: "CTS: Anatomi & Gejala",
@@ -268,7 +268,7 @@ export const ALL_QUESTIONS = [
       "Kehilangan fungsi sensorik total di seluruh lengan atas"
     ],
     answer: 1,
-    explanation: "CTS is characterized first by intermittent, nocturnal paraesthesias and dysaesthesias that increase in frequency, followed by sensory loss, weakness, and thenar atrophy[span_21](start_span)[span_21](end_span)."
+    explanation: "CTS is characterized first by intermittent, nocturnal paraesthesias and dysaesthesias that increase in frequency, followed by sensory loss, weakness, and thenar atrophy[cite: 7]."
   },
   {
     id: 23, category: "CTS: Anatomi & Gejala",
@@ -280,7 +280,7 @@ export const ALL_QUESTIONS = [
       "Punggung tangan sisi dorsomedial"
     ],
     answer: 0,
-    explanation: "Distribusi sensorik N. Medianus meliputi ibu jari, telunjuk, jari tengah, dan setengah radial jari manis[span_22](start_span)[span_22](end_span)."
+    explanation: "Distribusi sensorik N. Medianus meliputi ibu jari, telunjuk, jari tengah, dan setengah radial jari manis[cite: 7]."
   },
   {
     id: 24, category: "CTS: Anatomi & Gejala",
@@ -292,7 +292,7 @@ export const ALL_QUESTIONS = [
       "Kaki terasa berat saat berjalan cepat"
     ],
     answer: 0,
-    explanation: "Keluhan pasien CTS: kesulitan memegang benda, membuka toples, mengancingkan baju akibat kelemahan tangan[span_23](start_span)[span_23](end_span)."
+    explanation: "Keluhan pasien CTS: kesulitan memegang benda, membuka toples, mengancingkan baju akibat kelemahan tangan[cite: 7]."
   },
   {
     id: 25, category: "CTS: Anatomi & Gejala",
@@ -304,7 +304,7 @@ export const ALL_QUESTIONS = [
       "Biceps brachii"
     ],
     answer: 0,
-    explanation: "Loss of sensation develops along with weakness and thenar muscle atrophy later in the disease course[span_24](start_span)[span_24](end_span)."
+    explanation: "Loss of sensation develops along with weakness and thenar muscle atrophy later in the disease course[cite: 7]."
   },
   {
     id: 26, category: "CTS: Anatomi & Gejala",
@@ -316,7 +316,7 @@ export const ALL_QUESTIONS = [
       "Pelepasan asetilkolin berlebih -> Kejang otot volunter"
     ],
     answer: 1,
-    explanation: "Alur patofisiologi CTS: Peningkatan tekanan terowongan -> Peningkatan tekanan intravaskuler -> Hipoksia -> Edema -> Degenerasi aksonal saraf median dan neuritis[span_25](start_span)[span_25](end_span)."
+    explanation: "Alur patofisiologi CTS: Peningkatan tekanan terowongan -> Peningkatan tekanan intravaskuler -> Hipoksia -> Edema -> Degenerasi aksonal saraf median dan neuritis[cite: 7]."
   },
 
   // ── 5. CARPAL TUNNEL SYNDROME: TES & PENUNJANG (6 Soal) ──────────────────
@@ -330,7 +330,7 @@ export const ALL_QUESTIONS = [
       "Froment Sign"
     ],
     answer: 1,
-    explanation: "Tinel Test is performed by percussing with two fingers over the affected area of the nerve; positive if paresthesia is reported along nerve distribution[span_26](start_span)[span_26](end_span)."
+    explanation: "Tinel Test is performed by percussing with two fingers over the affected area of the nerve; positive if paresthesia is reported along nerve distribution[cite: 7]."
   },
   {
     id: 28, category: "CTS: Tes & Penunjang",
@@ -342,7 +342,7 @@ export const ALL_QUESTIONS = [
       "Reverse Phalen Test"
     ],
     answer: 1,
-    explanation: "Phalen Test (wrist flexion sign) requires compressing backs of hands against each other with 90° flexion, reproducing symptoms within a minute[span_27](start_span)[span_27](end_span)."
+    explanation: "Phalen Test (wrist flexion sign) requires compressing backs of hands against each other with 90° flexion, reproducing symptoms within a minute[cite: 7]."
   },
   {
     id: 29, category: "CTS: Tes & Penunjang",
@@ -354,7 +354,7 @@ export const ALL_QUESTIONS = [
       "Mengetuk siku bagian medial"
     ],
     answer: 0,
-    explanation: "Durkan Test (carpal compression test) is used where the median nerve is compressed directly in the carpal tunnel by examiner's thumb[span_28](start_span)[span_28](end_span)."
+    explanation: "Durkan Test (carpal compression test) is used where the median nerve is compressed directly in the carpal tunnel by examiner's thumb[cite: 7]."
   },
   {
     id: 30, category: "CTS: Tes & Penunjang",
@@ -366,7 +366,7 @@ export const ALL_QUESTIONS = [
       "Aktivitas fibrilasi spontan di otot deltoid"
     ],
     answer: 0,
-    explanation: "NCS menunjukkan delayed latency of sensory response pada N. medianus (misalnya digit II atau III ke pergelangan tangan)[span_29](start_span)[span_29](end_span)."
+    explanation: "NCS menunjukkan delayed latency of sensory response pada N. medianus (misalnya digit II atau III ke pergelangan tangan)[cite: 7]."
   },
   {
     id: 31, category: "CTS: Tes & Penunjang",
@@ -378,7 +378,7 @@ export const ALL_QUESTIONS = [
       "Pengurangan jumlah tendon fleksor secara kongenital"
     ],
     answer: 0,
-    explanation: "Ultrasound findings can explain non-uniform involvement, such as demonstrating a bifid median nerve (bifid median nerve arrow)[span_30](start_span)[span_30](end_span)."
+    explanation: "Ultrasound findings can explain non-uniform involvement, such as demonstrating a bifid median nerve (bifid median nerve arrow)[cite: 7]."
   },
   {
     id: 32, category: "CTS: Tes & Penunjang",
@@ -390,6 +390,228 @@ export const ALL_QUESTIONS = [
       "Pemberian antibiotik spektrum luas"
     ],
     answer: 0,
-    explanation: "Non-pharmacological treatment for CTS includes musculoskeletal manipulation, splinting, and laser[span_31](start_span)[span_31](end_span)."
+    explanation: "Non-pharmacological treatment for CTS includes musculoskeletal manipulation, splinting, and laser[cite: 7]."
+  },
+
+  // ── 6. GUYON TUNNEL SYNDROME: ANATOMI & ZONA (6 Soal) ────────────────────
+  {
+    id: 33, category: "Guyon Tunnel: Anatomi",
+    question: "Guyon Canal Syndrome disebabkan oleh kompresi pada nervus...",
+    options: [
+      "Medianus",
+      "Ulnaris",
+      "Radialis",
+      "Muskulosetaneus"
+    ],
+    answer: 1,
+    explanation: "Guyon Canal Syndrome terjadi ketika saraf ulnaris tertekan saat melewati kanal Guyon di pergelangan tangan[cite: 7]."
+  },
+  {
+    id: 34, category: "Guyon Tunnel: Anatomi",
+    question: "Kanal Guyon (Guyon's canal) dibentuk secara anatomis oleh dua tulang pergelangan tangan yaitu...",
+    options: [
+      "Skafoid dan Trapezium",
+      "Pisiform dan Hamate (tulang pisiform dan kait hamate)",
+      "Radius dan Ulna bagian distal",
+      "Kapitatum dan Lunatum"
+    ],
+    answer: 1,
+    explanation: "Kanal Guyon adalah lorong sempit yang dibentuk oleh dua tulang di pergelangan tangan (tulang pisiform dan hamate) serta ligamen penghubungnya[cite: 7]."
+  },
+  {
+    id: 35, category: "Guyon Tunnel: Anatomi",
+    question: "Kondisi kompresi kanal Guyon yang sering dialami oleh pengendara sepeda akibat tekanan stang disebut juga sebagai...",
+    options: [
+      "Handlebar palsy",
+      "Saturday night palsy",
+      "Ape hand syndrome",
+      "Kiloh-Nevin syndrome"
+    ],
+    answer: 0,
+    explanation: "Guyon canal syndrome sering dikenal sebagai sindrom terowongan ulnaris atau kelumpuhan stang (handlebar palsy), yang sering dialami pesepeda[cite: 7]."
+  },
+  {
+    id: 36, category: "Guyon Tunnel: Anatomi",
+    question: "Zona kompresi pada Kanal Guyon diklasifikasikan menjadi 3 zona. Zona I (Zone 1) berlokasi di area...",
+    options: [
+      "Proximal bifurcation of the nerve (bifurkasi proksimal saraf)",
+      "Deep motor branch murni",
+      "Superficial sensory branch distal",
+      "Cabang dorsal di lengan bawah"
+    ],
+    answer: 0,
+    explanation: "Zone 1 of Guyon's canal compression is located at the proximal bifurcation of the nerve, resulting in mixed motor and sensory symptoms (common cause: ganglia and hook of hamate fractures)[cite: 7]."
+  },
+  {
+    id: 37, category: "Guyon Tunnel: Anatomi",
+    question: "Zona II (Zone 2) kompresi pada kanal Guyon secara spesifik melibatkan gangguan pada...",
+    options: [
+      "Deep motor branch (cabang motorik dalam)",
+      "Superficial sensory branch",
+      "Arteria radialis superficialis",
+      "Nervus medianus cabang telapak tangan"
+    ],
+    answer: 0,
+    explanation: "Zone 2 of Guyon's canal compression involves the deep motor branch of the ulnar nerve[cite: 7]."
+  },
+  {
+    id: 38, category: "Guyon Tunnel: Anatomi",
+    question: "Zona III (Zone 3) kompresi pada kanal Guyon secara spesifik melibatkan gangguan pada...",
+    options: [
+      "Deep motor branch",
+      "Superficial sensory branch (cabang sensorik superfisial)",
+      "Otot hipotenar proksimal",
+      "Sendi radiokarpal"
+    ],
+    answer: 1,
+    explanation: "Zone 3 of Guyon's canal compression involves the superficial sensory branch[cite: 7]."
+  },
+
+  // ── 7. GUYON TUNNEL SYNDROME: KLINIS & FROMENT (6 Soal) ──────────────────
+  {
+    id: 39, category: "Guyon Tunnel: Klinis",
+    question: "Gejala khas klinis dari Guyon Canal Syndrome meliputi mati rasa atau kesemutan pada...",
+    options: [
+      "Ibu jari dan jari telunjuk",
+      "Jari kelingking dan setengah jari manis (medial two fingers / ulnar distribution)",
+      "Seluruh jari tangan secara simetris",
+      "Lengan atas dan bahu"
+    ],
+    answer: 1,
+    explanation: "Gejala Guyon tunnel syndrome: mati rasa atau kesemutan di jari kelingking dan setengah jari manis[cite: 7]."
+  },
+  {
+    id: 40, category: "Guyon Tunnel: Klinis",
+    question: "Pemeriksaan fisik khusus yang digunakan untuk mengevaluasi kelemahan motorik N. Ulnaris (pemeriksaan fungsi otot adductor pollicis) adalah...",
+    options: [
+      "Phalen Test",
+      "Froment Sign (Froment's test)",
+      "Tinel Test",
+      "Spurling Test"
+    ],
+    answer: 1,
+    explanation: "Froment sign is used to evaluate the Ulnar nerve motor weakness due to entrapment at elbow or wrist, checking adductor pollicis muscle function[cite: 7]."
+  },
+  {
+    id: 41, category: "Guyon Tunnel: Klinis",
+    question: "Cara melakukan uji Froment (Froment's test) adalah...",
+    options: [
+      "Meminta pasien menjepit selembar kertas di antara ibu jari dan sisi jari telunjuk, sementara pemeriksa menarik kertas tersebut",
+      "Meminta pasien menekuk pergelangan tangan 90 derajat ke bawah",
+      "Mengetuk lembut jalur saraf ulnaris di siku",
+      "Merentangkan kelima jari melawan tahanan maksimal"
+    ],
+    answer: 0,
+    explanation: "Ask the patient to grasp a sheet of paper between the thumbs and sides of the index fingers while you attempt to withdraw it[cite: 7]."
+  },
+  {
+    id: 42, category: "Guyon Tunnel: Klinis",
+    question: "Interpretasi Froment's sign yang POSITIF menunjukkan adanya kelumpuhan otot adduktor ibu jari, di mana pasien akan memperlihatkan tanda...",
+    options: [
+      "Ibu jari tertekuk pada sendi interfalangeal (flexion at interphalangeal joint) saat kertas ditarik",
+      "Ibu jari laku kaku membuka lebar",
+      "Pergelangan tangan jatuh (wrist drop)",
+      "Jari-jari membentuk 'hand of benediction'"
+    ],
+    answer: 0,
+    explanation: "If the adductor of the thumb is paralysed, the thumb will flex at the interphalangeal joint when attempting to withdraw paper (Froment's positive)[cite: 7]."
+  },
+  {
+    id: 43, category: "Guyon Tunnel: Klinis",
+    question: "Penanganan konservatif awal untuk Guyon Canal Syndrome mencakup...",
+    options: [
+      "Instruksi menghindari tekanan berulang, pengaturan posisi stang sepeda yang ergonomis, dan pemasangan bidai",
+      "Injeksi alkohol absolut langsung ke dalam saraf ulnaris",
+      "Imobilisasi bahu dengan traksi vertikal",
+      "Operasi pengangkatan tulang humerus"
+    ],
+    answer: 0,
+    explanation: "Konservatif Guyon: instruksi menghindari tekanan berulang, menggunakan posisi stang ergonomis, pemasangan bidai, NSAID, dan injeksi kortikosteroid[cite: 7]."
+  },
+  {
+    id: 44, category: "Guyon Tunnel: Klinis",
+    question: "Pilihan tatalaksana bedah (surgical) pada Guyon Canal Syndrome diindikasikan pada kondisi...",
+    options: [
+      "Dekompresi bedah untuk melepaskan saraf yang terjepit pada kasus yang lebih parah atau tidak membaik dengan konservatif",
+      "Semua pasien pada hari pertama kunjungan medis",
+      "Hanya jika terjadi fraktur klavikula",
+      "Sebagai terapi pencegahan primer pada anak sehat"
+    ],
+    answer: 0,
+    explanation: "Surgical treatment involves dekompresi bedah untuk melepaskan saraf yang terjepit pada kasus yang lebih parah atau jika tidak membaik[cite: 7]."
+  },
+
+  // ── 8. PERBANDINGAN KERUSAKAN SARAF UTAMA (6 Soal) ───────────────────────
+  {
+    id: 45, category: "Perbandingan Saraf",
+    question: "Cedera pada Nervus Medianus (Median nerve injury) tingkat lanjut dapat menghasilkan deformitas tangan khas yang disebut...",
+    options: [
+      "Hand of benediction (tangan pendeta)",
+      "Claw hand (tangan cakar)",
+      "Wrist-drop (pergelangan tangan jatuh)",
+      "Ape hand (tangan kera) akibat ketidakmampuan oposisi ibu jari"
+    ],
+    answer: 0,
+    explanation: "Median nerve injury menghasilkan 'Hand of benediction', sedangkan ketidakmampuan oposisi ibu jari disebut 'Ape hand'[cite: 7]."
+  },
+  {
+    id: 46, category: "Perbandingan Saraf",
+    question: "Cedera pada Nervus Ulnaris (Ulnar nerve injury) secara khas menghasilkan deformitas tangan berupa...",
+    options: [
+      "Claw hand (tangan cakar) akibat ketidakmampuan mengekstensikan jari pada sendi interfalangeal",
+      "Wrist-drop total",
+      "Hand of benediction",
+      "Frozen shoulder"
+    ],
+    answer: 0,
+    explanation: "Ulnar nerve injury menyebabkan 'Claw hand' (inability to extend fingers at interphalangeal joints, results in permanent flexion)[cite: 7]."
+  },
+  {
+    id: 47, category: "Perbandingan Saraf",
+    question: "Cedera pada Nervus Radialis (Radial nerve injury) menghasilkan gambaran klinis khas berupa...",
+    options: [
+      "Wrist-drop (pergelangan tangan jatuh) karena ketidakmampuan mengekstensikan tangan",
+      "Claw hand",
+      "Ape hand",
+      "Sindrom kompartemen siku"
+    ],
+    answer: 0,
+    explanation: "Radial nerve injury menyebabkan 'Wrist drop' (inability to extend the hand, inability to fully extend forearm)[cite: 7]."
+  },
+  {
+    id: 48, category: "Perbandingan Saraf",
+    question: "Berdasarkan rangkuman take home message, manakah perbedaan lokasi entrapment yang tepat antara Carpal Tunnel dan Guyon Tunnel?",
+    options: [
+      "Carpal Tunnel melibatkan N. medianus di terowongan karpal (ligamentum karpal transversal); Guyon Tunnel melibatkan N. ulnaris di kanal Guyon (tulang pisiform dan hamate)",
+      "Carpal Tunnel melibatkan N. ulnaris di siku; Guyon Tunnel melibatkan N. medianus di lengan atas",
+      "Keduanya menjepit saraf yang sama di tempat yang sama persis",
+      "Carpal Tunnel di bahu; Guyon Tunnel di pergelangan kaki"
+    ],
+    answer: 0,
+    explanation: "Take home message: Carpal Tunnel melibatkan N. medianus di lig. transverse carpal; Guyon Tunnel melibatkan N. ulnaris di kanal Guyon (pisiform & hamate)[cite: 7]."
+  },
+  {
+    id: 49, category: "Perbandingan Saraf",
+    question: "Tes fisik provokasi yang menjadi ciri khas penunjang diagnosis klinis Carpal Tunnel Syndrome adalah...",
+    options: [
+      "Tinnel sign dan Phalen test",
+      "Froment sign",
+      "Straight leg raise test",
+      "Spurling test"
+    ],
+    answer: 0,
+    explanation: "Pemeriksaan fisik CTS: Tinnel sign dan Phalen test (untuk N. medianus)[cite: 7]."
+  },
+  {
+    id: 50, category: "Perbandingan Saraf",
+    question: "Sebaliknya, tes fisik provokasi atau evaluasi spesifik yang menjadi ciri khas pemeriksaan Guyon Tunnel Syndrome adalah...",
+    options: [
+      "Froment sign",
+      "Phalen test murni",
+      "Tinel test di fossa antecubital",
+      "Test kaku kuduk Brudzinski"
+    ],
+    answer: 0,
+    explanation: "Pemeriksaan fisik Guyon tunnel: Froment sign (untuk N. ulnaris)[cite: 7]."
   }
 ];
