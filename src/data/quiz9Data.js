@@ -1,359 +1,617 @@
 export const ALL_QUESTIONS = [
-  // ── 1. ANATOMI & FISIOLOGI MEDULA SPINALIS (7 Soal) ───────────────────────
+  // ── 1. ANATOMI, FISIOLOGI & ALARM TUBUH (6 Soal) ──────────────────────────
   {
-    id: 1, category: "Anatomi & Fisiologi Medula Spinalis",
-    question: "Medula spinalis pada orang dewasa membentang dari foramen magnum di basis kranii dan berakhir sebagai conus medullaris pada setinggi vertebra...",
+    id: 1, category: "Anatomi, Fisiologi & Alarm Tubuh",
+    question: "Manakah pernyataan yang BENAR mengenai perbedaan antara cemas normal (adaptif) dan gangguan cemas (patologis)?",
     options: [
-      "C7 - T1",
-      "T10 - T11",
-      "L1 - L2",
-      "L4 - L5"
-    ],
-    answer: 2,
-    explanation: "Medula spinalis merupakan kelanjutan dari batang otak (brainstem) yang membentang dari foramen magnum hingga berakhir sebagai conus medullaris pada setinggi vertebra L1/L2[span_9](start_span)[span_9](end_span)."
-  },
-  {
-    id: 2, category: "Anatomi & Fisiologi Medula Spinalis",
-    question: "Berapakah jumlah pasang nervus spinalis yang keluar dari medula spinalis pada segmen cervical, thoracal, lumbal, sacral, dan coccygeal secara berurutan?",
-    options: [
-      "7 cervical, 12 thoracal, 5 lumbal, 5 sacral, 1 coccygeal (Total 30)",
-      "8 cervical, 12 thoracal, 5 lumbal, 5 sacral, 1 coccygeal (Total 31)",
-      "8 cervical, 10 thoracal, 5 lumbal, 4 sacral, 1 coccygeal (Total 28)",
-      "7 cervical, 12 thoracal, 4 lumbal, 4 sacral, 2 coccygeal (Total 29)"
-    ],
-    answer: 1,
-    explanation: "Terdapat total 31 pasang nervus spinalis: 8 pasang cervical (C1-C8), 12 thoracal (T1-T12), 5 lumbal (L1-L5), 5 sacral (S1-S5), dan 1 pasang coccygeal[span_10](start_span)[span_10](end_span)."
-  },
-  {
-    id: 3, category: "Anatomi & Fisiologi Medula Spinalis",
-    question: "Manakah jaras (tractus) medula spinalis di bawah ini yang bertanggung jawab menyalurkan sensasi raba halus (fine touch), tekanan ringan, dan propriosepsi (posisi sendi/getaran)?",
-    options: [
-      "Lateral Spinothalamic Tract",
-      "Lateral Corticospinal Tract",
-      "Dorsal Column-Medial Lemniscus (DCML) Pathway / Columna Posterior",
-      "Ventral Spinothalamic Tract"
-    ],
-    answer: 2,
-    explanation: "Dorsal Column-Medial Lemniscus (DCML) / Columna posterior berfungsi menyalurkan sensasi fine touch, light pressure, serta propriosepsi (posisi sendi dan getaran)[span_11](start_span)[span_11](end_span)."
-  },
-  {
-    id: 4, category: "Anatomi & Fisiologi Medula Spinalis",
-    question: "Jaras Lateral Spinothalamic Tract pada medula spinalis berfungsi menyalurkan sensasi...",
-    options: [
-      "Gerakan motorik volunter yang terampil (skilled voluntary movement)",
-      "Nyeri (pain) dan suhu (temperature)",
-      "Propriosepsi dan getaran (vibration)",
-      "Keseimbangan otonom usus"
-    ],
-    answer: 1,
-    explanation: "Lateral spinothalamic tract menyalurkan sensasi nyeri (pain) dan suhu (temperature)[span_12](start_span)[span_12](end_span). Jaras ini bersilangan (decussation) langsung di medula spinalis[span_13](start_span)[span_13](end_span)."
-  },
-  {
-    id: 5, category: "Anatomi & Fisiologi Medula Spinalis",
-    question: "Lokasi silang (decussation) serat saraf pada jarus motorik utama Lateral Corticospinal Tract terjadi pada level anatomis...",
-    options: [
-      "Setinggi segmen medula spinalis lokal tempat saraf keluar",
-      "Medulla oblongata (pyramidal decussation)",
-      "Thalamus",
-      "Kornu anterior medula spinalis"
-    ],
-    answer: 1,
-    explanation: "Jaras Corticospinal (pyramidal) dan DCML mengalami persilangan di level medulla oblongata, sedangkan jaras spinotalamikus bersilangan di medula spinalis[span_14](start_span)[span_14](end_span)."
-  },
-  {
-    id: 6, category: "Anatomi & Fisiologi Medula Spinalis",
-    question: "Pemeriksaan dermatom pada titik landmarks anatomis setinggi papilla mammae (nipple line) dan umbilikus menyalurkan sensasi nervus spinalis level...",
-    options: [
-      "Papilla mammae = T4, Umbilikus = T10",
-      "Papilla mammae = T6, Umbilikus = T12",
-      "Papilla mammae = C4, Umbilikus = L1",
-      "Papilla mammae = T2, Umbilikus = T8"
+      "Cemas normal merupakan sinyal peringatan bahaya yang membantu fokus, bersiap, dan mereda setelah ancaman selesai; sedangkan gangguan cemas tidak seimbang dengan stimulus, menetap, dan mengganggu fungsi",
+      "Cemas normal terjadi tanpa ada stimulus nyata, sedangkan gangguan cemas selalu memiliki stimulus berbahaya",
+      "Cemas normal berlangsung bertahun-tahun tanpa mereda",
+      "Gangguan cemas tidak pernah menimbulkan gejala somatik/fisik"
     ],
     answer: 0,
-    explanation: "Berdasarkan peta dermatom: Sensasi T4 setinggi papilla mammae (nipple line), T6 setinggi bawah sternum, T10 setinggi abdomen/umbilikus, dan T12 setinggi tulang pubis[span_15](start_span)[span_15](end_span)."
+    explanation: "Cemas normal bersifat adaptif untuk menyiapkan respons terhadap bahaya dan mereda saat ancaman hilang[cite: 11]. Gangguan cemas muncul berlebihan, tidak proporsional, menetap, dan mengganggu fungsi harian[cite: 11]."
   },
   {
-    id: 7, category: "Anatomi & Fisiologi Medula Spinalis",
-    question: "Pasangan miotom ekstremitas atas untuk gerakan ekstensi siku (elbow extensors) dan ekstensi pergelangan tangan (wrist extensors) diwakili oleh segmen...",
+    id: 2, category: "Anatomi, Fisiologi & Alarm Tubuh",
+    question: "Struktur otak yang berfungsi sebagai pusat deteksi ancaman cepat dan mengaktifkan respons alarm tubuh pada sirkuit takut adalah...",
     options: [
-      "Wrist extensors = C5, Elbow extensors = C6",
-      "Wrist extensors = C6, Elbow extensors = C7",
-      "Wrist extensors = C7, Elbow extensors = C8",
-      "Wrist extensors = C8, Elbow extensors = T1"
+      "Amigdala",
+      "Korteks Prefrontal",
+      "Hippocampus",
+      "Serebelum"
     ],
-    answer: 1,
-    explanation: "Miotom ekstremitas atas: C5 (fleksi siku/deltoid), C6 (ekstensi pergelangan tangan), C7 (ekstensi siku), C8 (fleksi jari tangan), dan T1 (abduksi jari tangan)[span_16](start_span)[span_16](end_span)."
+    answer: 0,
+    explanation: "Amigdala merupakan struktur kunci deteksi ancaman cepat yang mengaktifkan sistem simpatis dan HPA axis[cite: 11]. Korteks prefrontal berfungsi dalam regulasi top-down[cite: 11]."
+  },
+  {
+    id: 3, category: "Anatomi, Fisiologi & Alarm Tubuh",
+    question: "Aktivasi sistem saraf simpatis saat respons cemas memicu gejala otonom seperti...",
+    options: [
+      "Palpitasi (dada berdebar), napas cepat/sesak, tremor, dan peningkatan kewaspadaan",
+      "Penurunan denyut jantung dan penyempitan pupil mendadak",
+      "Peningkatan nafsu makan dan kejang tonik-klonik universal",
+      "Hipotermia berat dan penurunan tekanan darah sistolik"
+    ],
+    answer: 0,
+    explanation: "Aktivasi simpatis memicu hiperaktivitas otonom berupa peningkatan denyut jantung (palpitasi), napas cepat, keringat dingin, tremor, dan ketegangan otot[cite: 11]."
+  },
+  {
+    id: 4, category: "Anatomi, Fisiologi & Alarm Tubuh",
+    question: "Peran Hipokampus (Hippocampus) dalam sirkuit neurobiologi cemas adalah...",
+    options: [
+      "Memberikan konteks memori terhadap ancaman dan memperkuat kewaspadaan",
+      "Menghasilkan hormon insulin secara langsung",
+      "Mengontrol gerakan involunter ekstremitas bawah",
+      "Memblokir pelepasan kortisol dari kelenjar adrenal"
+    ],
+    answer: 0,
+    explanation: "Hippocampus berperan dalam mengolah memori kontekstual ancaman yang dapat memperkuat kewaspadaan (hipervigilansi) saat terpapar stimulus serupa[cite: 11]."
+  },
+  {
+    id: 5, category: "Anatomi, Fisiologi & Alarm Tubuh",
+    question: "Sumbu neuroendokrin yang teraktivasi saat stres dan cemas berlanjut hingga melepaskan hormon kortisol adalah...",
+    options: [
+      "HPA Axis (Hypothalamic-Pituitary-Adrenal Axis)",
+      "Sumbu Renin-Angiotensin-Aldosteron",
+      "Sumbu Hipotalamus-Pituitari-Tiroid",
+      "Jaras Nigrostriatal"
+    ],
+    answer: 0,
+    explanation: "Aktivasi sirkuit cemas memicu HPA axis melalui pelepasan CRH -> ACTH -> Kortisol dari korteks adrenal[cite: 11]."
+  },
+  {
+    id: 6, category: "Anatomi, Fisiologi & Alarm Tubuh",
+    question: "Mengapa perilaku menghindar (avoidance behavior) justru memperkuat rasa cemas dalam jangka panjang?",
+    options: [
+      "Karena menghindar memberikan rasa lega sesaat, sehingga mencegah otak belajar bahwa situasi tersebut sebenarnya aman",
+      "Karena menghindar meningkatkan kadar hormon tiroid secara mendadak",
+      "Karena menghindar merusak struktur anatomi korteks prefrontal secara permanen",
+      "Karena menghindar secara langsung memicu konversi menjadi psikosis"
+    ],
+    answer: 0,
+    explanation: "Menghindar memberi rasa lega jangka pendek (negative reinforcement), tetapi mencegah proses habituasi dan memperkuat keyakinan bahwa situasi tersebut berbahaya[cite: 11]."
   },
 
-  // ── 2. BIOMEKANIKA CEDERA SPINAL (7 Soal) ───────────────────────────────
+  // ── 2. ETIOLOGI BIOPSIKOSOSIAL & BIOKIMIA (6 Soal) ───────────────────────
   {
-    id: 8, category: "Biomekanika Cedera Spinal",
-    question: "Fraktur kompresi aksial akibat beban tegak lurus (misal: terjun masuk air dangkal/kejatuhan beban dari atas) yang memicu keretakan burst fracture melingkar bilateral pada atlas (C1) dikenal sebagai...",
+    id: 7, category: "Etiologi Biopsikososial & Biokimia",
+    question: "Ketidakseimbangan neurotransmiter utama yang sering ditemukan pada patofisiologi gangguan cemas meliputi...",
     options: [
-      "Hangman's fracture",
-      "Teardrop fracture",
-      "Jefferson fracture",
-      "Clay-shoveler's fracture"
-    ],
-    answer: 2,
-    explanation: "Jefferson fracture adalah unstable burst fracture pada cincin anterior dan posterior vertebra cervical I (C1) akibat kompresi aksial tegak lurus[span_17](start_span)[span_17](end_span)."
-  },
-  {
-    id: 9, category: "Biomekanika Cedera Spinal",
-    question: "Cedera ekstensi ekstrem saat kecelakaan lalu lintas atau hukum gantung yang menyebabkan fraktur pedikel bilateral pada vertebra servikal kedua (C2/Axis) disebut...",
-    options: [
-      "Jefferson fracture",
-      "Hangman's fracture",
-      "Flexion Teardrop fracture",
-      "Chance fracture"
-    ],
-    answer: 1,
-    explanation: "Hangman's fracture adalah fraktur pada pedikel C2 (axis) yang disebabkan oleh mekanika hiperekstensi ekstrem[span_18](start_span)[span_18](end_span)."
-  },
-  {
-    id: 10, category: "Biomekanika Cedera Spinal",
-    question: "Cedera fleksi leher paling tidak stabil yang menghancurkan korpus vertebra bagian antero-inferior (paling sering pada level C5) dan sering memicu kompresi berat medula spinalis adalah...",
-    options: [
-      "Flexion teardrop fracture",
-      "Hangman's fracture",
-      "Fraktur avulsi spinosus",
-      "Subluksasi ringan C1-C2"
+      "Disregulasi/penurunan fungsi GABA dan serotonin, serta peningkatan aktivitas noradrenalin",
+      "Peningkatan masif GABA dan penurunan total dopamin",
+      "Penurunan asetilkolin murni tanpa keterlibatan serotonin",
+      "Kelebihan hormon melatonin pada siang hari"
     ],
     answer: 0,
-    explanation: "Flexion teardrop fracture adalah cedera fleksi sangat tidak stabil di mana segmen antero-inferior korpus vertebra patah membentuk fragmen 'teardrop' dan menekan medula spinalis[span_19](start_span)[span_19](end_span)."
+    explanation: "Disregulasi biokimia cemas melibatkan penurunan inhibisi GABA dan Serotonin, serta hiperaktivitas Noradrenalin[cite: 11]."
   },
   {
-    id: 11, category: "Biomekanika Cedera Spinal",
-    question: "Mekanisme cedera 'Whiplash Trauma' pada tulang belakang leher terjadi akibat...",
+    id: 8, category: "Etiologi Biopsikososial & Biokimia",
+    question: "Konsep 'Catastrophic Misinterpretation' pada gangguan cemas mengacu pada...",
     options: [
-      "Trauma mekanik tembus peluru langsung ke kornu posterior",
-      "Gerakan anterofleksi dan dorsofleksi berlebihan yang berlangsung cepat dan mendadak saat mobil berhenti mendadak",
-      "Penurunan kepadatan tulang osteoporosis kronis",
-      "Kompresi lambat akibat pembentukan osteofit"
-    ],
-    answer: 1,
-    explanation: "Whiplash trauma terjadi akibat akselerasi-deselerasi dengan gerakan anterofleksi dan dorsofleksi (hiperfleksi-hiperekstensi) cepat dan mendadak pada leher[span_20](start_span)[span_20](end_span)."
-  },
-  {
-    id: 12, category: "Biomekanika Cedera Spinal",
-    question: "Cedera trauma spinal akibat gaya rotasi (fleksi-rotasi) tergolong sebagai cedera yang...",
-    options: [
-      "Selalu bersifat stabil karena ligamen posterior utuh",
-      "Sangat tidak stabil karena merusak jaringan ligamen dan memicu fraktur facet joint",
-      "Hanya terjadi pada segmen koksigeus",
-      "Tidak pernah menyebabkan gangguan fungsi motorik"
-    ],
-    answer: 1,
-    explanation: "Cedera fleksi-rotasi merupakan salah satu tipe trauma spinal paling serius dan tidak stabil karena merobek ligamen pendukung serta merusak facet joint[span_21](start_span)[span_21](end_span)."
-  },
-  {
-    id: 13, category: "Biomekanika Cedera Spinal",
-    question: "Trauma kompresi vertikal (axial loading) dapat menyebabkan Burst Fracture. Risiko utama jika fragmen tulang terdorong ke arah posterior (retroposisi) adalah...",
-    options: [
-      "Kerusakan langsung dan kompresi parenkim medula spinalis di dalam kanalis vertebralis",
-      "Penyempitan ruang subaraknoid tanpa gejala klinis",
-      "Kerusakan pada arkus posterior murni tanpa defisit motorik",
-      "Perdarahan avulsi kulit leher"
+      "Kecenderungan menafsirkan sensasi tubuh yang normal/ringan (seperti dada berdebar) sebagai tanda bahaya fatal (seperti serangan jantung)",
+      "Ketidakmampuan mengingat nama sendiri saat cemas",
+      "Keyakinan bahwa orang lain dapat membaca pikiran pasien",
+      "Halusinasi auditorik yang menyuruh pasien berlari"
     ],
     answer: 0,
-    explanation: "Pada burst fracture akibat kompresi aksial, jika fragmen tulang terdorong ke kanalis spinalis posterior, fragmen tersebut akan langsung menekan dan merusak medula spinalis[span_22](start_span)[span_22](end_span)."
+    explanation: "Catastrophic misinterpretation adalah bias kognitif di mana sensasi somatik benigna ditafsirkan sebagai ancaman bencana/kematian[cite: 11]."
   },
   {
-    id: 14, category: "Biomekanika Cedera Spinal",
-    question: "Manakah struktur ligamen utama yang mengalami robekan (ruptur) pada mekanisme cedera hiperfleksi tidak stabil?",
+    id: 9, category: "Etiologi Biopsikososial & Biokimia",
+    question: "Faktor risiko psikologis yang ditandai oleh ketidakmampuan menoleransi ketidakpastian masa depan disebut...",
     options: [
-      "Ligamentum longitudinalis anterior",
-      "Ligamentum interspinosus dan ligamentum longitudinalis posterior",
-      "Ligamentum denticulatum",
-      "Piamater spinalis"
+      "Intoleransi Ketidakpastian (Intolerance of Uncertainty)",
+      "Agorafobia sekunder",
+      "Amnesia disosiatif",
+      "Neurastenia tipe 2"
     ],
-    answer: 1,
-    explanation: "Pada cedera hiperfleksi tidak stabil, kompleks ligamen posterior (termasuk ligamentum interspinosus dan posterior longitudinal) mengalami ruptur/robek[span_23](start_span)[span_23](end_span)."
+    answer: 0,
+    explanation: "Intoleransi ketidakpastian merupakan faktor kerentanan kognitif utama pada kecemasan, khususnya pada Gangguan Anxietas Menyeluruh (GAD)[cite: 11]."
+  },
+  {
+    id: 10, category: "Etiologi Biopsikososial & Biokimia",
+    question: "Dalam sudut pandang holistik Biopsikososial-Spiritual, pilar spiritual yang ikut memodulasi respons cemas mencakup...",
+    options: [
+      "Makna hidup, ikhtiar, tawakkal, dan dukungan religiusitas",
+      "Penggunaan obat-obatan herbal tanpa dosis",
+      "Isolasi diri dari kegiatan ibadah",
+      "Penyangkalan terhadap kondisi sakit"
+    ],
+    answer: 0,
+    explanation: "Dimensi spiritual memberikan kerangka makna, ikhtiar, tawakkal, dan harapan yang memperkuat daya tahan koping psikologis[cite: 11]."
+  },
+  {
+    id: 11, category: "Etiologi Biopsikososial & Biokimia",
+    question: "Manakah yang merupakan kelompok gejala 'Ketegangan Motorik' pada sindrom cemas?",
+    options: [
+      "Nyeri kepala tegang, pegal otot, tegang leher, dan gelisah/tidak bisa tenang",
+      "Sianosis dan kelumpuhan flaksid bilateral",
+      "Diare berdarah dan muntah profus",
+      "Halusinasi visual dan delusi persekutorik"
+    ],
+    answer: 0,
+    explanation: "Ketegangan motorik bermanifestasi sebagai gelisah, tegang otot, pegal-pegal, nyeri kepala tegang (tension headache), dan kaku[cite: 11]."
+  },
+  {
+    id: 12, category: "Etiologi Biopsikososial & Biokimia",
+    question: "Mengapa gangguan tidur (insomnia) pada pasien cemas dapat memperkuat siklus kecemasan?",
+    options: [
+      "Karena kurang tidur menurunkan fungsi regulasi top-down korteks prefrontal dan meningkatkan reaktivitas amigdala",
+      "Karena kurang tidur menghentikan sintesis eritrosit",
+      "Karena insomnia memicu atrofi otak instan dalam 24 jam",
+      "Karena tidur hanya dibutuhkan saat usia anak-anak"
+    ],
+    answer: 0,
+    explanation: "Gangguan tidur memperlemah kontrol regulasi prefrontal terhadap amigdala, sehingga ambang kecemasan semakin menurun[cite: 11]."
   },
 
-  // ── 3. PATOFISIOLOGI SCI (6 Soal) ─────────────────────────────────────────
+  // ── 3. KLASIFIKASI & PETA DIAGNOSIS (F40-F48) (6 Soal) ────────────────────
   {
-    id: 15, category: "Patofisiologi SCI",
-    question: "Manakah yang termasuk dalam mekanisme Cedera Primer (Primary Injury) pada Spinal Cord Injury?",
+    id: 13, category: "Klasifikasi & Peta Diagnosis (F40-F48)",
+    question: "Dalam PPDGJ-III / ICD-10, kelompok diagnosis F40-F48 dikelompokkan dalam kategori besar...",
     options: [
-      "Eksitotoksisitas glutamat dan reaksi radikal bebas (ROS) berhari-hari kemudian",
-      "Kerusakan mekanik langsung seketika seperti kompresi, kontusio, laserasi, dan gangguan pembuluh darah saat benturan",
-      "Proses demielinasi aksonal dan degenerasi Wallerian pada fase subakut",
-      "Pembentukan jaringan parut astrogliosis kronis"
-    ],
-    answer: 1,
-    explanation: "Primary injury terjadi seketika saat trauma akibat kekuatan mekanik langsung (kompresi, benturan, balistik, laserasi, dan gangguan pembuluh darah)[span_24](start_span)[span_24](end_span)."
-  },
-  {
-    id: 16, category: "Patofisiologi SCI",
-    question: "Kaskade cedera sekunder (Secondary Injury) fase akut pada medula spinalis dipicu oleh peristiwa biokimia berupa...",
-    options: [
-      "Pelepasan masif neurotransmiter eksitatorik (glutamat/aspartat), influks ion Ca2+ intraseluler, dan pembentukan radikal bebas (ROS)",
-      "Peningkatan pembentukan sel mielin baru secara berlebihan",
-      "Penurunan osmolalitas plasma darah secara mendadak",
-      "Kerusakan selektif pada pleksus koroideus ventrikel"
+      "Gangguan Neurotik, Gangguan Somatoform, dan Gangguan yang Berkaitan dengan Stres",
+      "Gangguan Psikotik Skizofrenik",
+      "Gangguan Suasana Perasaan (Mood/Afektif) Murni",
+      "Gangguan Perkembangan Neurodevelopmental"
     ],
     answer: 0,
-    explanation: "Fase akut cedera sekunder melibatkan pelepasan masif glutamat, pembukaan kanal ion bertekanan, influks Ca2+ berlebih, pembentukan ROS, dan iskemia yang memicu kematian sel neuron[span_25](start_span)[span_25](end_span)."
+    explanation: "Blok F40-F48 dalam ICD-10/PPDGJ-III mencakup Gangguan Neurotik, Stres, dan Somatoform[cite: 11]."
   },
   {
-    id: 17, category: "Patofisiologi SCI",
-    question: "Proses degenerasi bagian distal aksom saraf yang terpisah dari badan sel neuron pasca trauma spinal dinamakan...",
+    id: 14, category: "Klasifikasi & Peta Diagnosis (F40-F48)",
+    question: "Manakah pasangan kode ICD-10/PPDGJ-III yang BENAR di bawah ini?",
     options: [
-      "Degenerasi Wallerian",
-      "Spinal Concussion",
-      "Gliosis fokal",
-      "Myelomalacia reversibel"
+      "F40.0 Agorafobia, F41.0 Gangguan Panik, F41.1 Gangguan Anxietas Menyeluruh (GAD)",
+      "F40.0 Skizofrenia, F41.0 Depresi Berat, F41.1 OCD",
+      "F40.0 PTSD, F41.0 Bipolar, F41.1 Autisme",
+      "F40.0 Anoreksia, F41.0 Demensia, F41.1 Insomnia"
     ],
     answer: 0,
-    explanation: "Degenerasi Wallerian adalah proses degenerasi anterograd pada serabut aksom bagian distal dan selubung mielinnya pasca terputusnya aksom[span_26](start_span)[span_26](end_span)."
+    explanation: "F40.0 adalah Agorafobia, F41.0 adalah Gangguan Panik, dan F41.1 adalah Gangguan Anxietas Menyeluruh (GAD)[cite: 11]."
   },
   {
-    id: 18, category: "Patofisiologi SCI",
-    question: "Edema sitotoksik (cytotoxic edema) pada kaskade iskemia medula spinalis disebabkan oleh...",
+    id: 15, category: "Klasifikasi & Peta Diagnosis (F40-F48)",
+    question: "Perbedaan klasifikasi PPDGJ-III/ICD-10 dengan sistem modern (DSM-5-TR / ICD-11) terkait OCD dan PTSD adalah...",
     options: [
-      "Kebocoran protein plasma ke dalam ruang interstisial akibat hilangnya keutuhan dural",
-      "Kegagalan pompa ion Na+/K+ ATPase intraseluler akibat kekurangan energi (ATP) sehingga air membanjiri bagian dalam sel neuron/glia",
-      "Penyempitan sistem vena epidural",
-      "Penumpukan cairan serebrospinal di dalam kanalis sentralis"
-    ],
-    answer: 1,
-    explanation: "Iskemia memicu kegagalan pompa Na+/K+ ATPase, mengakibatkan penumpukan Na+ dan influks air ke dalam sel (cytotoxic edema/cellular swelling)[span_27](start_span)[span_27](end_span)."
-  },
-  {
-    id: 19, category: "Patofisiologi SCI",
-    question: "Cedera medula spinalis tipe 'Transient Concussion' ditandai secara patologis oleh...",
-    options: [
-      "Transeksi anatomis lengkap medula spinalis yang permanen",
-      "Hilangnya fungsi medula spinalis sementara (24-48 jam) tanpa perubahan patologis neurologis yang menetap",
-      "Pembentukan kista nekrotik luas di kornu anterior",
-      "Perdarahan masif di substansia grisea"
-    ],
-    answer: 1,
-    explanation: "Spinal cord concussion adalah hilangnya fungsi medula spinalis sementara (24-48 jam) akibat getaran ekstrem tanpa adanya kerusakan struktur jaringan neuropatologis permanen[span_28](start_span)[span_28](end_span)."
-  },
-  {
-    id: 20, category: "Patofisiologi SCI",
-    question: "Hematomielia adalah kondisi patologis perdarahan di medula spinalis yang terutama berlokasi pada...",
-    options: [
-      "Substansia grisea medula spinalis",
-      "Ruang epidural servikal",
-      "Dura mater bagian luar",
-      "Substansia alba posterior saja"
+      "Pada DSM-5/ICD-11, OCD dan PTSD telah dipisahkan menjadi bab tersendiri di luar bab Anxiety Disorders, sedangkan dalam PPDGJ-III/ICD-10 masih menyatu dalam F40-F48",
+      "Dalam PPDGJ-III OCD dimasukkan ke dalam gangguan kepribadian",
+      "Dalam ICD-11 PTSD ditiadakan total",
+      "Tidak ada perbedaan sama sekali"
     ],
     answer: 0,
-    explanation: "Hematomielia merupakan perdarahan di dalam medula spinalis yang berlokasi di substansia grisea, dengan gambaran klinis mirip siringomielia[span_29](start_span)[span_29](end_span)."
+    explanation: "Klasifikasi modern (DSM-5/ICD-11) memisahkan OCD dan Traumatic/Stressor-related disorders dari Anxiety Disorders, meski PPDGJ-III masih berada dalam F40-F48[cite: 11]."
+  },
+  {
+    id: 16, category: "Klasifikasi & Peta Diagnosis (F40-F48)",
+    question: "Diagnosis F41.2 dalam PPDGJ-III diberikan pada kondisi...",
+    options: [
+      "Gangguan Campuran Anxietas dan Depresif (gejala cemas dan depresi ada bersamaan, tanpa ada yang dominan penuh memenuhi kriteria spesifik)",
+      "Gangguan Panik tanpa Agorafobia",
+      "Fobia Spesifik Jarum Suntik",
+      "PTSD Kronis"
+    ],
+    answer: 0,
+    explanation: "F41.2 (Gangguan Campuran Anxietas dan Depresif) digunakan bila ada gejala cemas dan depresi namun tidak ada yang memenuhi kriteria diagnosis penuh episode tunggal[cite: 11]."
+  },
+  {
+    id: 17, category: "Klasifikasi & Peta Diagnosis (F40-F48)",
+    question: "Kategori F45 dalam PPDGJ-III mencakup kelompok gangguan...",
+    options: [
+      "Gangguan Somatoform (keluhan fisik berulang menetap terkait distress psikologis)",
+      "Gangguan Disosiatif/Konversi",
+      "Fobia Sosial",
+      "Gangguan Makan"
+    ],
+    answer: 0,
+    explanation: "Kode F45 digunakan untuk Gangguan Somatoform di mana fokus utama pasien adalah keluhan fisik menetap[cite: 11]."
+  },
+  {
+    id: 18, category: "Klasifikasi & Peta Diagnosis (F40-F48)",
+    question: "Langkah penting dalam penegakan diagnosis gangguan cemas sebelum memutuskan terapi adalah...",
+    options: [
+      "Eksklusi penyebab kondisi medis umum, penggunaan zat/obat, depresi, bipolar, psikotik, dan evaluasi risiko bunuh diri",
+      "Langsung memberikan suntikan obat penenang tanpa wawancara",
+      "Meminta pasien melakukan latihan lari maraton",
+      "Menyarankan pasien mengabaikan seluruh gejala"
+    ],
+    answer: 0,
+    explanation: "Eksklusi medis/zat, evaluasi komorbiditas psikiatri, dan skrining risiko bunuh diri merupakan langkah diagnostik wajib[cite: 11]."
   },
 
-  // ── 4. KLASIFIKASI ASIA & LEVEL LESI (6 Soal) ─────────────────────────────
+  // ── 4. GANGGUAN FOBIA (AGORAFOBIA, SOSIAL, SPESIFIK) (6 Soal) ─────────────
   {
-    id: 21, category: "Klasifikasi ASIA & Level Lesi",
-    question: "Berdasarkan sistem klasifikasi ASIA Impairment Scale (AIS), kategori ASIA A didefinisikan sebagai...",
+    id: 19, category: "Gangguan Fobia (Agorafobia, Sosial, Spesifik)",
+    question: "Seorang perempuan 38 tahun menghindari pasar ramai, bus umum, antrean, dan bepergian sendiri karena takut sulit keluar atau tidak mendapat pertolongan jika mendadak panik. Diagnosis paling tepat adalah...",
     options: [
-      "Cedera Komplet: Tidak ada fungsi motorik maupun sensorik yang tersisa hingga segmen sakral terbawah (S4-S5)",
-      "Cedera Inkomplet Sensorik: Fungsi sensorik utuh tetapi fungsi motorik hilang total",
-      "Cedera Inkomplet Motorik: Fungsi motorik bawah level memiliki kekuatan otot >= 3",
-      "Fungsi motorik dan sensorik normal penuh"
+      "Agorafobia (F40.0)",
+      "Fobia Spesifik",
+      "Gangguan Anxietas Menyeluruh",
+      "Fobia Sosial"
     ],
     answer: 0,
-    explanation: "ASIA A (Komplet) berarti tidak ada fungsi motorik maupun sensorik yang tersimpan di segmen sakral terbawah (S4-S5)[span_30](start_span)[span_30](end_span)."
+    explanation: "Agorafobia ditandai oleh ketakutan dan penghindaran terhadap tempat/situasi ramai atau bepergian sendiri karena takut sulit keluar/mendapat pertolongan[cite: 11]."
   },
   {
-    id: 22, category: "Klasifikasi ASIA & Level Lesi",
-    question: "Seorang pasien SCI memiliki fungsi sensorik yang masih bertahan hingga segmen sakral S4-S5, namun fungsi motorik di bawah level cedera hilang total. Kategori ASIA pasien ini adalah...",
+    id: 20, category: "Gangguan Fobia (Agorafobia, Sosial, Spesifik)",
+    question: "Seorang mahasiswa 21 tahun selalu menghindari presentasi di depan kelas karena sangat takut wajahnya memerah, suaranya gemetar, dan dinilai bodoh/dievaluasi negatif oleh teman-temannya. Diagnosis paling sesuai adalah...",
     options: [
-      "ASIA A",
-      "ASIA B",
-      "ASIA C",
-      "ASIA D"
-    ],
-    answer: 1,
-    explanation: "ASIA B (Inkomplet Sensorik) ditandai oleh fungsi sensorik yang masih tersisa (termasuk S4-S5) tetapi fungsi motorik hilang di bawah level cedera[span_31](start_span)[span_31](end_span)."
-  },
-  {
-    id: 23, category: "Klasifikasi ASIA & Level Lesi",
-    question: "Perbedaan utama antara ASIA C dan ASIA D pada cedera medula spinalis inkomplet motorik terletak pada...",
-    options: [
-      "ASIA C memiliki kekuatan otot sebagian besar < 3, sedangkan ASIA D memiliki kekuatan otot sebagian besar >= 3 di bawah level lesi",
-      "ASIA C tidak memiliki sensasi di area sakral, sedangkan ASIA D utuh",
-      "ASIA C terjadi pada servikal, sedangkan ASIA D terjadi pada lumbal",
-      "ASIA C bersifat permanen, sedangkan ASIA D membaik dalam 1 jam"
+      "Fobia Sosial / Social Anxiety Disorder (F40.1)",
+      "Agorafobia",
+      "Gangguan Panik",
+      "Gangguan Penyesuaian"
     ],
     answer: 0,
-    explanation: "Pada ASIA C, lebih dari setengah otot kunci di bawah level lesi memiliki nilai kekuatan otot < 3. Pada ASIA D, lebih dari setengah otot kunci memiliki nilai >= 3[span_32](start_span)[span_32](end_span)."
+    explanation: "Fobia Sosial ditandai ketakutan mencolok terhadap situasi sosial atau performa karena takut evaluasi negatif atau dipermalukan[cite: 11]."
   },
   {
-    id: 24, category: "Klasifikasi ASIA & Level Lesi",
-    question: "Cedera medula spinalis pada level cervical (misal: C1 - T1) akan mengakibatkan defisit fungsional berupa...",
+    id: 21, category: "Gangguan Fobia (Agorafobia, Sosial, Spesifik)",
+    question: "Seorang perempuan 25 tahun sangat takut saat harus menjalani pemeriksaan darah. Saat melihat jarum suntik ia menjadi pucat, berdebar, dan pingsan. Kondisi ini merupakan ciri khas...",
     options: [
-      "Paraplegia (gangguan pada 2 ekstremitas bawah)",
-      "Tetraplegia / Quadriplegia (gangguan pada ke-4 ekstremitas)",
-      "Monoplegia lengan kanan saja",
-      "Disfungsi sensorik isolasi pada perineum"
-    ],
-    answer: 1,
-    explanation: "Cedera segmen cervical menyebabkan tetraplegia/quadriplegia (keempat ekstremitas terlibat), sedangkan lesi di bawah Th1 menyebabkan paraplegia (ekstremitas bawah)[span_33](start_span)[span_33](end_span)."
-  },
-  {
-    id: 25, category: "Klasifikasi ASIA & Level Lesi",
-    question: "Pasien dengan lesi medula spinalis setinggi C1 - C3 mengalami kelumpuhan total otot pernapasan utama sehingga kondisi klinisnya bergantung pada...",
-    options: [
-      "Ventilator mekanik (ventilator dependent)",
-      "Oksigen nasal kanul 2 L/menit saja",
-      "Penggunaan korset lumbal",
-      "Latihan otot perut mandiri"
+      "Fobia Spesifik tipe darah-injeksi-luka (Blood-Injection-Injury)",
+      "Fobia Sosial",
+      "Agorafobia berat",
+      "Gangguan Somatisasi"
     ],
     answer: 0,
-    explanation: "Lesi C1-C3 menghilangkan seluruh gerakan dan sensasi di bawah leher serta melumpuhkan diafragma, sehingga pasien sepenuhnya bergantung pada ventilator[span_34](start_span)[span_34](end_span)."
+    explanation: "Fobia Spesifik tipe darah-injeksi-luka khas ditandai oleh ketakutan berlebih pada jarum/darah yang sering disertai respons vasovagal (pingsan)[cite: 11]."
   },
   {
-    id: 26, category: "Klasifikasi ASIA & Level Lesi",
-    question: "Otot kunci (key muscle) ASIA untuk segmen L4 dan S1 pada pemeriksaan ekstremitas bawah adalah...",
+    id: 22, category: "Gangguan Fobia (Agorafobia, Sosial, Spesifik)",
+    question: "Terapi utama pilihan non-farmakologis untuk Fobia Spesifik adalah...",
     options: [
-      "L4 = Ankle dorsiflexors, S1 = Ankle plantar flexors",
-      "L4 = Hip flexors, S1 = Knee extensors",
-      "L4 = Long toe extensors, S1 = Hip abductors",
-      "L4 = Knee flexors, S1 = Ankle invertors"
+      "Exposure Therapy / Desensitisasi Bertahap",
+      "Pemberian Benzodiazepin dosis tinggi seumur hidup",
+      "Terapi Kejang Listrik (ECT)",
+      "Isolasi di kamar gelap"
     ],
     answer: 0,
-    explanation: "Miotom ASIA ekstremitas bawah: L2 (hip flexors), L3 (knee extensors), L4 (ankle dorsiflexors), L5 (long toe extensors), S1 (ankle plantar flexors)[span_35](start_span)[span_35](end_span)."
+    explanation: "Terapi eksposur (desensitisasi sistematis/bertahap) merupakan tata laksana utama (first-line) untuk Fobia Spesifik; obat tidak rutin diperlukan[cite: 11]."
+  },
+  {
+    id: 23, category: "Gangguan Fobia (Agorafobia, Sosial, Spesifik)",
+    question: "Obat golongan Beta-blocker (seperti Propranolol) dapat bermanfaat pada Fobia Sosial khusus untuk...",
+    options: [
+      "Mengurangi gejala otonom/performa (seperti tremor dan palpitasi) sebelum tampil di publik (performance anxiety)",
+      "Penyembuhan total gangguan cemas dalam 1 hari",
+      "Menggantikan fungsi psikoterapi CBT secara permanen",
+      "Menghilangkan memori trauma masa kecil"
+    ],
+    answer: 0,
+    explanation: "Propranolol berguna menurunkan respons otonom perifer (tremor, palpitasi) pada kecemasan performa situasional[cite: 11]."
+  },
+  {
+    id: 24, category: "Gangguan Fobia (Agorafobia, Sosial, Spesifik)",
+    question: "Pasien Agorafobia berat sering kali berakhir dengan kondisi 'housebound', yang berarti...",
+    options: [
+      "Tidak berani keluar dari rumah sama sekali karena ketakutan yang luar biasa",
+      "Suka berpindah-pindah rumah setiap minggu",
+      "Mengalami kelumpuhan kedua lengan",
+      "Hanya bisa tidur saat siang hari"
+    ],
+    answer: 0,
+    explanation: "Agorafobia yang parah dapat menyebabkan pasien terisolasi total di dalam rumah (housebound) karena tidak berani menghadapi lingkungan luar[cite: 11]."
   },
 
-  // ── 5. SYOK SPINAL VS SYOK NEUROGENIK (6 Soal) ───────────────────────────
+  // ── 5. GAD & GANGGUAN PANIK (7 Soal) ──────────────────────────────────────
   {
-    id: 27, category: "Syok Spinal vs Syok Neurogenik",
-    question: "Syok Spinal (Spinal Shock) didefinisikan secara klinis sebagai...",
+    id: 25, category: "GAD & Gangguan Panik",
+    question: "Ciri khas utama dari Gangguan Anxietas Menyeluruh (GAD / F41.1) adalah...",
     options: [
-      "Kegagalan sirkulasi darah sistemik akibat perdarahan hebat di abdomen",
-      "Keadaan hilangnya fungsi sensorik, motorik, dan refleks spinal sementara di bawah level lesi pasca trauma",
-      "Peningkatan reflek patologis hiperrefleksia secara mendadak",
-      "Kerusakan ireversibel permanen pada konus medularis"
-    ],
-    answer: 1,
-    explanation: "Spinal shock adalah hilangnya aktivitas refleks spinal, fungsi sensorik, dan motorik flaksid sementara di bawah lesi pasca trauma (berlangsung beberapa jam hingga 1-6 minggu)[span_36](start_span)[span_36](end_span)."
-  },
-  {
-    id: 28, category: "Syok Spinal vs Syok Neurogenik",
-    question: "Triad klinis klasik yang menjadi ciri khas dari Syok Neurogenik (Neurogenic Shock) akibat hilangnya tonus simpatis adalah...",
-    options: [
-      "Hipertensi, Takikardia, dan Hipertermia",
-      "Hipotensi, Bradikardia, dan Hipotermia (atau Vasodilatasi)",
-      "Hipotensi, Takikardia, dan Demam tinggi",
-      "Hipertensi, Bradikardia, dan Depresi Napas"
-    ],
-    answer: 1,
-    explanation: "Trias Syok Neurogenik: Hipotensi (akibat hilangnya tonus vaskular/vasodilatasi), Bradikardia (akibat hilangnya dorongan simpatis jantung), dan Hipotermia[span_37](start_span)[span_37](end_span)."
-  },
-  {
-    id: 29, category: "Syok Spinal vs Syok Neurogenik",
-    question: "Syok neurogenik paling sering terjadi pada pasien cedera medula spinalis dengan level lesi...",
-    options: [
-      "Cervical dan Thoracal tinggi (di atas T6 / T1-T4)",
-      "Lumbal L4 - L5",
-      "Sacral S1 - S3",
-      "Koksigeus"
+      "Kekhawatiran berlebihan yang meluas pada berbagai aspek kehidupan, kronis (berlangsung berbulan-bulan), sulit dikendalikan, disertai ketegangan motorik dan otonom",
+      "Serangan panik mendadak yang memuncak dalam 1 menit lalu hilang total",
+      "Ketakutan hanya pada objek kucing dan anjing",
+      "Keinginan mencuci tangan berulang-ulang"
     ],
     answer: 0,
-    explanation: "Syok neurogenik terjadi pada cedera tinggi di atas T6 (servikal dan thoracal tinggi T1-T4) karena terputusnya aliran saraf simpatis dari T1-L2[span_38](start_span)[span_38](end_span)."
+    explanation: "GAD ditandai kekhawatiran meluas (free-floating anxiety) pada banyak hal kehidupan, kronis, sulit dikontrol, dan disertai gejala fisik/motorik[cite: 11]."
+  },
+  {
+    id: 26, category: "GAD & Gangguan Panik",
+    question: "Seorang perempuan 32 tahun merasa cemas hampir setiap hari selama 7 bulan mengenai pekerjaan, kesehatan orang tua, dan biaya sekolah. Ia tegang, sulit tidur, cepat lelah, dan sulit konsentrasi. Diagnosisnya adalah...",
+    options: [
+      "Gangguan Anxietas Menyeluruh (GAD)",
+      "Gangguan Panik",
+      "Reaksi Stres Akut",
+      "Fobia Spesifik"
+    ],
+    answer: 0,
+    explanation: "Kriteria cemas meluas kronis (>6 bulan) pada banyak aspek disertai tegang otot dan gangguan tidur sesuai dengan GAD[cite: 11]."
+  },
+  {
+    id: 27, category: "GAD & Gangguan Panik",
+    question: "Karakteristik utama dari Serangan Panik (Panic Attack) pada Gangguan Panik (F41.0) adalah...",
+    options: [
+      "Onset tiba-tiba, rasa takut/ketidaknyamanan intens yang memuncak cepat dalam beberapa menit, disertai gejala fisik kuat (palpitasi, sesak, takut mati/gila)",
+      "Rasa sedih perlahan selama 6 bulan",
+      "Kehilangan ingatan tentang identitas diri",
+      "Kelelahan fisik setelah berolahraga"
+    ],
+    answer: 0,
+    explanation: "Serangan panik timbul mendadak, intensitas puncak cepat (biasanya <=10 menit), disertai gejala somatik hebat dan ketakutan kehilangan kontrol/mati[cite: 11]."
+  },
+  {
+    id: 28, category: "GAD & Gangguan Panik",
+    question: "Kekhawatiran antisipatorik (anticipatory anxiety) pada Gangguan Panik mengacu pada...",
+    options: [
+      "Ketakutan dan kecemasan terus-menerus akan timbulnya serangan panik susulan di masa depan",
+      "Ketakutan melihat makanan pedas",
+      "Keinginan untuk selalu tidur siang",
+      "Keyakinan bahwa pasien memiliki kekuatan super"
+    ],
+    answer: 0,
+    explanation: "Pasca serangan panik, pasien sering mengalami kecemasan antisipatorik, yaitu rasa takut menetap akan munculnya serangan berikutnya[cite: 11]."
+  },
+  {
+    id: 29, category: "GAD & Gangguan Panik",
+    question: "Tindakan pertama yang tepat saat pasien mengalami serangan panik akut di hadapan dokter adalah...",
+    options: [
+      "Tetap tenang, minta pasien fokus pada napas lambat/teratur, grounding, dan jelaskan bahwa puncak serangan singkat serta tidak berbahaya",
+      "Menyiram air es ke muka pasien",
+      "Memberikan suntikan anestesi total",
+      "Menyuruh pasien berlari kencang"
+    ],
+    answer: 0,
+    explanation: "Tatalaksana serangan akut berfokus pada penenangan, kontrol napas lambat (mencegah hiperventilasi), grounding, dan reasuransi[cite: 11]."
+  },
+  {
+    id: 30, category: "GAD & Gangguan Panik",
+    question: "Teknik CBT 'Interoceptive Exposure' pada Gangguan Panik dilakukan dengan cara...",
+    options: [
+      "Membantu pasien secara sengaja merasakan sensasi tubuh ringan (seperti pusing/napas cepat) dalam kondisi aman agar tidak lagi menafsirkannya secara katastrofik",
+      "Memaksa pasien mengurung diri di ruang gelap",
+      "Menghipnosis pasien agar lupa pada jantungnya",
+      "Memberikan obat pencahar"
+    ],
+    answer: 0,
+    explanation: "Interoceptive exposure melatih pasien menghadapi sensasi somatik internal agar tidak memicu respon panik dan catastrophic misinterpretation[cite: 11]."
+  },
+  {
+    id: 31, category: "GAD & Gangguan Panik",
+    question: "Seorang laki-laki 28 tahun berulang kali dibawa ke IGD karena dadanya mendadak berdebar, sesak, dan takut mati. Pemeriksaan EKG dan troponin normal. Diagnosis paling tepat adalah...",
+    options: [
+      "Gangguan Panik (F41.0)",
+      "Infark Miokard Akut",
+      "Fobia Sosial",
+      "Somatisasi"
+    ],
+    answer: 0,
+    explanation: "Gejala ke IGD berulang dengan rasa takut mati dan hasil EKG/medis normal merupakan pola klasik Gangguan Panik[cite: 11]."
+  },
+
+  // ── 6. OCD & REAKSI STRES (PTSD & AKUT) (6 Soal) ──────────────────────────
+  {
+    id: 32, category: "OCD & Reaksi Stres (PTSD & Akut)",
+    question: "Komponen Inti dari Gangguan Obsesif-Kompulsif (F42) terdiri dari...",
+    options: [
+      "Obsesi (pikiran/dorongan intrusif berulang yang menimbulkan cemas) dan Kompulsi (perilaku/ritual berulang untuk menurunkan cemas)",
+      "Halusinasi dan Delusi",
+      "Amnesia dan Fugue",
+      "Manik dan Depresi"
+    ],
+    answer: 0,
+    explanation: "OCD ditandai oleh Obsesi (pikiran intrusif yang memicu cemas) dan Kompulsi (perilaku ritualistis untuk meredakan cemas tersebut)[cite: 11]."
+  },
+  {
+    id: 33, category: "OCD & Reaksi Stres (PTSD & Akut)",
+    question: "Seorang mahasiswa FK berkali-kali mencuci tangan hingga lecet karena merasa terkontaminasi. Ia tahu perilakunya berlebihan tetapi cemas hebat jika tidak mencucinya. Hal ini menggambarkan...",
+    options: [
+      "Gangguan Obsesif-Kompulsif (F42)",
+      "Gangguan Disosiatif",
+      "Fobia Spesifik",
+      "Skizofrenia Simpel"
+    ],
+    answer: 0,
+    explanation: "Perilaku cuci tangan berulang akibat ide kontaminasi yang disadari ego-distonik/berlebihan merupakan contoh klasik OCD[cite: 11]."
+  },
+  {
+    id: 34, category: "OCD & Reaksi Stres (PTSD & Akut)",
+    question: "Perbedaan utama antara Reaksi Stres Akut (F43.0) dan PTSD (F43.1) berdasarkan aspek waktu onset adalah...",
+    options: [
+      "Reaksi Stres Akut muncul segera setelah trauma berat dan membaik dalam jam-hari; sedangkan PTSD onsetnya menetap atau terhambat dan berlangsung jangka panjang",
+      "Reaksi Stres Akut terjadi setelah 10 tahun trauma",
+      "PTSD hanya terjadi pada anak balita",
+      "Tidak ada perbedaan durasi"
+    ],
+    answer: 0,
+    explanation: "Reaksi stres akut terjadi segera pasca trauma dan bersifat sementara (jam-hari)[cite: 11]. PTSD berlangsung menetap (>1 bulan) dengan trias gejala khas[cite: 11]."
+  },
+  {
+    id: 35, category: "OCD & Reaksi Stres (PTSD & Akut)",
+    question: "Triad gejala utama pada Gangguan Stres Pasca Trauma (PTSD) meliputi...",
+    options: [
+      "Intrusi (flashback/mimpi buruk), Penghindaran (avoidance stimulus trauma), dan Hiperarousal (kewaspadaan meningkat/mudah terkejut)",
+      "Somatisasi, Amnesia, dan Fugue",
+      "Depresi, Manik, dan Halusinasi",
+      "Waham, Wandering, dan Stupor"
+    ],
+    answer: 0,
+    explanation: "PTSD ditandai oleh re-experiencing/intrusi, penghindaran stimulus terkait trauma, dan kondisi hiperarousal/kewaspadaan berlebih[cite: 11]."
+  },
+  {
+    id: 36, category: "OCD & Reaksi Stres (PTSD & Akut)",
+    question: "Seorang mahasiswa baru mengalami cemas dan sedih setelah kesulitan beradaptasi dengan sistem perkuliahan. Gejalanya mengganggu fungsi tetapi tidak memenuhi kriteria trauma berat. Diagnosisnya adalah...",
+    options: [
+      "Gangguan Penyesuaian (F43.2)",
+      "PTSD",
+      "Reaksi Stres Akut",
+      "Gangguan Disosiatif"
+    ],
+    answer: 0,
+    explanation: "Gangguan penyesuaian timbul akibat stresor kehidupan bermakna dengan respons maladaptif yang tidak memenuhi kriteria gangguan spesifik lain[cite: 11]."
+  },
+  {
+    id: 37, category: "OCD & Reaksi Stres (PTSD & Akut)",
+    question: "Seorang korban kecelakaan berat yang selamat tampak bingung, gemetar, menangis, dan berdebar beberapa jam setelah kejadian. Kondisi ini sesuai dengan...",
+    options: [
+      "Reaksi Stres Akut (F43.0)",
+      "Gangguan Somatisasi",
+      "Fobia Sosial",
+      "Gagal Ginjal Akut"
+    ],
+    answer: 0,
+    explanation: "Gejala akut yang muncul segera setelah paparan trauma psikososial/fisik yang sangat berat diklasifikasikan sebagai Reaksi Stres Akut[cite: 11]."
+  },
+
+  // ── 7. GANGGUAN DISOSIATIF & SOMATOFORM (6 Soal) ──────────────────────────
+  {
+    id: 38, category: "Gangguan Disosiatif & Somatoform",
+    question: "Ciri utama dari Gangguan Disosiatif / Konversi (F44) adalah...",
+    options: [
+      "Hilangnya integrasi fungsi psikologis/neurologis (ingatan, kesadaran, gerakan) tanpa penjelasan organik/medis yang memadai, sering dipicu stresor",
+      "Perilaku mencuci tangan berulang",
+      "Ketakutan akan ketinggian",
+      "Nyeri dada akibat penyumbatan koroner"
+    ],
+    answer: 0,
+    explanation: "Gangguan disosiatif/konversi ditandai oleh hilangnya kendali neurologis/kesadaran tanpa dasar kelainan organik dan tidak dibuat-buat[cite: 11]."
+  },
+  {
+    id: 39, category: "Gangguan Disosiatif & Somatoform",
+    question: "Setelah konflik keluarga yang sangat berat, seorang pasien tiba-tiba tidak dapat menggerakkan kedua kakinya. Pemeriksaan neurologis tidak menemukan kelainan. Diagnosis paling sesuai adalah...",
+    options: [
+      "Gangguan Disosiatif / Konversi Motorik (F44.4)",
+      "Malingering",
+      "Gangguan Panik",
+      "Stroke Iskemik"
+    ],
+    answer: 0,
+    explanation: "Gejala neurologis fokal (kelumpuhan) yang muncul pasca stresor psikologis tanpa dasar organik memadai sesuai kriteria Gangguan Disosiatif/Konversi[cite: 11]."
+  },
+  {
+    id: 40, category: "Gangguan Disosiatif & Somatoform",
+    question: "Fenomena 'Fugue Disosiatif' (F44.1) ditandai oleh...",
+    options: [
+      "Amnesia disosiatif yang disertai dengan perjalanan fisik meninggalkan rumah atau tempat kerja",
+      "Kelumpuhan pada keempat anggota gerak",
+      "Ketakutan berada di tempat umum",
+      "Nyeri perut kanan bawah mendadak"
+    ],
+    answer: 0,
+    explanation: "Fugue disosiatif menggabungkan amnesia mengenai identitas/masa lalu dengan perjalanan fisik tak terencana[cite: 11]."
+  },
+  {
+    id: 41, category: "Gangguan Disosiatif & Somatoform",
+    question: "Inti klinis dari Gangguan Somatoform (F45) adalah...",
+    options: [
+      "Pasien datang dengan keluhan fisik berulang/menetap serta meminta pemeriksaan medis berulang, meskipun hasil pemeriksaan tidak mendukung adanya penyakit berat",
+      "Pasien dengan sengaja memalsukan gejala untuk klaim asuransi",
+      "Pasien kehilangan memori tentang masa kecilnya",
+      "Pasien mengalami kejang epilepsi murni"
+    ],
+    answer: 0,
+    explanation: "Gangguan somatoform berfokus pada keluhan fisik menetap dan kekhawatiran kesehatan yang memicu pencarian medis berulang[cite: 11]."
+  },
+  {
+    id: 42, category: "Gangguan Disosiatif & Somatoform",
+    question: "Preokupasi kuat dan ketakutan menetap bahwa dirinya menderita penyakit fisik yang serius/mematikan (seperti kanker) meskipun hasil laboratorium normal dikategorikan sebagai...",
+    options: [
+      "Gangguan Hipokondrik (F45.2)",
+      "Gangguan Somatisasi",
+      "Agorafobia",
+      "Neurastenia"
+    ],
+    answer: 0,
+    explanation: "Gangguan Hipokondrik ditandai oleh preokupasi dan ketakutan menderita penyakit serius berdasarkan interpretasi salah atas gejala tubuh[cite: 11]."
+  },
+  {
+    id: 43, category: "Gangguan Disosiatif & Somatoform",
+    question: "Gangguan Neurotik Neurastenia (F48.0) memiliki keluhan utama berupa...",
+    options: [
+      "Keluhan mudah lelah mental/fisik, rasa tidak mampu menyelesaikan aktivitas, disertai pusing dan tegang otot",
+      "Halusinasi melihat bayangan hitam",
+      "Serangan panik di malam hari",
+      "Nyeri dada kiri menjalar ke lengan"
+    ],
+    answer: 0,
+    explanation: "Neurastenia ditandai oleh perasaan lelah dan lemas mental/fisik yang menetap setelah usaha ringan[cite: 11]."
+  },
+
+  // ── 8. DIAGNOSIS BANDING & TATALAKSANA INTEGRATIF (7 Soal) ────────────────
+  {
+    id: 44, category: "Diagnosis Banding & Tatalaksana Integratif",
+    question: "Kondisi medis umum yang WAJIB disingkirkan karena sering menampilkan gejala cemas, palpitasi, dan gelisah adalah...",
+    options: [
+      "Hipertiroidisme, aritmia jantung, hipoglikemia, dan asma",
+      "Osteoartritis lutut ringan",
+      "Katarak senilis",
+      "Akne vulgaris"
+    ],
+    answer: 0,
+    explanation: "Kondisi fisik seperti hipertiroid, gangguan irama jantung, hipoglikemia, dan asma dapat meniru gejala cemas secara tepat[cite: 11]."
+  },
+  {
+    id: 45, category: "Diagnosis Banding & Tatalaksana Integratif",
+    question: "Golongan obat farmakoterapi lini pertama (first-line) untuk penanganan jangka panjang Gangguan Anxietas Menyeluruh dan Gangguan Panik adalah...",
+    options: [
+      "SSRI (Selective Serotonin Reuptake Inhibitors) atau SNRI",
+      "Benzodiazepin dosis tinggi seumur hidup",
+      "Antipsikotik tipikal injeksi",
+      "Aspirin dosis rendah"
+    ],
+    answer: 0,
+    explanation: "SSRI/SNRI merupakan obat pilihan utama jangka panjang karena efikasi yang baik dan tidak menimbulkan ketergantungan[cite: 11]."
+  },
+  {
+    id: 46, category: "Diagnosis Banding & Tatalaksana Integratif",
+    question: "Aturan penggunaan Benzodiazepin pada gangguan cemas menurut panduan klinis adalah...",
+    options: [
+      "Hanya digunakan jangka pendek (2-4 minggu) bila sangat diperlukan pada fase akut, serta hindari penggunaan jangka panjang untuk cegah toleransi/ketergantungan",
+      "Diberikan sebagai monoterapi seumur hidup",
+      "Boleh dihentikan mendadak dari dosis tinggi tanpa tapering",
+      "Merupakan obat lini pertama untuk anak usia < 5 tahun"
+    ],
+    answer: 0,
+    explanation: "Benzodiazepin hanya boleh digunakan jangka pendek karena risiko toleransi, adiksi, dan gejala putus obat[cite: 11]."
+  },
+  {
+    id: 47, category: "Diagnosis Banding & Tatalaksana Integratif",
+    question: "Prinsip pengobatan antidepresan SSRI pada pasien cemas adalah 'Start Low, Go Slow', yang bermakna...",
+    options: [
+      "Memulai dari dosis rendah (setengah dosis depresi) dan menaikkan dosis secara bertahap untuk mencegah eksaserbasi cemas di awal terapi",
+      "Memulai dosis maksimal pada hari pertama",
+      "Menghentikan obat jika dalam 2 hari belum sembuh",
+      "Memberikan obat setiap 2 minggu sekali"
+    ],
+    answer: 0,
+    explanation: "Awal terapi SSRI dapat memicu nervous/ansietas sementara, sehingga dosis dimulai dari yang paling rendah dan dititrasi perlahan[cite: 11]."
+  },
+  {
+    id: 48, category: "Diagnosis Banding & Tatalaksana Integratif",
+    question: "Kalimat psikoedukasi yang BENAR dan empatik untuk disampaikan kepada pasien gangguan cemas adalah...",
+    options: [
+      "'Cemas adalah alarm tubuh. Pada gangguan cemas, alarmnya terlalu sensitif. Gejala fisiknya nyata, tetapi tidak selalu berarti ada penyakit organ yang berbahaya.'",
+      "'Gejala Anda ini hanya pura-pura dan mengada-ada saja.'",
+      "'Penyakit Anda tidak bisa disembuhkan sama sekali.'",
+      "'Anda harus mengurung diri agar cemasnya hilang.'"
+    ],
+    answer: 0,
+    explanation: "Psikoedukasi memvalidasi sensasi somatik pasien sekaligus memberikan metafora alarm yang tepat tanpa menghakimi[cite: 11]."
+  },
+  {
+    id: 49, category: "Diagnosis Banding & Tatalaksana Integratif",
+    question: "Komponen non-farmakologis kunci dalam manajemen jangka panjang gangguan cemas mencakup...",
+    options: [
+      "Psikoedukasi, CBT (Cognitive Behavioral Therapy), relaksasi/latihan napas, sleep hygiene, serta dukungan keluarga dan spiritual",
+      "Menghindari seluruh interaksi sosial secara permanen",
+      "Meminum kopi hitam pekat 5 cangkir sehari",
+      "Melakukan aktivitas ekstrem tanpa persiapan"
+    ],
+    answer: 0,
+    explanation: "Kombinasi CBT, relaksasi, higiene tidur, psikoedukasi, dan dukungan sosial/spiritual adalah fondasi non-farmako cemas[cite: 11]."
+  },
+  {
+    id: 50, category: "Diagnosis Banding & Tatalaksana Integratif",
+    question: "Berapa lama waktu yang umumnya dibutuhkan oleh obat golongan SSRI untuk mencapai efek klinis optimal pada gangguan cemas?",
+    options: [
+      "Beberapa minggu (sekitar 2 hingga 6 minggu)",
+      "10 menit setelah pil ditelan",
+      "6 bulan tanpa perubahan",
+      "Langsung terasa dalam 2 detik"
+    ],
+    answer: 0,
+    explanation: "SSRI membutuhkan waktu adaptasi reseptor sehingga respons terapi klinis baru terlihat optimal setelah 2-6 minggu[cite: 11]."
   }
 ];

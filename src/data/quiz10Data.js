@@ -1,347 +1,617 @@
 export const ALL_QUESTIONS = [
-  // ── 1. DEFINISI & KRITERIA ILAE (6 Soal) ──────────────────────────────────
+  // ── 1. DEFINISI, TUJUAN & RUANG LINGKUP CLP (6 Soal) ──────────────────────
   {
-    id: 1, category: "Definisi & Kriteria ILAE",
-    question: "Berdasarkan kriteria praktis ILAE / Perdossi, diagnosis Epilepsi dapat ditegakkan jika memenuhi salah satu kondisi berikut, KECUALI...",
+    id: 1, category: "Definisi, Tujuan & Ruang Lingkup CLP",
+    question: "Definisi paling tepat dari Consultation Liaison Psychiatry (CLP) adalah...",
     options: [
-      "Minimal 2 bangkitan tanpa provokasi (unprovoked) dengan jarak antar bangkitan > 24 jam",
-      "1 bangkitan tanpa provokasi dengan kemungkinan berulang minimal 60% dalam 10 tahun ke depan",
-      "Sudah ditegakkan diagnosis sindrom epilepsi spesifik",
-      "Satu kali kejang demam sederhana pada balita yang langsung sembuh"
-    ],
-    answer: 3,
-    explanation: "Epilepsi didefinisikan sebagai: (1) Min. 2 bangkitan unprovoked >24 jam, (2) 1 bangkitan unprovoked dengan risiko rekurensi >=60% dalam 10 tahun, atau (3) Terdiagnosis sindrom epilepsi. Kejang demam sederhana tergolong provoked seizure[span_9](start_span)[span_9](end_span)."
-  },
-  {
-    id: 2, category: "Definisi & Kriteria ILAE",
-    question: "Definisi dari Bangkitan Epilepsi (Epileptic Seizure) adalah...",
-    options: [
-      "Manifestasi klinis akibat hiperaktivitas listrik sekelompok sel saraf otak yang bersifat berlebihan, abnormal, mendadak, dan sementara",
-      "Penurunan aliran darah otak global akibat hipotensi ortostatis mendadak",
-      "Gangguan gerak involunter akibat kerusakan ganglia basalis kronis",
-      "Kedutan otot akibat kelelahan fisik tanpa keterlibatan aktivitas listrik otak"
+      "Praktik psikiatri oleh psikiater/tim psikiatri kepada pasien yang dirawat di unit medis atau bedah rumah sakit, berfokus pada diagnosis dan penanganan gangguan psikiatri yang muncul bersamaan dengan masalah fisik",
+      "Layanan psikoterapi khusus untuk pasien rawat jalan tanpa komorbiditas medis",
+      "Penanganan gangguan jiwa berat yang dirawat di bangsal isolasi psikiatri khusus",
+      "Tindakan bedah saraf untuk mengatasi gangguan kecemasan kronis"
     ],
     answer: 0,
-    explanation: "Bangkitan epilepsi adalah manifestasi klinis dari cetusan listrik berlebihan, abnormal, mendadak, dan sementara dari sekelompok neuron otak (unprovoked)[span_10](start_span)[span_10](end_span)."
+    explanation: "CLP adalah cabang psikiatri yang berfokus pada evaluasi dan tata laksana gangguan psikiatri pada pasien yang sedang dirawat di bangsal medis atau bedah rumah sakit umum[cite: 12]."
   },
   {
-    id: 3, category: "Definisi & Kriteria ILAE",
-    question: "Etiologi epilepsi yang dianggap simptomatik namun lesi struktural penyebab utamanya belum diketahui secara pasti (seperti pada Sindrom West atau Sindrom Lennox-Gastaut) diklasifikasikan sebagai...",
+    id: 2, category: "Definisi, Tujuan & Ruang Lingkup CLP",
+    question: "Manakah di bawah ini yang BUKAN merupakan tujuan utama dari layanan Consultation Liaison Psychiatry?",
     options: [
-      "Idiopatik",
-      "Kriptogenik",
-      "Simptomatik murni",
-      "Provoked seizure"
-    ],
-    answer: 1,
-    explanation: "Kriptogenik adalah kondisi yang diduga simptomatik (terdapat kelainan dasar), namun penyebab pastinya belum diketahui/ditemukan pada pencitraan[span_11](start_span)[span_11](end_span)."
-  },
-  {
-    id: 4, category: "Definisi & Kriteria ILAE",
-    question: "Manakah contoh penyebab bangkitan terprovokasi (provoked seizure) yang BUKAN merupakan epilepsi murni?",
-    options: [
-      "Sklerosis hipokampus kronis",
-      "Gangguan elektrolit akut (hiponatremia), hipoglikemia, atau infeksi CNS akut",
-      "Malformasi kortikal kongenital",
-      "Tumor otak meningioma yang tumbuh lambat"
-    ],
-    answer: 1,
-    explanation: "Provoked seizures dipicu oleh kondisi sistemik/metabolik akut (hipoglikemia, gangguan elektrolit, intoksikasi, demam) dan bukan merupakan penyakit epilepsi kronis[span_12](start_span)[span_12](end_span)."
-  },
-  {
-    id: 5, category: "Definisi & Kriteria ILAE",
-    question: "Epilepsi idiopatik umumnya memiliki karakteristik berupa...",
-    options: [
-      "Terdapat lesi struktural nyata pada Head CT-Scan/MRI",
-      "Sangat berhubungan dengan faktor genGenetik, berkaitan dengan usia, dan tidak ditemukan lesi struktural di otak",
-      "Pasti disertai dengan retardasi mental berat",
-      "Resisten terhadap seluruh jenis Obat Anti Epilepsi (OAE)"
-    ],
-    answer: 1,
-    explanation: "Epilepsi idiopatik ditandai oleh tidak ditemukannya lesi struktural di otak, predisposisi genetik yang kuat, serta sering berkaitan dengan kelompok usia tertentu[span_13](start_span)[span_13](end_span)."
-  },
-  {
-    id: 6, category: "Definisi & Kriteria ILAE",
-    question: "Penyebab bangkitan kejang yang paling mendominasi pada kelompok usia lanjut (> 60 tahun) adalah...",
-    options: [
-      "Penyakit Cerebrovascular (Stroke/Degenerasi Vaskular) dan Tumor Otak",
-      "Kejang demam (Febrile seizure)",
-      "Kelainan penyimpanan metabolik kongenital",
-      "Trauma lahir (Birth trauma)"
-    ],
-    answer: 0,
-    explanation: "Pada usia lansia (>60 tahun), penyebab utama timbulnya bangkitan kejang baru adalah penyakit serebrovaskular (stroke) dan lesi struktural/tumor[span_14](start_span)[span_14](end_span)."
-  },
-
-  // ── 2. PATOFISIOLOGI & AMBANG BANGKITAN (7 Soal) ──────────────────────────
-  {
-    id: 7, category: "Patofisiologi & Ambang Bangkitan",
-    question: "Patofisiologi utama terjadinya kejang pada tingkat seluler di otak adalah ketidakseimbangan antara pengaruh eksitasi dan inhibisi, yaitu...",
-    options: [
-      "Aktivitas Inhibisi (GABA) > Aktivitas Eksitasi (Glutamat)",
-      "Aktivitas Eksitasi (Glutamat/Aspartat) > Aktivitas Inhibisi (GABA)",
-      "Penurunan berlebihan neurotransmiter Asetilkolin murni",
-      "Peningkatan hormon Dopamin di ruang ekstraseluler"
-    ],
-    answer: 1,
-    explanation: "Kejang terjadi akibat ketidakseimbangan transmisi sinaps di mana eksitasi (Glutamat/Aspartat) melebihi inhibisi (GABA)[span_15](start_span)[span_15](end_span)."
-  },
-  {
-    id: 8, category: "Patofisiologi & Ambang Bangkitan",
-    question: "Neurotransmiter utama yang berfungsi sebagai INHIBITOR utama di sistem saraf pusat untuk mencegah letupan listrik berlebih adalah...",
-    options: [
-      "Glutamat",
-      "Aspartat",
-      "GABA (Gamma-Aminobutyric Acid)",
-      "Asetilkolin"
+      "Menilai dan mengelola gangguan psikologis yang memengaruhi pasien dengan kondisi medis",
+      "Mengedukasi tim medis lainnya untuk mengenali gangguan jiwa dan cara penanganannya",
+      "Mengambil alih seluruh perawatan medis umum pasien secara mandiri tanpa melibatkan dokter penanggung jawab pelayanan (DPJP)",
+      "Menyediakan perawatan psikiatri bagi pasien yang membutuhkan dukungan mental dalam proses penyembuhan fisik"
     ],
     answer: 2,
-    explanation: "GABA merupakan neurotransmiter inhibitorik utama yang membuka saluran klorida (Cl-) dan hiperpolarisasi sel untuk menekan cetusan listrik[span_16](start_span)[span_16](end_span)."
+    explanation: "CLP berfungsi sebagai konsultan yang berkolaborasi dengan tim medis/DPJP, bukan mengambil alih penanganan medis secara mandiri[cite: 12]."
   },
   {
-    id: 9, category: "Patofisiologi & Ambang Bangkitan",
-    question: "Pernyataan yang BENAR mengenai 'Ambang Bangkitan' (Seizure Threshold) pada penderita epilepsi adalah...",
+    id: 3, category: "Definisi, Tujuan & Ruang Lingkup CLP",
+    question: "Ruang lingkup Consultation Liaison Psychiatry mencakup aspek-aspek berikut, KECUALI...",
     options: [
-      "Penderita epilepsi memiliki ambang bangkitan yang lebih TINGGI daripada orang normal",
-      "Penderita epilepsi memiliki ambang bangkitan yang lebih RENDAH, sehingga rangsangan kecil saja dapat memicu bangkitan",
-      "Ambang bangkitan tidak dipengaruhi oleh faktor genetik maupun usia",
-      "Anak usia < 5 tahun memiliki ambang bangkitan paling tinggi"
-    ],
-    answer: 1,
-    explanation: "Penderita epilepsi memiliki ambang bangkitan yang lebih rendah; sedikit pencetus saja sudah cukup untuk memicu cetusan kejang[span_17](start_span)[span_17](end_span)."
-  },
-  {
-    id: 10, category: "Patofisiologi & Ambang Bangkitan",
-    question: "Manakah di bawah ini yang BUKAN merupakan faktor pencetus (trigger factors) bangkitan kejang yang umum pada pasien epilepsi?",
-    options: [
-      "Kurang tidur dan kelelahan fisik",
-      "Stres emosional dan demam/infeksi",
-      "Konsumsi alkohol atau stimulasi cahaya kelap-kelip (photic stimulation)",
-      "Tidur nyenyak teratur 8 jam sehari"
+      "Penanganan gangguan mental yang terjadi pada pasien dengan penyakit fisik",
+      "Kolaborasi antara tim medis dan psikiatri untuk rencana perawatan komprehensif",
+      "Pengelolaan gejala psikiatrik yang memengaruhi hasil perawatan medis (misal: delirium, depresi)",
+      "Pemeriksaan laboratorium rutin pada populasi sehat di luar rumah sakit"
     ],
     answer: 3,
-    explanation: "Faktor pencetus bangkitan meliputi kurang tidur, stres, kelelahan, demam, alkohol, stimulasi cahaya, dan perubahan hormonal[span_18](start_span)[span_18](end_span)."
+    explanation: "Ruang lingkup CLP berpusat pada rumah sakit umum, mengatasi komorbiditas psikiatri pada pasien penyakit fisik dan berkolaborasi dengan tim medis[cite: 12]."
   },
   {
-    id: 11, category: "Patofisiologi & Ambang Bangkitan",
-    question: "Pada depolarisasi abnormal neuron berulang (paroxysmal depolarizing shift), ion ekstraseluler yang masuk membanjiri sel ke dalam neuron (inward current) adalah...",
+    id: 4, category: "Definisi, Tujuan & Ruang Lingkup CLP",
+    question: "Istilah 'Liaison' dalam CLP menekankan fungsi tim psikiatri sebagai...",
     options: [
-      "Ion K+ dan Cl-",
-      "Ion Na+ dan Ca2+",
-      "Ion Mg2+ murni",
-      "Ion HCO3-"
-    ],
-    answer: 1,
-    explanation: "Cetusan eksitasi berlebih ditandai oleh influks arus ion Na+ dan Ca2+ ke dalam sel neuron, memicu potensial aksi cepat dan berulang[span_19](start_span)[span_19](end_span)."
-  },
-  {
-    id: 12, category: "Patofisiologi & Ambang Bangkitan",
-    question: "Penghentian pemberian agonis GABA secara mendadak (misal: penarikan konsumsi alkohol atau benzodiazepin) dapat memicu kejang karena...",
-    options: [
-      "Hilangnya secara mendadak transmisi inhibitori di otak",
-      "Peningkatan masif pembentukan mielin baru",
-      "Penurunan kadar gula darah intraseluler murni",
-      "Sumbatan mekanik pada pembuluh darah serebral"
+      "Jembatan penghubung dan edukator bagi dokter, perawat, serta staf medis di bangsal umum mengenai kesehatan jiwa",
+      "Petugas keamanan rumah sakit saat pasien gelisah",
+      "Pemberi sanksi bagi tim medis yang tidak patuh",
+      "Penanggung jawab administrasi keuangan rumah sakit"
     ],
     answer: 0,
-    explanation: "Penghentian zat agonis GABA memicu hilangnya kontrol inhibisi sinaps secara mendadak sehingga aktivitas eksitatorik otak menjadi dominan[span_20](start_span)[span_20](end_span)."
+    explanation: "Fungsi liaison adalah menghubungkan, menjembatani, serta mengedukasi tim medis non-psikiatri agar memahami dampak psikologis pada kondisi medis fisik pasien[cite: 12]."
   },
   {
-    id: 13, category: "Patofisiologi & Ambang Bangkitan",
-    question: "Berapakah persentase risiko keturunan mengalami epilepsi jika salah satu orang tua menderita epilepsi (dibandingkan insidensi populasi normal 1-2%)?",
+    id: 5, category: "Definisi, Tujuan & Ruang Lingkup CLP",
+    question: "Mengapa keberadaan CLP sangat krusial di lingkungan rumah sakit umum?",
     options: [
-      "Sekitar 6%",
-      "Sekitar 50%",
-      "Sekitar 80%",
-      "0% (tidak diwariskan)"
+      "Karena gejala psikiatri (seperti depresi atau kecemasan) dapat memperburuk luaran medis, memperpanjang lama rawat (LOS), dan menurunkan kepatuhan berobat",
+      "Karena semua pasien di rumah sakit wajib mendapatkan obat antidepresan",
+      "Karena dokter spesialis non-psikiatri dilarang berbicara dengan pasien",
+      "Karena gangguan fisik selalu disebabkan oleh trauma masa kecil murni"
     ],
     answer: 0,
-    explanation: "Pada populasi umum insidensi epilepsi adalah 1-2%, sedangkan jika orang tua menderita epilepsi, risiko keturunannya meningkat menjadi sekitar 6%[span_21](start_span)[span_21](end_span)."
+    explanation: "Komorbiditas psikiatri dapat menghambat pemulihan fisik, mengurangi kepatuhan terapi medis, memperpanjang durasi rawat inap, dan meningkatkan risiko komplikasi[cite: 12]."
+  },
+  {
+    id: 6, category: "Definisi, Tujuan & Ruang Lingkup CLP",
+    question: "Pengelolaan gejala psikiatrik seperti kecemasan pra-operasi pada bangsal bedah bertujuan untuk...",
+    options: [
+      "Memperlancar proses pemulihan pasca-operasi dan mengurangi komplikasi kardiovaskular atau nyeri berlebih",
+      "Membatalkan seluruh rencana operasi bedah",
+      "Memastikan pasien tidur selama 3 minggu berturut-turut",
+      "Mengganti tindakan anestesi dengan hipnosis murni"
+    ],
+    answer: 0,
+    explanation: "Penanganan kecemasan pra-operasi membantu menstabilkan hemodinamik pasien dan mendukung pemulihan fisiologis pasca-bedah[cite: 12]."
   },
 
-  // ── 3. KLASIFIKASI BANGKITAN (FOKAL VS UMUM) (7 Soal) ────────────────────
+  // ── 2. INDIKASI KLINIK & TUGAS UTAMA TIM CLP (7 Soal) ──────────────────────
   {
-    id: 14, category: "Klasifikasi Bangkitan (Fokal vs Umum)",
-    question: "Perbedaan utama antara Bangkitan Fokal (Parsial) dan Bangkitan Umum (Generalized) berdasarkan keterlibatan hemisfer otak adalah...",
+    id: 7, category: "Indikasi Klinik & Tugas Utama Tim CLP",
+    question: "Tugas utama tim liaison psikiatri di rumah sakit umum meliputi hal-hal berikut, KECUALI...",
     options: [
-      "Fokal melibatkan kedua hemisfer sejak awal, sedangkan Umum hanya 1 hemisfer",
-      "Fokal terbatas pada sekelompok neuron di 1 hemisfer otak, sedangkan Umum melibatkan kedua hemisfer otak sejak awal",
-      "Fokal selalu menyebabkan koma total, sedangkan Umum selalu sadar",
-      "Tidak ada perbedaan secara neuroanatomi"
-    ],
-    answer: 1,
-    explanation: "Bangkitan fokal bermula dari satu area di satu hemisfer otak, sedangkan bangkitan umum melibatkan kedua hemisfer sejak awal cetusan[span_22](start_span)[span_22](end_span)."
-  },
-  {
-    id: 15, category: "Klasifikasi Bangkitan (Fokal vs Umum)",
-    question: "Bangkitan Fokal Sederhana (Simple Partial Seizure) dibedakan dari Bangkitan Fokal Kompleks (Complex Partial Seizure) berdasarkan...",
-    options: [
-      "Kesadaran: Parsial Sederhana kesadaran TIDAK terganggu (aware), sedangkan Parsial Kompleks disertai gangguan kesadaran (impaired awareness)",
-      "Durasi: Sederhana berlangsung > 30 menit, Kompleks < 10 detik",
-      "Umur penderita: Sederhana hanya pada anak, Kompleks pada lansia",
-      "Hasil EEG: Sederhana selalu normal, Kompleks selalu abnormal"
-    ],
-    answer: 0,
-    explanation: "Fokal sederhana tidak disertai gangguan kesadaran (pasien tetap ingat dan sadar), sedangkan fokal kompleks mengalami penurunan/gangguan kesadaran[span_23](start_span)[span_23](end_span)."
-  },
-  {
-    id: 16, category: "Klasifikasi Bangkitan (Fokal vs Umum)",
-    question: "Bangkitan Umum tipe Absence (Lena / Petit Mal) memiliki ciri khas klinis berupa...",
-    options: [
-      "Kejang kaku seluruh tubuh disertai mulut berbusa selama 5 menit",
-      "Gangguan kesadaran mendadak singkat (beberapa detik), menghentikan aktivitas, tatapan kosong ke depan, mata berkedip/fluttering, lalu pulih tanpa bingung",
-      "Drop attack jatuh tiba-tiba akibat otot lemas",
-      "Sentakan otot tunggal di malam hari"
-    ],
-    answer: 1,
-    explanation: "Absence (lena) ditandai oleh tatapan kosong mendadak singkat (detik), pandangan terhenti, kedipan mata (3 cycle/sec), dan langsung pulih tanpa kebingungan pasca kejang[span_24](start_span)[span_24](end_span)."
-  },
-  {
-    id: 17, category: "Klasifikasi Bangkitan (Fokal vs Umum)",
-    question: "Gambaran EEG yang sangat khas pada Bangkitan Absence (Lena) adalah...",
-    options: [
-      "Gelombang lambat difus 1 Hz",
-      "Kompleks gelombang paku-ombak (3 spike-and-wave cycles per second)",
-      "Polyspikes menetap di regio occipital",
-      "Isoelektrik (datar)"
-    ],
-    answer: 1,
-    explanation: "EEG pada bangkitan absence menunjukkan pola khas 3 spike-wave discharge (3 siklus per detik) yang tersinkronisasi[span_25](start_span)[span_25](end_span)."
-  },
-  {
-    id: 18, category: "Klasifikasi Bangkitan (Fokal vs Umum)",
-    question: "Urutan fase yang BENAR pada Bangkitan Umum Tonik-Klonik (Grand Mal) adalah...",
-    options: [
-      "Fase Klonik (sentakan) -> Fase Tonik (kaku) -> Fase Penyembuhan",
-      "Fase Jeritan/Tonik (kaku otot 10-30 dtk) -> Fase Klonik (kelojotan sentakan berulang 30-60 dtk) -> Fase Post-Ictal (lemas, bingung, tidur)",
-      "Fase Automatisme -> Fase Drop attack -> Fase Jeritan",
-      "Fase Absence -> Fase Mioklonik -> Fase Tonik"
-    ],
-    answer: 1,
-    explanation: "Bangkitan Tonik-Klonik diawali fase tonik (kekakuan otot 10-30 dtk, sianosis), diikuti fase klonik (sentakan berulang 30-60 dtk, mulut berbusa), dan diakhiri fase post-ictal (bingung, lemas, tidur)[span_26](start_span)[span_26](end_span)."
-  },
-  {
-    id: 19, category: "Klasifikasi Bangkitan (Fokal vs Umum)",
-    question: "Gejala 'Automatisme' yang sering menyertai Bangkitan Fokal Kompleks meliputi perilaku involuntar stereotipik seperti...",
-    options: [
-      "Gerakan mengunyah, mengecapkan bibir, menelan, atau memegang-megang pakaian tanpa sadar",
-      "Lari maraton sejauh 5 km tanpa henti",
-      "Bicara bahasa asing secara fasih",
-      "Kehilangan pendengaran permanen"
-    ],
-    answer: 0,
-    explanation: "Automatisme adalah gerakan repetitif involuntar tak tersadar selama/setelah kejang, seperti gerakan mengunyah, menelan, mengecap bibir, atau mengancingkan baju[span_27](start_span)[span_27](end_span)."
-  },
-  {
-    id: 20, category: "Klasifikasi Bangkitan (Fokal vs Umum)",
-    question: "Bangkitan kejang tipe Atonik ('Drop Attack') ditandai oleh...",
-    options: [
-      "Pengerasan otot secara umum berlangsung < 60 detik",
-      "Hilangnya tonus/kekuatan otot secara tiba-tiba yang menyebabkan penderita jatuh ke lantai dengan risiko cedera kepala",
-      "Sentakan singkat seperti kejutan listrik pada lengan",
-      "Kelemahan separuh badan menetap 24 jam"
-    ],
-    answer: 1,
-    explanation: "Kejang atonik ditandai hilangnya tonus postural otot secara mendadak sehingga pasien langsung jatuh pingsan/terjerembap (drop attack)[span_28](start_span)[span_28](end_span)."
-  },
-
-  // ── 4. DIAGNOSIS & DIAGNOSIS BANDING (6 Soal) ─────────────────────────────
-  {
-    id: 21, category: "Diagnosis & Diagnosis Banding",
-    question: "Manakah perbedaan khas antara Sinkop (Pingsan vaskular) dan Kejang (Seizure) pada evaluasi klinis?",
-    options: [
-      "Sinkop sering diawali rasa melayang/pucat, durasi sentakan < 15 detik, dan pemulihan cepat; sedangkan Kejang timbul abrupt, sianosis, gerakan klonik 30-60 detik, dan disertai post-ictal confusion",
-      "Sinkop selalu disertai gigitan lidah dan inkontinensia urin masif",
-      "Kejang selalu pulih spontan dalam 2 detik tanpa kebingungan",
-      "Sinkop hanya terjadi saat tidur malam hari"
-    ],
-    answer: 0,
-    explanation: "Sinkop diawali premonisi (nausea, pucat, melayang), sentakan singkat (<15 dtk), dan pemulihan cepat. Kejang berlangsung lebih lama (30-60 dtk), sianosis, dan sering disertai post-ictal confusion[span_29](start_span)[span_29](end_span)."
-  },
-  {
-    id: 22, category: "Diagnosis & Diagnosis Banding",
-    question: "Pemeriksaan penunjang utama yang paling penting untuk mengonfirmasi gambaran gelombang epileptiform serta membantu menentukan jenis bangkitan adalah...",
-    options: [
-      "Electroencephalography (EEG)",
-      "Elektrokardiografi (EKG)",
-      "Foto polos tengkorak AP/Lateral",
-      "Lumbal pungsi rutin"
-    ],
-    answer: 0,
-    explanation: "EEG adalah pemeriksaan penunjang utama untuk mendeteksi aktivitas epileptiform (spike/wave), menentukan jenis bangkitan, dan prognosis[span_30](start_span)[span_30](end_span)."
-  },
-  {
-    id: 23, category: "Diagnosis & Diagnosis Banding",
-    question: "Indikasi dilakukannya neuroimaging (Brain MRI / Head CT-Scan) pada pasien kejang meliputi kondisi berikut, KECUALI...",
-    options: [
-      "Semua bangkitan pertama yang diduga akibat kelainan struktural",
-      "Ditemukan defisit neurologis fokal pada pemeriksaan fisik",
-      "Bangkitan onset parsial/fokal atau onset usia > 25 tahun",
-      "Kejang demam sederhana pertama kali pada anak usia 2 tahun yang pemeriksaan neurologisnya normal"
+      "Penilaian Psikiatri pada pasien dengan indikasi gangguan psikologis di bangsal medis",
+      "Pengelolaan dan diagnosis gangguan psikiatri komorbid",
+      "Edukasi tim medis (dokter, perawat, staf) terkait kesehatan jiwa",
+      "Melakukan tindakan bedah mayor secara mandiri di ruang operasi"
     ],
     answer: 3,
-    explanation: "Neuroimaging diindikasikan pada kejang fokal, defisit neurologis fokal, onset >25 tahun, atau duga lesi struktural. Kejang demam sederhana tidak rutin membutuhkan neuroimaging[span_31](start_span)[span_31](end_span)."
+    explanation: "Tugas utama CLP adalah penilaian psikiatri, pengelolaan gangguan mental komorbid, edukasi tim medis, dan kolaborasi multidisiplin[cite: 12]."
   },
   {
-    id: 24, category: "Diagnosis & Diagnosis Banding",
-    question: "Modalitas pencitraan otak yang paling sensitif dan spesifik untuk mendeteksi Sklerosis Hipokampus, disgenesis kortikal, atau hemangioma kavernosa adalah...",
+    id: 8, category: "Indikasi Klinik & Tugas Utama Tim CLP",
+    question: "Manakah yang merupakan indikasi rujukan CLP kategori 'Gangguan Mental yang Memperburuk Kondisi Medis'?",
     options: [
-      "Head CT-scan tanpa kontras",
-      "Magnetic Resonance Imaging (MRI) otak",
-      "USG Doppler Transkranial",
-      "Foto Rontgen Servikal"
-    ],
-    answer: 1,
-    explanation: "Brain MRI jauh lebih sensitif dan spesifik dibandingkan CT scan untuk mengidentifikasi lesi epileptogenik halus seperti sklerosis hipokampus dan malformasi kortikal[span_32](start_span)[span_32](end_span)."
-  },
-  {
-    id: 25, category: "Diagnosis & Diagnosis Banding",
-    question: "Tujuan pemeriksaan laboratorium darah rutin (seperti GDS, elektrolit, fungsi ginjal/hepar) pada awal evaluasi pasien kejang adalah...",
-    options: [
-      "Menyingkirkan diagnosis banding akibat gangguan metabolik/elektrolit dan sebagai baseline sebelum pemberian OAE",
-      "Menentukan lokasi pasti fokus kejang di lobus temporal",
-      "Menggantikan fungsi pemeriksaan EEG",
-      "Memastikan apakah pasien membutuhkan tindakan pembedahan cito"
+      "Delirium pada lansia rawat inap, depresi berat yang mengganggu pengobatan, dan kecemasan yang menghambat pemulihan pasca-operasi",
+      "Kondisi batuk pilek ringan tanpa komplikasi",
+      "Pasien yang sudah dinyatakan sembuh penuh dan siap pulang",
+      "Fraktur tulang tanpa ada keluhan psikologis maupun kebingungan"
     ],
     answer: 0,
-    explanation: "Pemeriksaan lab dilakukan untuk mengeliminasi kejang terprovokasi (hipoglikemia, hiponatremia, uremia) dan sebagai baseline keamanan organ sebelum memulai OAE[span_33](start_span)[span_33](end_span)."
+    explanation: "Indikasi utama mencakup delirium lansia, depresi berat yang mengganggu kepatuhan medis, dan cemas berat pasca-operasi[cite: 12]."
   },
   {
-    id: 26, category: "Diagnosis & Diagnosis Banding",
-    question: "Kondisi kejang tiruan yang tidak didasari oleh aktivitas listrik abnormal di otak melainkan oleh faktor psikis dinamakan...",
+    id: 9, category: "Indikasi Klinik & Tugas Utama Tim CLP",
+    question: "Pasien dengan penyakit kronis jangka panjang seperti kanker atau penyakit jantung coroner membutuhkan penanganan CLP karena...",
     options: [
-      "Psychogenic Non-Epileptic Seizures (PNES) / Non-epileptic seizure",
-      "Absence seizure atypical",
-      "Status epileptikus refrakter",
-      "Myoclonic epilepsy"
+      "Rentan mengalami stres psikologis berat, depresi, atau gangguan kecemasan akibat beban penyakit kronis",
+      "Penyakit kanker hanya bisa disembuhkan dengan psikoterapi murni",
+      "Semua pasien kanker dipastikan mengalami skizofrenia",
+      "Obat medis kronis tidak dapat diberikan tanpa persetujuan tim psikiatri"
     ],
     answer: 0,
-    explanation: "PNES (Psychogenic Non-Epileptic Seizures) atau kejang non-epileptik adalah episode yang menyerupai kejang namun tidak disebabkan oleh luapan listrik abnormal otak[span_34](start_span)[span_34](end_span)."
+    explanation: "Penyakit kronis memberikan tekanan psikologis masif yang sering memicu depresi sekunder atau kecemasan, sehingga memerlukan pendampingan CLP[cite: 12]."
+  },
+  {
+    id: 10, category: "Indikasi Klinik & Tugas Utama Tim CLP",
+    question: "Kapan seorang pasien dengan 'Gangguan Psikosomatik' diindikasikan untuk dikonsulkan ke tim CLP?",
+    options: [
+      "Ketika pasien menunjukkan gejala fisik yang tidak dapat dijelaskan secara medis tetapi berhubungan kuat dengan masalah psikologis (somatisasi)",
+      "Ketika hasil laboratorium menunjukkan kelainan bakteri infeksius yang jelas",
+      "Saat pasien mengalami patah tulang terbuka akibat kecelakaan",
+      "Ketika pasien menolak dilakukan pemeriksaan darah rutin"
+    ],
+    answer: 0,
+    explanation: "Gangguan psikosomatik/somatisasi diindikasikan untuk konsultasi CLP ketika gejala fisik pasien menetap namun tidak ditemukan dasar organik yang memadai[cite: 12]."
+  },
+  {
+    id: 11, category: "Indikasi Klinik & Tugas Utama Tim CLP",
+    question: "Contoh kondisi di mana penyakit neurologis dapat memperburuk atau memicu gangguan kesehatan mental adalah...",
+    options: [
+      "Gangguan mood (depresi pasca-stroke) atau perubahan perilaku pada penyakit Alzheimer",
+      "Miopia ringan pada anak sekolah",
+      "Tukak lambung yang sembuh sempurna",
+      "Keseleo pergelangan kaki ringan"
+    ],
+    answer: 0,
+    explanation: "Penyakit neurologis seperti stroke atau demensia Alzheimer sering kali disertai depresi fokal (post-stroke depression) atau BPSD yang memerlukan CLP[cite: 12]."
+  },
+  {
+    id: 12, category: "Indikasi Klinik & Tugas Utama Tim CLP",
+    question: "Masalah penyalahgunaan substansi (zat) yang menjadi indikasi penanganan CLP di rumah sakit umum adalah...",
+    options: [
+      "Ketergantungan alkohol atau obat-obatan yang memicu gejala putus zat (withdrawal) dan mengganggu perawatan medis",
+      "Penggunaan vitamin C dosis harian",
+      "Kebiasaan minum teh hangat setiap pagi",
+      "Penggunaan antibiotik sesuai resep dokter"
+    ],
+    answer: 0,
+    explanation: "Ketergantungan alkohol/NAPZA dapat memicu sindrom withdrawal di bangsal medis, yang sangat mengganggu tata laksana medis jika tidak dikelola CLP[cite: 12]."
+  },
+  {
+    id: 13, category: "Indikasi Klinik & Tugas Utama Tim CLP",
+    question: "Apa bentuk kolaborasi nyata tim CLP dengan dokter spesialis lain di bangsal?",
+    options: [
+      "Mendiskusikan interaksi obat psikiatri dengan obat medis pasien serta menyusun rencana terapi holistik fisik-mental",
+      "Mengisolasi pasien di ruangan tertutup tanpa izin DPJP",
+      "Menghentikan semua obat jantung yang dikonsumsi pasien",
+      "Menolak memberikan catatan rekam medis pada DPJP"
+    ],
+    answer: 0,
+    explanation: "Kolaborasi CLP melibatkan diskusi rencana terapi terpadu, keamanan interaksi obat psikiatri-medis, dan manajemen perilaku di bangsal[cite: 12]."
   },
 
-  // ── 5. TATA LAKSANA STATUS EPILEPTIKUS (7 Soal) ────────────────────────────
+  // ── 3. MODEL PENDEKATAN CLP (KOLABORATIF & MULTIDISIPLINER) (6 Soal) ───────
   {
-    id: 27, category: "Tata Laksana Status Epileptikus",
-    question: "Status Epileptikus didefinisikan secara klinis sebagai...",
+    id: 14, category: "Model Pendekatan CLP (Kolaboratif & Multidisipliner)",
+    question: "Dalam Model Kolaboratif CLP, peran utama tim psikiatri terhadap dokter medis/bedah adalah sebagai...",
     options: [
-      "Kejang yang berlangsung terus-menerus selama 30 menit atau lebih, atau adanya 2 bangkitan/lebih di mana di antaranya tidak terdapat pemulihan kesadaran penuh",
-      "Kejang singkat berlangsung 5 detik lalu sadar",
-      "Kelemahan otot pasca kejang selama 10 menit",
-      "Sensasi aura visual tanpa gerakan motorik"
+      "Konsultan yang memberikan saran, rekomendasi diagnosis, dan opsi tata laksana gangguan mental yang memengaruhi perawatan medis",
+      "Atasan yang memerintah seluruh staf medis bangsal",
+      "Pihak pasif yang hanya mencatat tanpa memberikan rekam medis",
+      "Pelaksana tindakan keperawatan fisik harian"
     ],
     answer: 0,
-    explanation: "Status Epileptikus adalah kejang kontinu >= 30 menit, atau kejang berulang tanpa pemulihan kesadaran di antara bangkitan (t1 resusitasi diawali sejak menit ke-5)[span_35](start_span)[span_35](end_span)."
+    explanation: "Pada model kolaboratif, tim psikiatri bertindak sebagai konsultan ahli bagi DPJP untuk mengoptimalkan penanganan pasien[cite: 12]."
   },
   {
-    id: 28, category: "Tata Laksana Status Epileptikus",
-    question: "Obat lini pertama (First-line) paling tepat untuk menghentikan kejang aktif pada Status Epileptikus (0-5/10 menit pertama) jika akses IV TERPASANG adalah...",
+    id: 15, category: "Model Pendekatan CLP (Kolaboratif & Multidisipliner)",
+    question: "Pendekatan Multidisipliner dalam layanan CLP melibatkan kerja sama erat antara...",
     options: [
-      "IV Diazepam (0.2 mg/kgBB max 20 mg) atau IV Lorazepam (0.1 mg/kgBB)",
-      "IV Fenobarbital bolus cepat",
-      "Oral Karbamazepin via NGT",
-      "IV Propofol infus kontinu"
+      "Psikiater, dokter spesialis (DPJP), perawat bangsal, ahli terapi okupasi, psikolog, dan profesional kesehatan lainnya secara holistik",
+      "Psikiater dan pihak kepolisian saja",
+      "Dokter bedah dan apoteker tanpa melibatkan perawat",
+      "Pasien dan keluarga tanpa petugas medis"
     ],
     answer: 0,
-    explanation: "Lini pertama status epileptikus dengan akses IV adalah golongan Benzodiazepin IV (IV Lorazepam atau IV Diazepam 0.2 mg/kgBB max 20 mg)[span_36](start_span)[span_36](end_span)."
+    explanation: "Pendekatan multidisipliner mengintegrasikan berbagai profesi kesehatan untuk mendukung pemulihan fisik dan psikologis pasien secara utuh[cite: 12]."
+  },
+  {
+    id: 16, category: "Model Pendekatan CLP (Kolaboratif & Multidisipliner)",
+    question: "Prinsip 'Pendekatan Berbasis Bukti' (Evidence-Based Approach) dalam CLP berarti...",
+    options: [
+      "Penilaian dan pengobatan psikiatri didasarkan pada bukti ilmiah terbaru serta pedoman praktik terbaik yang sesuai dengan kondisi medis-psikologis pasien",
+      "Pemberian obat berdasarkan tradisi lama tanpa riset",
+      "Penggunaan metode terapi secara acak tanpa standar",
+      "Penanganan pasien hanya berdasarkan intuisi perawat"
+    ],
+    answer: 0,
+    explanation: "Evidence-Based CLP memastikan diagnosis dan intervensi psikiatri didasarkan pada panduan klinis dan bukti ilmiah yang sahih[cite: 12]."
+  },
+  {
+    id: 17, category: "Model Pendekatan CLP (Kolaboratif & Multidisipliner)",
+    question: "Manakah di bawah ini yang BUKAN merupakan komponen penting dalam perawatan holistik CLP?",
+    options: [
+      "Evaluasi kondisi fisik pasien",
+      "Evaluasi status mental dan emosional pasien",
+      "Dukungan psikososial dan keterlibatan keluarga",
+      "Mengabaikan riwayat penyakit fisik pasien demi fokus pada mental saja"
+    ],
+    answer: 3,
+    explanation: "Perawatan holistik CLP wajib mempertimbangkan aspek fisik, psikologis, dan sosial secara terintegrasi; tidak boleh mengabaikan kondisi fisik[cite: 12]."
+  },
+  {
+    id: 18, category: "Model Pendekatan CLP (Kolaboratif & Multidisipliner)",
+    question: "Bagaimana tim CLP mengedukasi perawat di bangsal non-psikiatrik?",
+    options: [
+      "Memberikan pelatihan mengenali tanda awal kebingungan (delirium), perubahan mood, serta teknik komunikasi de-eskalasi pada pasien gelisah",
+      "Menyarankan perawat untuk mengikat semua pasien yang mengeluh",
+      "Melarang perawat mengajak pasien berbicara",
+      "Mengajari perawat cara melakukan tindakan bedah"
+    ],
+    answer: 0,
+    explanation: "Edukasi CLP mencakup peningkatan kapasitas perawat dalam mendeteksi gejala psikiatrik awal dan manajemen komunikasi terapeutik[cite: 12]."
+  },
+  {
+    id: 19, category: "Model Pendekatan CLP (Kolaboratif & Multidisipliner)",
+    question: "Tujuan utama dari pembuatan rencana perawatan terpadu (integrated care plan) pada CLP adalah...",
+    options: [
+      "Menyelaraskan intervensi medis fisik dan intervensi psikiatrik agar tidak saling bertentangan dan mempercepat kesembuhan",
+      "Memperpanjang masa rawat inap pasien agar biaya meningkat",
+      "Menghentikan intervensi medis agar fokus pada meditas psikologis",
+      "Mengisolasi pasien dari keluarga selama dirawat"
+    ],
+    answer: 0,
+    explanation: "Rencana perawatan terpadu memastikan intervensi psikiatri sejalan dengan target medis DPJP demi hasil klinis yang optimal[cite: 12]."
+  },
+
+  // ── 4. KONDISI PSIKIATRI SERING DI BANGSAL MEDIS/BEDAH (7 Soal) ────────────
+  {
+    id: 20, category: "Kondisi Psikiatri Sering di Bangsal Medis/Bedah",
+    question: "Kondisi psikiatri akut yang paling sering ditemui pada pasien rawat inap (terutama lansia) yang ditandai oleh gangguan kesadaran, kebingungan, dan disorientasi mendadak adalah...",
+    options: [
+      "Delirium",
+      "Skizofrenia hebefernik",
+      "Fobia Spesifik",
+      "Gangguan Kepribadian Histrionik"
+    ],
+    answer: 0,
+    explanation: "Delirium adalah gangguan neurokognitif akut yang sangat umum pada pasien bangsal rawat inap, lansia, atau pasca-operasi[cite: 12]."
+  },
+  {
+    id: 21, category: "Kondisi Psikiatri Sering di Bangsal Medis/Bedah",
+    question: "Langkah pertama dan paling mendasar dalam tata laksana Delirium di bangsal medis adalah...",
+    options: [
+      "Mengidentifikasi dan mengobati penyebab fisik yang mendasarinya (seperti infeksi, gangguan elektrolit, atau efek samping obat)",
+      "Langsung memberikan obat penenang dosis tinggi tanpa mencari penyebabnya",
+      "Mengikat pasien di tempat tidur selama 24 jam",
+      "Memindahkan pasien ke ruang operasi"
+    ],
+    answer: 0,
+    explanation: "Penanganan utama delirium adalah mencari dan mengatasi etiologi organik/medis yang mendasarinya (medical underlying cause)[cite: 12]."
+  },
+  {
+    id: 22, category: "Kondisi Psikiatri Sering di Bangsal Medis/Bedah",
+    question: "Dampak klinis dari Depresi Berat yang tidak tertangani pada pasien penyakit fisik kronis adalah...",
+    options: [
+      "Mengurangi motivasi pasien untuk mengikuti pengobatan, menurunkan imunitas, dan memperlambat proses pemulihan",
+      "Mempercepat penyembuhan luka pasca-operasi secara spontan",
+      "Meningkatkan nafsu makan secara masif",
+      "Menghilangkan kebutuhan akan terapi medis fisik"
+    ],
+    answer: 0,
+    explanation: "Depresi pada pasien medis menurunkan kepatuhan berobat (adherence), memperburuk kualitas hidup, dan memperlambat penyembuhan fisik[cite: 12]."
+  },
+  {
+    id: 23, category: "Kondisi Psikiatri Sering di Bangsal Medis/Bedah",
+    question: "Opsi tata laksana untuk Depresi pada pasien dengan komorbiditas medis dalam layanan CLP meliputi...",
+    options: [
+      "Kombinasi Psikoterapi (seperti CBT) dan obat Antidepresan yang disesuaikan dengan profil keamanan organ medis pasien",
+      "Pemberian antibiotik spektrum luas saja",
+      "Isolasi mandiri di ruang gelap tanpa interaksi",
+      "Menghentikan seluruh terapi medis"
+    ],
+    answer: 0,
+    explanation: "Tata laksana depresi pada pasien medis melibatkan psikoterapi (CBT) dan/atau antidepresan yang aman terhadap fungsi organ (hepar/ginjal) dan interaksi obat[cite: 12]."
+  },
+  {
+    id: 24, category: "Kondisi Psikiatri Sering di Bangsal Medis/Bedah",
+    question: "Gangguan Kecemasan pada pasien rawat inap medis/bedah sering kali memperburuk kondisi fisik melalui mekanisme...",
+    options: [
+      "Peningkatan persepsi rasa sakit (ambang nyeri menurun) dan stimulasi simpatis yang mengganggu hemodinamik",
+      "Peningkatan kadar hemoglobin secara mendadak",
+      "Penurunan laju endap darah ke tingkat nol",
+      "Penyembuhan jaringan yang terlalu cepat"
+    ],
+    answer: 0,
+    explanation: "Kecemasan meningkatkan sensitivitas nyeri dan memperberat kerja sistem kardiovaskular melalui hiperaktivitas otonom[cite: 12]."
+  },
+  {
+    id: 25, category: "Kondisi Psikiatri Sering di Bangsal Medis/Bedah",
+    question: "Ciri khas dari Gangguan Psikosomatik di ruang rawat rumah sakit adalah...",
+    options: [
+      "Gejala fisik nyata yang timbul atau diperburuk secara signifikan oleh faktor-faktor psikologis dan stres emosional",
+      "Keluhan yang dibuat-buat secara sengaja untuk mencari keuntungan materi",
+      "Kelainan tulang yang disebabkan oleh benturan mekanik langsung murni",
+      "Infeksi jamur kulit lokal"
+    ],
+    answer: 0,
+    explanation: "Psikosomatik melibatkan interaksi nyata psikoneuroimunologi di mana stresor psikologis bermanifestasi atau memperberat patologi fisik[cite: 12]."
+  },
+  {
+    id: 26, category: "Kondisi Psikiatri Sering di Bangsal Medis/Bedah",
+    question: "Manakah obat psikiatri yang harus digunakan secara HATI-HATI dan jangka pendek pada pasien kecemasan di bangsal medis mengingat risiko depresi napas atau ketergantungan?",
+    options: [
+      "Benzodiazepin",
+      "Parasetamol",
+      "Vit B Kompleks",
+      "Antasida"
+    ],
+    answer: 0,
+    explanation: "Benzodiazepin efektif mengatasi cemas akut namun penggunaannya pada pasien medis harus hati-hati karena risiko depresi napas dan ataksia[cite: 12]."
+  },
+
+  // ── 5. GANGGUAN PPDGJ-III DALAM CLP (F05, F32, F41, F45) (6 Soal) ──────────
+  {
+    id: 27, category: "Gangguan PPDGJ-III dalam CLP (F05, F32, F41, F45)",
+    question: "Kode diagnosis PPDGJ-III untuk Delirium akibat kondisi medis umum yang sering dikonsulkan pada layanan CLP adalah...",
+    options: [
+      "F05",
+      "F32",
+      "F41.1",
+      "F45.0"
+    ],
+    answer: 0,
+    explanation: "F05 adalah kode PPDGJ-III / ICD-10 untuk Delirium yang bukan diinduksi oleh alkohol/zat psikoaktif lainnya[cite: 12]."
+  },
+  {
+    id: 28, category: "Gangguan PPDGJ-III dalam CLP (F05, F32, F41, F45)",
+    question: "Diagnosis PPDGJ-III F32 / F33 (Depresi) pada pasien kanker atau penyakit kronis sangat penting ditegakkan karena...",
+    options: [
+      "Depresi dapat menghambat respon pemulihan fisik dan menurunkan kepatuhan pasien terhadap regimen terapi medis",
+      "Depresi pasti berubah menjadi skizofrenia dalam 2 hari",
+      "Kode F32 wajib diberikan pada semua pasien rumah sakit",
+      "Depresi adalah syarat untuk tindakan operasi"
+    ],
+    answer: 0,
+    explanation: "Depresi (F32-F33) pada pasien komorbid medis menghambat pemulihan dan memperburuk kepatuhan berobat[cite: 12]."
+  },
+  {
+    id: 29, category: "Gangguan PPDGJ-III dalam CLP (F05, F32, F41, F45)",
+    question: "Pasien di bangsal medis yang mengeluhkan kekhawatiran berlebihan dan terus-menerus mengenai prosedur medis atau prognosis penyakitnya diklasifikasikan dalam PPDGJ-III sebagai...",
+    options: [
+      "Gangguan Kecemasan Umum / GAD (F41.1)",
+      "Gangguan Stres Pasca Trauma",
+      "Delirium Hipoaktif",
+      "Demensia Vaskular"
+    ],
+    answer: 0,
+    explanation: "F41.1 (Gangguan Anxietas Menyeluruh) ditandai oleh kecemasan dan kekhawatiran berlebihan yang meluas[cite: 12]."
+  },
+  {
+    id: 30, category: "Gangguan PPDGJ-III dalam CLP (F05, F32, F41, F45)",
+    question: "Seorang pasien berulang kali mengeluhkan berbagai gejala fisik yang berpindah-pindah tanpa ditemukan dasar organik yang memadai pada pemeriksaan penunjang. Dalam PPDGJ-III kondisi ini dikodekan sebagai...",
+    options: [
+      "Gangguan Somatisasi (F45.0)",
+      "Gangguan Panik (F41.0)",
+      "Depresi Mayor (F32.1)",
+      "Delirium (F05)"
+    ],
+    answer: 0,
+    explanation: "F45.0 (Gangguan Somatisasi) ditandai oleh keluhan-keluhan fisik berulang yang tidak dapat dijelaskan secara medis[cite: 12]."
+  },
+  {
+    id: 31, category: "Gangguan PPDGJ-III dalam CLP (F05, F32, F41, F45)",
+    question: "Manifestasi Gangguan Bipolar (F30-F31) yang dapat menyulitkan penanganan medis di bangsal umum adalah...",
+    options: [
+      "Perubahan drastis dalam perilaku dan suasana hati (fase mania/depresi) yang memengaruhi kepatuhan dan kerja sama dalam perawatan medis",
+      "Kehilangan pendengaran total",
+      "Kelemahan otot polos lambung murni",
+      "Perubahan warna kulit"
+    ],
+    answer: 0,
+    explanation: "Perubahan mood ekstrem pada Bipolar (F30-F31) dapat membuat pasien menolak terapi medis saat mania atau kehilangan motivasi saat depresi[cite: 12]."
+  },
+  {
+    id: 32, category: "Gangguan PPDGJ-III dalam CLP (F05, F32, F41, F45)",
+    question: "Gangguan Panik (F41.0) yang muncul pada pasien rawat inap medis membutuhkan penanganan CLP cepat karena...",
+    options: [
+      "Serangan panik akut dengan takikardia dan hiperventilasi dapat memperburuk kondisi fisik (seperti memicu iskemia miokard)",
+      "Pasien panik akan selalu mengalami kelumpuhan permanen",
+      "Gangguan panik adalah penyakit infeksius",
+      "Dapat menular ke pasien lain di bangsal"
+    ],
+    answer: 0,
+    explanation: "Serangan panik (F41.0) memicu gejolak simpatis hebat yang membahayakan pasien dengan penyakit jantung atau paru[cite: 12]."
+  },
+
+  // ── 6. PRINSIP DETEKSI DINI DI BANGSAL NON-PSI KIATRI (6 Soal) ─────────────
+  {
+    id: 33, category: "Prinsip Deteksi Dini di Bangsal Non-Psikiatri",
+    question: "Mengapa deteksi dini gangguan psikiatrik di bangsal non-psikiatrik sering kali mengalami kendala/tersembunyi?",
+    options: [
+      "Karena gejala psikiatrik sering kali tumpang tindih (overlap) dengan gejala penyakit fisik pasien",
+      "Karena pasien tidak pernah merasakan emosi saat sakit fisik",
+      "Karena staf medis dilarang mengamati perilaku pasien",
+      "Karena gejala psikiatri hanya muncul di malam hari"
+    ],
+    answer: 0,
+    explanation: "Gejala seperti lelah, berat badan turun, atau apati bisa disebabkan baik oleh penyakit fisik (misal kanker) maupun depresi[cite: 12]."
+  },
+  {
+    id: 34, category: "Prinsip Deteksi Dini di Bangsal Non-Psikiatri",
+    question: "Manakah perubahan perilaku dan kognitif awal yang harus diwaspadai oleh staf medis di bangsal umum sebagai tanda gangguan psikiatri?",
+    options: [
+      "Kebingungan, perubahan mood mendadak, kecemasan berlebihan, atau perilaku yang tidak biasa/agresif",
+      "Pasien membaca buku dengan tenang",
+      "Pasien tidur nyenyak 8 jam sehari",
+      "Pasien mengucapkan terima kasih kepada perawat"
+    ],
+    answer: 0,
+    explanation: "Tanda awal gangguan psikiatrik meliputi kebingungan, fluktuasi emosi, ansietas berat, dan perubahan pola perilaku[cite: 12]."
+  },
+  {
+    id: 35, category: "Prinsip Deteksi Dini di Bangsal Non-Psikiatri",
+    question: "Tanda-tanda klinis fisik/vegetatif yang perlu diperhatikan sebagai indikator kemungkinan depresi atau kecemasan pada pasien rawat inap adalah...",
+    options: [
+      "Gangguan tidur menetap, kehilangan nafsu makan, penurunan energi, dan perasaan putus asa",
+      "Kenaikan tinggi badan secara mendadak",
+      "Peningkatan ketajaman penglihatan",
+      "Penyembuhan luka yang sangat cepat"
+    ],
+    answer: 0,
+    explanation: "Gejala vegetatif seperti insomnia, anoreksia, dan anergia merupakan tanda klinis penting gangguan mood di bangsal[cite: 12]."
+  },
+  {
+    id: 36, category: "Prinsip Deteksi Dini di Bangsal Non-Psikiatri",
+    question: "Manfaat utama dari penerapan Protokol Skrining Psikiatri Rutin di bangsal perawatan jangka panjang adalah...",
+    options: [
+      "Mencegah komplikasi psikiatri lebih awal dan meningkatkan kualitas hidup serta luaran pengobatan fisik pasien",
+      "Memastikan semua pasien dipindahkan ke rumah sakit jiwa",
+      "Mengurangi kebutuhan makanan bagi pasien",
+      "Menghilangkan peran dokter spesialis medis"
+    ],
+    answer: 0,
+    explanation: "Skrining rutin mendeteksi masalah mental sebelum menjadi krisis, sehingga mengurangi komplikasi dan lama rawat inap[cite: 12]."
+  },
+  {
+    id: 37, category: "Prinsip Deteksi Dini di Bangsal Non-Psikiatri",
+    question: "Siapakah staf rumah sakit yang paling pertama berpotensi mendeteksi perubahan perilaku atau kognitif pasien di bangsal?",
+    options: [
+      "Perawat bangsal yang berinteraksi langsung dan terus-menerus dengan pasien",
+      "Petugas parkir rumah sakit",
+      "Staf rekam medis di gedung terpisah",
+      "Apoteker di apotek luar"
+    ],
+    answer: 0,
+    explanation: "Perawat bangsal berada di sisi pasien 24 jam sehingga menjadi garda terdepan dalam mengenali perubahan status mental awal[cite: 12]."
+  },
+  {
+    id: 38, category: "Prinsip Deteksi Dini di Bangsal Non-Psikiatri",
+    question: "Perilaku pasien di bangsal yang mengarah pada agresi atau kegelisahan psikomotorik akut sering kali merupakan gejala dari...",
+    options: [
+      "Delirium tipe hiperaktif atau sindrom putus zat",
+      "Depresi ringan tanpa komplikasi",
+      "Fobia Spesifik ketinggian",
+      "Demensia tahap sangat awal yang tenang"
+    ],
+    answer: 0,
+    explanation: "Kegelisahan dan agresi akut di bangsal umum paling sering disebabkan oleh Delirium Hiperaktif atau withdrawal syndrome[cite: 12]."
+  },
+
+  // ── 7. SKRINING PSIKIATRI & EVALUASI MMSE (6 Soal) ─────────────────────────
+  {
+    id: 39, category: "Skrining Psikiatri & Evaluasi MMSE",
+    question: "Instrumen skrining yang spesifik digunakan untuk mendeteksi tingkat kecemasan dan depresi pada pasien yang dirawat di rumah sakit umum adalah...",
+    options: [
+      "Hospital Anxiety and Depression Scale (HADS)",
+      "Kuesioner Apgar Keluarga",
+      "Skala Coma Glasgow (GCS)",
+      "Tes Buta Warna Ishihara"
+    ],
+    answer: 0,
+    explanation: "HADS (Hospital Anxiety and Depression Scale) dirancang khusus untuk mengukur ansietas dan depresi pada pasien rawat inap medis tanpa terdistorsi gejala fisik[cite: 12]."
+  },
+  {
+    id: 40, category: "Skrining Psikiatri & Evaluasi MMSE",
+    question: "Mini Mental State Examination (MMSE) adalah instrumen skrining klinis yang digunakan untuk mengukur...",
+    options: [
+      "Fungsi kognitif global (termasuk orientasi, registrasi, atensi, kalkulasi, memori, dan bahasa)",
+      "Tingkat keparahan fobia sosial",
+      "Kadar hormon kortisol dalam darah",
+      "Tingkat kekuatan otot ekstremitas"
+    ],
+    answer: 0,
+    explanation: "MMSE digunakan untuk menguji status kognitif global pasien (skor maksimal 30)[cite: 12]."
+  },
+  {
+    id: 41, category: "Skrining Psikiatri & Evaluasi MMSE",
+    question: "Berapakah skor total maksimal pada pemeriksaan MMSE dan berapa batas skor (cutoff) yang umumnya menunjukkan adanya gangguan kognitif?",
+    options: [
+      "Skor total 30; skor < 24 menunjukkan adanya gangguan kognitif",
+      "Skor total 100; skor < 50 menunjukkan gangguan kognitif",
+      "Skor total 15; skor < 8 menunjukkan gangguan kognitif",
+      "Skor total 5; skor < 2 menunjukkan gangguan kognitif"
+    ],
+    answer: 0,
+    explanation: "Skor total MMSE adalah 0-30; skor di bawah 24 secara umum mengindikasikan adanya impairment / gangguan kognitif[cite: 12]."
+  },
+  {
+    id: 42, category: "Skrining Psikiatri & Evaluasi MMSE",
+    question: "Klasifikasi tingkat keparahan gangguan kognitif berdasarkan skor MMSE yang BENAR adalah...",
+    options: [
+      "Normal (24-30), Ringan (18-23), dan Berat (0-17)",
+      "Normal (20-30), Ringan (10-19), dan Berat (0-9)",
+      "Normal (28-30), Ringan (25-27), dan Berat (0-24)",
+      "Normal (15-30), Ringan (10-14), dan Berat (0-9)"
+    ],
+    answer: 0,
+    explanation: "Kategori skor MMSE: Normal (24-30), Gangguan Kognitif Ringan (18-23), dan Gangguan Kognitif Berat (0-17)[cite: 12]."
+  },
+  {
+    id: 43, category: "Skrining Psikiatri & Evaluasi MMSE",
+    question: "Faktor non-psikiatrik yang sangat memengaruhi hasil skor MMSE seseorang sehingga harus dipertimbangkan dalam interpretasi adalah...",
+    options: [
+      "Usia dan tingkat pendidikan pasien",
+      "Warna pakaian yang dikenakan pasien",
+      "Golongan darah pasien",
+      "Tinggi badan pasien"
+    ],
+    answer: 0,
+    explanation: "Usia lanjut dan tingkat pendidikan rendah dapat menurunkan skor MMSE tanpa adanya gangguan neurokognitif organik murni[cite: 12]."
+  },
+  {
+    id: 44, category: "Skrining Psikiatri & Evaluasi MMSE",
+    question: "Komponen pemeriksaan MMSE yang meminta pasien mengurangkan angka 7 secara berurutan mulai dari 100 (100-7=93, 93-7=86, dst) bertujuan untuk menilai...",
+    options: [
+      "Atensi dan Kalkulasi (Attention and Calculation)",
+      "Orientasi Spasial",
+      "Registrasi Memori",
+      "Kemampuan Menulis Kalimat"
+    ],
+    answer: 0,
+    explanation: "Pengurangan angka 7 berseri (serial 7s) menguji fungsi atensi konsentrasi dan kalkulasi pasien (bobot 5 poin)[cite: 12]."
+  },
+
+  // ── 8. STUDI KASUS INTEGRATIF CLP (6 Soal) ─────────────────────────────────
+  {
+    id: 45, category: "Studi Kasus Integratif CLP",
+    question: "Seorang pasien usia 60 tahun dengan riwayat Hipertensi dan DM Tipe 2 menjalani operasi jantung. Pasca-operasi pasien tampak sangat murung, tidak mau makan, dan mengalami gangguan tidur berat. Evaluasi CLP mendiagnosis Depresi Mayor (F32.1). Langkah penatalaksanaan CLP terpadu yang paling tepat adalah...",
+    options: [
+      "Rekomendasi pemberian antidepresan yang aman dan kolaborasi dengan tim medis untuk memastikan perawatan medis pasca-operasi tetap berjalan",
+      "Memindahkan pasien ke ruang isolasi jiwa dan menghentikan obat jantung",
+      "Menyuruh pasien segera pulang tanpa pengobatan",
+      "Memberikan terapi kejang listrik (ECT) Cito tanpa evaluasi medis"
+    ],
+    answer: 0,
+    explanation: "Tata laksana meliputi rekomendasi antidepresan yang aman bagi kardiak serta kolaborasi erat dengan DPJP bedah/jantung[cite: 12]."
+  },
+  {
+    id: 46, category: "Studi Kasus Integratif CLP",
+    question: "Seorang pasien lansia pasca-stroke di bangsal saraf mendadak bingung, tidak mengenali keluarganya, dan menunjukkan perilaku agresif di malam hari. Penanganan awal tim CLP bersama tim medis adalah...",
+    options: [
+      "Mencari dan mengatasi penyebab fisik yang mendasari delirium (misal: infeksi saluran kemih, dehidrasi, atau efek obat) serta edukasi keluarga",
+      "Langsung mendiagnosis pasien mengalami Skizofrenia kronis",
+      "Memberikan obat obat penenang dosis tinggi tanpa memeriksa tanda vital",
+      "Mengeluarkan pasien dari rumah sakit"
+    ],
+    answer: 0,
+    explanation: "Gejala kebingungan akut pasca-stroke adalah Delirium; langkah pertama adalah mengidentifikasi dan mengoreksi faktor pencetus medisnya[cite: 12]."
+  },
+  {
+    id: 47, category: "Studi Kasus Integratif CLP",
+    question: "Seorang pasien yang akan menjalani operasi besar mengalami kecemasan parah dan serangan panik yang menyebabkan tekanan darahnya melonjak tinggi. Intervensi psikiatri CLP yang tepat adalah...",
+    options: [
+      "Penilaian tingkat kecemasan, teknik relaksasi/CBT singkat, serta kolaborasi pemberian ansiolitik yang aman sebelum operasi",
+      "Memaksa pasien masuk ruang operasi dalam keadaan terikat",
+      "Menyuruh keluarga membawa pasien berobat jalan minggu depan",
+      "Memberikan obat tidur dosis maksimal hingga koma"
+    ],
+    answer: 0,
+    explanation: "Intervensi CLP pra-bedah bertujuan meredakan cemas akut, menstabilkan hemodinamik, dan menyiapkan mental pasien menghadapi operasi[cite: 12]."
+  },
+  {
+    id: 48, category: "Studi Kasus Integratif CLP",
+    question: "Pasien kanker stadium lanjut mengeluh sangat putus asa dan menolak melanjutkan kemoterapi. Tim CLP diminta berkonsultasi. Tindakan utama tim CLP adalah...",
+    options: [
+      "Evaluasi depresi komorbid, berikan dukungan psikoterapi suportif, serta edukasi pasien dan keluarga mengenai manajemen koping kanker",
+      "Menyetujui keinginan pasien untuk menghentikan hidup",
+      "Memarahi pasien karena tidak bersyukur",
+      "Memaksa pasien minum obat tanpa penjelasan"
+    ],
+    answer: 0,
+    explanation: "Tim CLP mengevaluasi episode depresi sekunder dan memberikan psikoterapi suportif untuk mengembalikan motivasi serta koping adaptif pasien[cite: 12]."
+  },
+  {
+    id: 49, category: "Studi Kasus Integratif CLP",
+    question: "Pada pemeriksaan MMSE pasien lansia di bangsal penyakit dalam, pasien tidak mampu menyebutkan tanggal, hari, dan bulan saat ini. Komponen fungsi kognitif MMSE yang mengalami gangguan adalah...",
+    options: [
+      "Orientasi Waktu / Temporal Orientation",
+      "Registrasi Memori",
+      "Orientasi Spasial",
+      "Bahasa dan Menulis"
+    ],
+    answer: 0,
+    explanation: "Kemampuan menyebutkan hari, tanggal, bulan, tahun, dan musim menguji komponen Temporal Orientation (bobot 5 poin)[cite: 12]."
+  },
+  {
+    id: 50, category: "Studi Kasus Integratif CLP",
+    question: "Seorang pasien bangsal bedah mengeluhkan nyeri perut hebat pasca-operasi, namun seluruh pemeriksaan fisik, CT-scan, dan lab menunjukkan jaringan sudah sembuh sempurna. Pasien tampak sangat cemas. Pendekatan CLP yang paling sesuai adalah...",
+    options: [
+      "Eksplorasi faktor psikosomatik/kecemasan, validasi keluhan pasien tanpa menghakimi, dan edukasi manajemen nyeri berbasis biopsikososial",
+      "Tuduh pasien berpura-pura sakit (malingering) di depan umum",
+      "Lakukan operasi ulang tanpa indikasi medis",
+      "Abaikan keluhan pasien total"
+    ],
+    answer: 0,
+    explanation: "Pada keluhan nyeri somatoform/psikosomatik, tim CLP mengelaborasi komponen psikologis nyeri, memvalidasi persepsi pasien, dan memberikan psikoterapi manajemen nyeri[cite: 12]."
   }
 ];

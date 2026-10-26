@@ -10,7 +10,7 @@ export const ALL_QUESTIONS = [
       "Hilangnya kesadaran akibat gangguan formasio retikularis"
     ],
     answer: 0,
-    explanation: "Movement disorders adalah gangguan neurologis yang menyebabkan gerakan abnormal berlebihan (hiperkinetik) atau gerakan yang melambat (hipokinetik)[span_0](start_span)[span_0](end_span)."
+    explanation: "Movement disorders adalah gangguan neurologis yang menyebabkan gerakan abnormal berlebihan (hiperkinetik) atau gerakan yang melambat (hipokinetik)[cite: 6]."
   },
   {
     id: 2, category: "Anatomi & Pendahuluan",
@@ -22,7 +22,7 @@ export const ALL_QUESTIONS = [
       "Korteks serebri lobus oksipitalis"
     ],
     answer: 1,
-    explanation: "Gangguan gerak disebabkan oleh kelainan yang berhubungan dengan perubahan patologi pada ganglia basalis atau jaras penghubungnya[span_1](start_span)[span_1](end_span)."
+    explanation: "Gangguan gerak disebabkan oleh kelainan yang berhubungan dengan perubahan patologi pada ganglia basalis atau jaras penghubungnya[cite: 6]."
   },
   {
     id: 3, category: "Anatomi & Pendahuluan",
@@ -34,7 +34,7 @@ export const ALL_QUESTIONS = [
       "Dystonia fokal"
     ],
     answer: 2,
-    explanation: "Substantia nigra berkaitan dengan bradykinesia dan resting tremor (seperti pada Parkinson)[span_2](start_span)[span_2](end_span)."
+    explanation: "Substantia nigra berkaitan dengan bradykinesia dan resting tremor (seperti pada Parkinson)[cite: 6]."
   },
   {
     id: 4, category: "Anatomi & Pendahuluan",
@@ -46,7 +46,7 @@ export const ALL_QUESTIONS = [
       "Substantia nigra → Tics"
     ],
     answer: 0,
-    explanation: "Korelasi lokasi anatomi: Subthalamic nucleus berkaitan dengan ballismus, Caudate nucleus berkaitan dengan chorea, Putamen berkaitan dengan dystonia, dan Substantia nigra berkaitan dengan bradykinesia/resting tremor[span_3](start_span)[span_3](end_span)."
+    explanation: "Korelasi lokasi anatomi: Subthalamic nucleus berkaitan dengan ballismus, Caudate nucleus berkaitan dengan chorea, Putamen berkaitan dengan dystonia, dan Substantia nigra berkaitan dengan bradykinesia/resting tremor[cite: 6]."
   },
   {
     id: 5, category: "Anatomi & Pendahuluan",
@@ -58,7 +58,7 @@ export const ALL_QUESTIONS = [
       "Tourette Syndrome"
     ],
     answer: 2,
-    explanation: "Parkinson disease, Parkinson plus, dan Secondary parkinsonism termasuk kelompok Hipokinetik. Tremor, Chorea, Dystonia, Tics, dan Myoclonus termasuk Hiperkinetik[span_4](start_span)[span_4](end_span)."
+    explanation: "Parkinson disease, Parkinson plus, dan Secondary parkinsonism termasuk kelompok Hipokinetik. Tremor, Chorea, Dystonia, Tics, dan Myoclonus termasuk Hiperkinetik[cite: 6]."
   },
   {
     id: 6, category: "Anatomi & Pendahuluan",
@@ -70,7 +70,7 @@ export const ALL_QUESTIONS = [
       "Desterac"
     ],
     answer: 2,
-    explanation: "James Parkinson menulis manuskrip terkenal 'An essay on the shaking palsy' pada tahun 1800-an yang mendeskripsikan ciri-ciri penyakit Parkinson[span_5](start_span)[span_5](end_span)."
+    explanation: "James Parkinson menulis manuskrip terkenal 'An essay on the shaking palsy' pada tahun 1800-an yang mendeskripsikan ciri-ciri penyakit Parkinson[cite: 6]."
   },
 
   // ── 2. TICS & SINDROM TOURETTE (7 Soal) ──────────────────────────────────
@@ -84,7 +84,7 @@ export const ALL_QUESTIONS = [
       "Sentakan kejutan listrik singkat akibat hentakan neuron kortikal"
     ],
     answer: 1,
-    explanation: "Tics didefinisikan sebagai gerakan atau suara berulang, terputus-putus, stereotip, dan semi-volunter yang didahului dorongan internal (urge)[span_6](start_span)[span_6](end_span)."
+    explanation: "Tics didefinisikan sebagai gerakan atau suara berulang, terputus-putus, stereotip, dan semi-volunter yang didahului dorongan internal (urge)[cite: 6]."
   },
   {
     id: 8, category: "Tics & Sindrom Tourette",
@@ -96,7 +96,7 @@ export const ALL_QUESTIONS = [
       "Disertai kelemahan otot progresif"
     ],
     answer: 1,
-    explanation: "Karakteristik utama Tics adalah Urge (dorongan rangsangan internal) dan Supresibilitas (dapat ditekan/dikendalikan pasien untuk sementara waktu)[span_7](start_span)[span_7](end_span)."
+    explanation: "Karakteristik utama Tics adalah Urge (dorongan rangsangan internal) dan Supresibilitas (dapat ditekan/dikendalikan pasien untuk sementara waktu)[cite: 6]."
   },
   {
     id: 9, category: "Tics & Sindrom Tourette",
@@ -108,7 +108,7 @@ export const ALL_QUESTIONS = [
       "Copropraxia (menunjukkan gestur jari kotor)"
     ],
     answer: 2,
-    explanation: "Coprolalia (kebiasaan mengucapkan kata-kata kotor/kasar) adalah bentuk tics vokal kompleks. Sedangkan Copropraxia adalah tics motorik kompleks[span_8](start_span)[span_8](end_span)."
+    explanation: "Coprolalia (kebiasaan mengucapkan kata-kata kotor/kasar) adalah bentuk tics vokal kompleks. Sedangkan Copropraxia adalah tics motorik kompleks[cite: 6]."
   },
   {
     id: 10, category: "Tics & Sindrom Tourette",
@@ -120,7 +120,7 @@ export const ALL_QUESTIONS = [
       "Bersiul saat diajak bicara"
     ],
     answer: 0,
-    explanation: "Echopraxia adalah bentuk tics motorik kompleks berupa kebiasaan mengulang gerakan orang lain[span_9](start_span)[span_9](end_span)."
+    explanation: "Echopraxia adalah bentuk tics motorik kompleks berupa kebiasaan mengulang gerakan orang lain[cite: 6]."
   },
   {
     id: 11, category: "Tics & Sindrom Tourette",
@@ -132,7 +132,7 @@ export const ALL_QUESTIONS = [
       "Kelainan struktural masif yang terlihat jelas pada pemeriksaan EEG"
     ],
     answer: 1,
-    explanation: "Tourette Syndrome ditandai oleh kombinasi tics motorik DAN vokal, berlangsung > 1 tahun, dengan onset gejala sebelum usia 18 tahun[span_10](start_span)[span_10](end_span)."
+    explanation: "Tourette Syndrome ditandai oleh kombinasi tics motorik DAN vokal, berlangsung > 1 tahun, dengan onset gejala sebelum usia 18 tahun[cite: 6]."
   },
   {
     id: 12, category: "Tics & Sindrom Tourette",
@@ -144,7 +144,7 @@ export const ALL_QUESTIONS = [
       "Bipolar tipe I"
     ],
     answer: 1,
-    explanation: "Gejala neuropsikiatri yang sering menyertai Tourette Syndrome adalah OCD dan ADHD[span_11](start_span)[span_11](end_span)."
+    explanation: "Gejala neuropsikiatri yang sering menyertai Tourette Syndrome adalah OCD dan ADHD[cite: 6]."
   },
   {
     id: 13, category: "Tics & Sindrom Tourette",
@@ -156,7 +156,7 @@ export const ALL_QUESTIONS = [
       "Menilai refleks batang otak"
     ],
     answer: 2,
-    explanation: "MRI dilakukan untuk mencari lesi struktural di otak, sedangkan EEG dilakukan untuk membedakan gerakan tics dari kejang (seizure); pada tics gambaran EEG adalah normal[span_12](start_span)[span_12](end_span)."
+    explanation: "MRI dilakukan untuk mencari lesi struktural di otak, sedangkan EEG dilakukan untuk membedakan gerakan tics dari kejang (seizure); pada tics gambaran EEG adalah normal[cite: 6]."
   },
 
   // ── 3. KLASIFIKASI TREMOR (6 Soal) ───────────────────────────────────────
@@ -170,7 +170,7 @@ export const ALL_QUESTIONS = [
       "Kerusakan korteks somatosensorik"
     ],
     answer: 1,
-    explanation: "Tremor didefinisikan sebagai gerakan osilasi dan ritmis yang disebabkan oleh aktivitas bergantian dari otot agonis dan antagonis[span_13](start_span)[span_13](end_span)."
+    explanation: "Tremor didefinisikan sebagai gerakan osilasi dan ritmis yang disebabkan oleh aktivitas bergantian dari otot agonis dan antagonis[cite: 6]."
   },
   {
     id: 15, category: "Klasifikasi Tremor",
@@ -182,7 +182,7 @@ export const ALL_QUESTIONS = [
       "Neuropathy Tremor"
     ],
     answer: 2,
-    explanation: "Prototipe dari resting tremor adalah tremor pada Penyakit Parkinson[span_14](start_span)[span_14](end_span)."
+    explanation: "Prototipe dari resting tremor adalah tremor pada Penyakit Parkinson[cite: 6]."
   },
   {
     id: 16, category: "Klasifikasi Tremor",
@@ -194,7 +194,7 @@ export const ALL_QUESTIONS = [
       "Pasien beristirahat di atas pangkuan"
     ],
     answer: 0,
-    explanation: "Tremor postural terjadi saat otot diaktifkan melawan gravitasi tanpa gerakan, misalnya saat lengan terentang di depan tubuh[span_15](start_span)[span_15](end_span)."
+    explanation: "Tremor postural terjadi saat otot diaktifkan melawan gravitasi tanpa gerakan, misalnya saat lengan terentang di depan tubuh[cite: 6]."
   },
   {
     id: 17, category: "Klasifikasi Tremor",
@@ -206,7 +206,7 @@ export const ALL_QUESTIONS = [
       "Medula spinalis"
     ],
     answer: 1,
-    explanation: "Tremor intensional (amplitudo meningkat saat mendekati target) biasanya dikaitkan dengan proses atau penyakit pada serebelum[span_16](start_span)[span_16](end_span)."
+    explanation: "Tremor intensional (amplitudo meningkat saat mendekati target) biasanya dikaitkan dengan proses atau penyakit pada serebelum[cite: 6]."
   },
   {
     id: 18, category: "Klasifikasi Tremor",
@@ -218,7 +218,7 @@ export const ALL_QUESTIONS = [
       "Levodopa dosis rumatan normal"
     ],
     answer: 3,
-    explanation: "Obat-obatan klasik penyebab tremor meliputi litium, asam valproat, beta agonis, steroid, dan SSRI. Levodopa justru digunakan mengatasi parkinsonisme[span_17](start_span)[span_17](end_span)."
+    explanation: "Obat-obatan klasik penyebab tremor meliputi litium, asam valproat, beta agonis, steroid, dan SSRI. Levodopa justru digunakan mengatasi parkinsonisme[cite: 6]."
   },
   {
     id: 19, category: "Klasifikasi Tremor",
@@ -230,7 +230,7 @@ export const ALL_QUESTIONS = [
       "Krisis Adisonian"
     ],
     answer: 1,
-    explanation: "Hipertiroidisme merupakan kelainan sistemik metabolik/endokrin yang dapat meningkatkan tremor[span_18](start_span)[span_18](end_span)."
+    explanation: "Hipertiroidisme merupakan kelainan sistemik metabolik/endokrin yang dapat meningkatkan tremor[cite: 6]."
   },
 
   // ── 4. TREMOR ESENSIAL & KLINIS (6 Soal) ──────────────────────────────────
@@ -244,7 +244,7 @@ export const ALL_QUESTIONS = [
       "Terjadi murni hanya pada kepala dan suara"
     ],
     answer: 1,
-    explanation: "Resting tremor Parkinson bersifat asimetris, frekuensi 3-4 Hz, amplitudo sedang, dan khas melibatkan ibu jari-telunjuk (pill-rolling)[span_19](start_span)[span_19](end_span)."
+    explanation: "Resting tremor Parkinson bersifat asimetris, frekuensi 3-4 Hz, amplitudo sedang, dan khas melibatkan ibu jari-telunjuk (pill-rolling)[cite: 6]."
   },
   {
     id: 21, category: "Tremor Esensial & Klinis",
@@ -256,7 +256,7 @@ export const ALL_QUESTIONS = [
       "Tremor akibat serangan stroke sekunder"
     ],
     answer: 2,
-    explanation: "Re-emergent tremor terjadi saat meluruskan lengan: awalnya tremor menghilang sejenak, namun setelah beberapa saat timbul kembali tremor postural dengan frekuensi serupa resting tremor[span_20](start_span)[span_20](end_span)."
+    explanation: "Re-emergent tremor terjadi saat meluruskan lengan: awalnya tremor menghilang sejenak, namun setelah beberapa saat timbul kembali tremor postural dengan frekuensi serupa resting tremor[cite: 6]."
   },
   {
     id: 22, category: "Tremor Esensial & Klinis",
@@ -268,7 +268,7 @@ export const ALL_QUESTIONS = [
       "Gerakan menari ireguler yang berpindah-pindah"
     ],
     answer: 0,
-    explanation: "Essential tremor ditandai postural tremor simetris, pola penurunan autosomal dominan, onset bimodal, dapat melibatkan kepala/suara, diperberat cemas, dan membaik dengan alkohol[span_21](start_span)[span_21](end_span)."
+    explanation: "Essential tremor ditandai postural tremor simetris, pola penurunan autosomal dominan, onset bimodal, dapat melibatkan kepala/suara, diperberat cemas, dan membaik dengan alkohol[cite: 6]."
   },
   {
     id: 23, category: "Tremor Esensial & Klinis",
@@ -280,7 +280,7 @@ export const ALL_QUESTIONS = [
       "Mengangkat beban 5 kg"
     ],
     answer: 1,
-    explanation: "Pemeriksaan fisik tremor meliputi observasi posisi istirahat, posisi tertentu, gerakan, serta meminta pasien menulis dan membuat gambar spiral[span_22](start_span)[span_22](end_span)."
+    explanation: "Pemeriksaan fisik tremor meliputi observasi posisi istirahat, posisi tertentu, gerakan, serta meminta pasien menulis dan membuat gambar spiral[cite: 6]."
   },
   {
     id: 24, category: "Tremor Esensial & Klinis",
@@ -292,7 +292,7 @@ export const ALL_QUESTIONS = [
       "Injeksi Penisilin IV"
     ],
     answer: 0,
-    explanation: "Terapi lini untuk tremor anggota gerak (non-parkinson) meliputi Propranolol, Primidone, Topiramate, Gabapentin, dan Clonazepam[span_23](start_span)[span_23](end_span)."
+    explanation: "Terapi lini untuk tremor anggota gerak (non-parkinson) meliputi Propranolol, Primidone, Topiramate, Gabapentin, dan Clonazepam[cite: 6]."
   },
   {
     id: 25, category: "Tremor Esensial & Klinis",
@@ -304,7 +304,7 @@ export const ALL_QUESTIONS = [
       "Propranolol oral dosis maksimal"
     ],
     answer: 0,
-    explanation: "Injeksi Botulinum toxin (Toksin Botulinum) efektif untuk task-specific tremor[span_24](start_span)[span_24](end_span)."
+    explanation: "Injeksi Botulinum toxin (Toksin Botulinum) efektif untuk task-specific tremor[cite: 6]."
   },
 
   // ── 5. CHOREA & HUNTINGTON DISEASE (7 Soal) ─────────────────────────────
@@ -318,7 +318,7 @@ export const ALL_QUESTIONS = [
       "Melilit"
     ],
     answer: 1,
-    explanation: "Chorea berasal dari kata Yunani 'choeria' yang berarti 'menari' (dance)[span_25](start_span)[span_25](end_span)."
+    explanation: "Chorea berasal dari kata Yunani 'choeria' yang berarti 'menari' (dance)[cite: 6]."
   },
   {
     id: 27, category: "Chorea & Huntington",
@@ -330,7 +330,7 @@ export const ALL_QUESTIONS = [
       "Keditan mata tunggal yang dapat ditahan"
     ],
     answer: 1,
-    explanation: "Chorea adalah diskinesia hiperkinetik dengan gerakan singkat, ireguler, cepat, tidak bertujuan, tidak stereotip, dan mengalir dari satu bagian tubuh ke bagian lain[span_26](start_span)[span_26](end_span)."
+    explanation: "Chorea adalah diskinesia hiperkinetik dengan gerakan singkat, ireguler, cepat, tidak bertujuan, tidak stereotip, dan mengalir dari satu bagian tubuh ke bagian lain[cite: 6]."
   },
   {
     id: 28, category: "Chorea & Huntington",
@@ -342,7 +342,7 @@ export const ALL_QUESTIONS = [
       "Lhermitte sign dan Babinski positif"
     ],
     answer: 1,
-    explanation: "Ciri klasik Chorea adalah ketidakmampuan mempertahankan kontraksi otot berkelanjutan, ditunjukkan dengan 'milk-maid's grip' dan ketidakmampuan menjulurkan lidah terus-menerus (tongue protrusion)[span_27](start_span)[span_27](end_span)."
+    explanation: "Ciri klasik Chorea adalah ketidakmampuan mempertahankan kontraksi otot berkelanjutan, ditunjukkan dengan 'milk-maid's grip' dan ketidakmampuan menjulurkan lidah terus-menerus (tongue protrusion)[cite: 6]."
   },
   {
     id: 29, category: "Chorea & Huntington",
@@ -354,7 +354,7 @@ export const ALL_QUESTIONS = [
       "Substantia nigra pars compacta murni"
     ],
     answer: 0,
-    explanation: "Patofisiologi utama Chorea adalah degenerasi neuron spinosus sedang di striatum (proyeksi eferen GABAergik)[span_28](start_span)[span_28](end_span)."
+    explanation: "Patofisiologi utama Chorea adalah degenerasi neuron spinosus sedang di striatum (proyeksi eferen GABAergik)[cite: 6]."
   },
   {
     id: 30, category: "Chorea & Huntington",
@@ -366,7 +366,7 @@ export const ALL_QUESTIONS = [
       "CTG"
     ],
     answer: 2,
-    explanation: "Huntington Disease diturunkan secara autosomal dominan akibat pengulangan trinukleotida CAG (pengulangan >40 bersifat 100% penetran)[span_29](start_span)[span_29](end_span)."
+    explanation: "Huntington Disease diturunkan secara autosomal dominan akibat pengulangan trinukleotida CAG (pengulangan >40 bersifat 100% penetran)[cite: 6]."
   },
   {
     id: 31, category: "Chorea & Huntington",
@@ -378,7 +378,7 @@ export const ALL_QUESTIONS = [
       "Demam tinggi, kaku kuduk, dan penurunan kesadaran"
     ],
     answer: 0,
-    explanation: "Trias klinis Huntington Disease mencakup Gangguan Gerak (terutama chorea), Gejala Neuropsikiatri (depresi, iritabilitas, psikosis), dan Penurunan Kognitif[span_30](start_span)[span_30](end_span)."
+    explanation: "Trias klinis Huntington Disease mencakup Gangguan Gerak (terutama chorea), Gejala Neuropsikiatri (depresi, iritabilitas, psikosis), dan Penurunan Kognitif[cite: 6]."
   },
   {
     id: 32, category: "Chorea & Huntington",
@@ -390,7 +390,7 @@ export const ALL_QUESTIONS = [
       "Interferon-beta"
     ],
     answer: 0,
-    explanation: "Chorea pada Huntington dikontrol dengan mengurangi transmisi dopamin, menggunakan Tetrabenazine atau obat antipsikotik neuroleptik (Clozapine, Quetiapine, Olanzapine)[span_31](start_span)[span_31](end_span)."
+    explanation: "Chorea pada Huntington dikontrol dengan mengurangi transmisi dopamin, menggunakan Tetrabenazine atau obat antipsikotik neuroleptik (Clozapine, Quetiapine, Olanzapine)[cite: 6]."
   },
 
   // ── 6. SYDENHAM & ETIOLOGI CHOREA (6 Soal) ───────────────────────────────
@@ -404,6 +404,214 @@ export const ALL_QUESTIONS = [
       "Keracunan logam berat tembaga"
     ],
     answer: 1,
-    explanation: "Sydenham Chorea terjadi akibat patogenesis 'molecular mimicry' antara antigen bakteri Streptokokus dengan antigen di sistem saraf pusat pasca demam rematik[span_32](start_span)[span_32](end_span)."
+    explanation: "Sydenham Chorea terjadi akibat patogenesis 'molecular mimicry' antara antigen bakteri Streptokokus dengan antigen di sistem saraf pusat pasca demam rematik[cite: 6]."
+  },
+  {
+    id: 34, category: "Sydenham & Etiologi Chorea",
+    question: "Pilihan obat lini pertama (first choice) untuk menangani Sydenham Chorea adalah...",
+    options: [
+      "Asam Valproat atau Carbamazepine",
+      "Haloperidol injeksi",
+      "Levodopa",
+      "Amantadine"
+    ],
+    answer: 0,
+    explanation: "Pada Sydenham chorea, pilihan terapi utama (first choice) adalah Asam Valproat atau Carbamazepine[cite: 6]."
+  },
+  {
+    id: 35, category: "Sydenham & Etiologi Chorea",
+    question: "Hemiballismus ditandai dengan gerakan melontar liar yang sangat keras pada satu sisi tubuh. Lokasi lesi vaskular/stroke tersering penyebab hemiballismus adalah...",
+    options: [
+      "Subthalamic nucleus kontralateral (akibat penyumbatan cabang arteri serebri posterior)",
+      "Substantia nigra ipsilateral",
+      "Korteks motorik lobus parietal",
+      "Vermis serebelar"
+    ],
+    answer: 0,
+    explanation: "Hemiballismus paling sering disebabkan stroke pada Subthalamic Nucleus (akibat sumbatan cabang penetrans PCA) yang mempengaruhi sisi tubuh kontralateral[cite: 6]."
+  },
+  {
+    id: 36, category: "Sydenham & Etiologi Chorea",
+    question: "Vascular Chorea yang terjadi akibat lesi iskemik atau perdarahan di ganglia basalis umumnya bermanifestasi sebagai...",
+    options: [
+      "Chorea umum seluruh tubuh yang makin memburuk",
+      "Hemichorea yang sering membaik secara spontan",
+      "Tics vokal kompleks",
+      "Resting tremor simetris"
+    ],
+    answer: 1,
+    explanation: "Vascular chorea sering kali bermanifestasi sebagai Hemichorea dan cenderung membaik secara spontan seiring pemulihan stroke[cite: 6]."
+  },
+  {
+    id: 37, category: "Sydenham & Etiologi Chorea",
+    question: "Pengobatan Chorea Gravidarum pada wanita hamil tidak boleh menggunakan obat neuroleptik karena berisiko pada janin. Sebagai gantinya dapat diberikan...",
+    options: [
+      "Tranquilizer benzodiazepine ringan",
+      "Tetrabenazine dosis tinggi",
+      "Asam valproat dosis maksimal",
+      "Warfarin"
+    ],
+    answer: 0,
+    explanation: "Pada wanita hamil dengan Chorea gravidarum, neuroleptik dihindari agar tidak membahayakan janin; pasien dapat diberikan tranquilizer benzodiazepine ringan[cite: 6]."
+  },
+  {
+    id: 38, category: "Sydenham & Etiologi Chorea",
+    question: "Di bawah ini adalah obat yang paling sering menginduksi timbulnya diskinesia/chorea sekunder (Drug-induced chorea):",
+    options: [
+      "Levodopa",
+      "Parasetamol",
+      "Metformin",
+      "Inhibitor Asetilkolinesterase"
+    ],
+    answer: 0,
+    explanation: "Levodopa merupakan obat yang paling sering menginduksi timbulnya chorea/diskinesia (drug-induced chorea)[cite: 6]."
+  },
+
+  // ── 7. DISTONIA & PENATALAKSANAAN (6 Soal) ──────────────────────────────
+  {
+    id: 39, category: "Distonia & Penatalaksanaan",
+    question: "Definisi dari Dystonia (distonia) adalah...",
+    options: [
+      "Sindrom kontraksi otot berkelanjutan yang menyebabkan gerakan memutar (twisting), berulang, atau postur tubuh abnormal",
+      "Kelemahan otot yang fluktuatif akibat kerusakan reseptor AChR",
+      "Osilasi ritmis cepat 8-10 Hz saat mengetik",
+      "Hilangnya massa otot akibat denervasi saraf tepi"
+    ],
+    answer: 0,
+    explanation: "Distonia adalah sindrom kontraksi otot berkelanjutan yang sering menyebabkan gerakan memutar (twisting), berulang, dan postur tubuh abnormal[cite: 6]."
+  },
+  {
+    id: 40, category: "Distonia & Penatalaksanaan",
+    question: "Bentuk fokal distonia yang paling sering dijumpai pada orang dewasa adalah...",
+    options: [
+      "Generalized dystonia",
+      "Cervical dystonia (Spasmodic Torticollis)",
+      "Writer's cramp",
+      "Bibrachial dystonia"
+    ],
+    answer: 1,
+    explanation: "Distonia fokal yang paling umum dijumpai pada orang dewasa adalah Cervical Dystonia (Spasmodic Torticollis)[cite: 6]."
+  },
+  {
+    id: 41, category: "Distonia & Penatalaksanaan",
+    question: "Fenomena klinis unik pada distonia di mana pasien menyentuh area wajah/dagu untuk meredakan sementara gerakan memutar leher dinamakan...",
+    options: [
+      "Lhermitte sign",
+      "Sensory trick (Geste antagoniste)",
+      "Cogan twitch",
+      "Milk-maid's grip"
+    ],
+    answer: 1,
+    explanation: "Gejala distonia servikal dapat membaik dengan bantuan 'sensory tricks' (misal menyentuh dagu atau pipi secara lembut)[cite: 6]."
+  },
+  {
+    id: 42, category: "Distonia & Penatalaksanaan",
+    question: "Sindrom Meige (Meige's Syndrome) didefinisikan sebagai kombinasi antara dua bentuk distonia fokal yaitu...",
+    options: [
+      "Blepharospasm dan Oromandibular Dystonia (OMD)",
+      "Torticollis dan Writer's cramp",
+      "Laryngeal dystonia dan Hemidystonia",
+      "Bibrachial dystonia dan Tics motorik"
+    ],
+    answer: 0,
+    explanation: "Meige's syndrome adalah kombinasi antara Oromandibular Dystonia (OMD) dan Blepharospasm[cite: 6]."
+  },
+  {
+    id: 43, category: "Distonia & Penatalaksanaan",
+    question: "Terapi lini pertama (first line) pilihan utama yang disetujui FDA untuk kasus distonia fokal (seperti torticollis dan blepharospasm) adalah...",
+    options: [
+      "Suntikan Botulinum Toxin (Toksin Botulinum)",
+      "Operasi kraniotomi dekompresi",
+      "Pemberian antibiotik oral",
+      "Tetrabenazine dosis tinggi"
+    ],
+    answer: 0,
+    explanation: "Injeksi Toksin Botulinum (Botulinum toxin) adalah terapi lini pertama (first line) untuk distonia fokal[cite: 6]."
+  },
+  {
+    id: 44, category: "Distonia & Penatalaksanaan",
+    question: "Mekanisme kerja Toksin Botulinum dalam meredakan distonia adalah...",
+    options: [
+      "Meningkatkan pelepasan dopamin di striatum",
+      "Mencegah pelepasan asetilkolin di celah sinaps sehingga mencegah transmisi neuromuskular",
+      "Memblokir reseptor GABAergik di korteks",
+      "Menghambat aktivasi reseptor nmda"
+    ],
+    answer: 1,
+    explanation: "Toksin botulinum bekerja mencegah pelepasan asetilkolin di celah sinaps NMJ, menyebabkan kelumpuhan/kelemahan otot sementara yang mengurangi spasme distonik[cite: 6]."
+  },
+
+  // ── 8. MIOKLONUS & KASUS (6 Soal) ─────────────────────────────────────────
+  {
+    id: 45, category: "Mioklonus & Kasus",
+    question: "Myoclonus (Mioklonus) didefinisikan secara klinis sebagai...",
+    options: [
+      "Gerakan otot yang tiba-tiba, sangat cepat, seperti sentakan kejutan listrik (shock-like jerks)",
+      "Gerakan memutar leher yang lambat dan menetap",
+      "Osilasi halus 4 Hz pada saat tangan beristirahat",
+      "Gerakan menari yang berpindah-pindah lambat"
+    ],
+    answer: 0,
+    explanation: "Myoclonus ditandai oleh sentakan otot yang tiba-tiba, cepat, dan seperti kejutan listrik (electric shock-like jerks)[cite: 6]."
+  },
+  {
+    id: 46, category: "Mioklonus & Kasus",
+    question: "Asterixis (\"flapping tremor\") yang terlihat pada pasien dengan gangguan metabolik/ensefalopati hepatik sebenarnya merupakan bentuk dari...",
+    options: [
+      "Resting tremor",
+      "Negative myoclonus",
+      "Chorea kompleks",
+      "Tics vokal"
+    ],
+    answer: 1,
+    explanation: "Asterixis adalah bentuk 'negative myoclonus' (kehilangan tonus otot singkat secara mendadak) yang terlihat pada gangguan metabolik[cite: 6]."
+  },
+  {
+    id: 47, category: "Mioklonus & Kasus",
+    question: "Lance-Adams Syndrome merupakan sebutan untuk kondisi...",
+    options: [
+      "Post-Hypoxic Myoclonus (PHM) yang terjadi saat pemulihan dari hipoksia otak berat",
+      "Tics motorik kronis pasca kejang",
+      "Distonia fokal akibat trauma lahir",
+      "Penyakit degeneratif tembaga"
+    ],
+    answer: 0,
+    explanation: "Lance-Adams syndrome adalah nama lain dari Post-Hypoxic Myoclonus (PHM), yaitu mioklonus umum yang timbul pasca pemulihan hipoksia otak parah (misal henti jantung/napas)[cite: 6]."
+  },
+  {
+    id: 48, category: "Mioklonus & Kasus",
+    question: "Terapi pilihan utama untuk kasus Cortical Myoclonus (yang merupakan fragmen dari epilepsi) adalah obat antikonvulsan seperti...",
+    options: [
+      "Asam Valproat, Levetiracetam, Clonazepam, atau Primidone",
+      "Haloperidol dan Risperidone",
+      "Propranolol murni",
+      "Pyridostigmine"
+    ],
+    answer: 0,
+    explanation: "Cortical myoclonus diterapi dengan obat antikonvulsan seperti Asam Valproat, Levetiracetam, Clonazepam, dan Primidone[cite: 6]."
+  },
+  {
+    id: 49, category: "Mioklonus & Kasus",
+    question: "Seorang pasien usia 60 tahun datang dengan keluhan tangan kanan gemetar saat beristirahat di pangkuan. Tremor berkurang saat tangan bergerak mengambil gelas. Pemeriksaan fisik menunjukkan langkah kecil-kecil dan ekspresi wajah berkurang. Tremor pada pasien ini adalah...",
+    options: [
+      "Essential tremor",
+      "Resting tremor (Parkinsonism)",
+      "Cerebellar tremor",
+      "Dystonic tremor"
+    ],
+    answer: 1,
+    explanation: "Tremor saat beristirahat (resting tremor), berkurang saat bergerak, disertai bradikinesia (langkah kecil) dan ekspresi wajah berkurang (wajah topeng) khas untuk Penyakit Parkinson[cite: 6]."
+  },
+  {
+    id: 50, category: "Mioklonus & Kasus",
+    question: "Seorang anak laki-laki usia 8 tahun sering mengedipkan mata berulang-ulang dan kadang mengeluarkan suara mendengus 'uh-uh'. Gejala didahului rasa tidak nyaman di leher dan anak dapat menahan gerakan tersebut selama beberapa menit saat diperiksa. Diagnosis yang paling mungkin adalah...",
+    options: [
+      "Kejang parsial kompleks",
+      "Tic disorder / Tourette syndrome",
+      "Huntington disease",
+      "Sydenham chorea"
+    ],
+    answer: 1,
+    explanation: "Kombinasi tics motorik (kedip mata) dan vokal (suara mendengus) pada anak, didahului urge (rasa tidak nyaman) dan memiliki sifat supresibel (dapat ditahan sementara) khas untuk Tic disorder / Tourette syndrome[cite: 6]."
   }
 ];

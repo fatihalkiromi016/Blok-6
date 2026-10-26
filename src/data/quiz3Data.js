@@ -391,5 +391,225 @@ export const ALL_QUESTIONS = [
     ],
     answer: 2,
     explanation: "Risiko MS (Environmental/Infectious risk) sangat berkaitan dengan letak geografis (jarak dari ekuator/kurang Vitamin D), paparan EBV, dan kebiasaan merokok."
+  },
+  {
+    id: 33, category: "MS: Patofis & Gejala",
+    question: "Gejala klinis CIS atau serangan MS awal yang paling umum melibatkan nervus kranialis adalah...",
+    options: [
+      "Telinga berdenging parah",
+      "Kelemahan saraf fasialis bilateral",
+      "Gangguan penciuman total (anosmia)",
+      "Menurunnya tajam penglihatan pada satu mata disertai nyeri gerak bola mata (neuritis optik)"
+    ],
+    answer: 3,
+    explanation: "Gejala umum yang merupakan debut MS (CIS) adalah Optic Neuritis, yang bermanifestasi berupa penurunan penglihatan unilateral dengan nyeri pergerakan mata."
+  },
+
+  // ── 6. MS: KRITERIA & KLASIFIKASI (6 Soal) ──────────────────────────────
+  {
+    id: 34, category: "MS: Kriteria & Klasifikasi",
+    question: "Kriteria radiologis esensial dari Kriteria McDonald (2010) untuk mengonfirmasi diagnosis Multiple Sclerosis harus membuktikan adanya...",
+    options: [
+      "Dissemination in Space (DIS) dan Dissemination in Time (DIT)",
+      "Pengecilan lobus frontal dan parietal secara merata",
+      "Lesi spesifik hanya di ganglia basalis otak",
+      "Hemoragi mikro di parenkim otak tanpa henti"
+    ],
+    answer: 0,
+    explanation: "Kriteria McDonald mensyaratkan bukti DIS (lesi tersebar di minimal 2 area anatomi tipikal: periventrikuler, jukstakortikal, infratentorial, korda) dan DIT (lesi menyebar seiring waktu/ada relaps)."
+  },
+  {
+    id: 35, category: "MS: Kriteria & Klasifikasi",
+    question: "Subtipe MS yang mencakup sekitar 85% dari seluruh kasus, ditandai episode eksaserbasi (relaps) akut yang diikuti pemulihan penuh atau stabil, adalah...",
+    options: [
+      "Secondary Progressive (SPMS)",
+      "Relapsing-Remitting (RRMS)",
+      "Progressive-Relapsing (PRMS)",
+      "Primary Progressive (PPMS)"
+    ],
+    answer: 1,
+    explanation: "RRMS (Relapsing-Remitting MS) adalah subtipe terbanyak (85%). Pasien mengalami serangan inflamasi akut diselingi masa remisi atau stabil tanpa progresivitas perburukan di antara serangan."
+  },
+  {
+    id: 36, category: "MS: Kriteria & Klasifikasi",
+    question: "Manakah karakteristik dari Primary Progressive MS (PPMS)?",
+    options: [
+      "Perburukan mematikan dalam hitungan jam (fulminan)",
+      "Disertai remisi total di antara serangan",
+      "Kondisi perlahan memburuk secara kontinu sejak awal gejala tanpa adanya remisi atau episode relaps yang jelas",
+      "Didahului oleh RRMS yang bertahan hingga 20 tahun"
+    ],
+    answer: 2,
+    explanation: "PPMS (Primary Progressive MS) berkembang progresif sejak awitan gejala tanpa pernah mengalami relaps berulang atau remisi yang teridentifikasi tajam."
+  },
+  {
+    id: 37, category: "MS: Kriteria & Klasifikasi",
+    question: "Sekitar 75% pasien dengan riwayat awal RRMS, perlahan defisit neurologisnya mulai memburuk progresif meskipun tanpa relaps nyata. Fase subtipe ini dinamakan...",
+    options: [
+      "Malignant MS",
+      "Clinically Isolated Syndrome",
+      "Primary Progressive",
+      "Secondary Progressive (SPMS)"
+    ],
+    answer: 3,
+    explanation: "Secondary Progressive MS (SPMS) terjadi pada individu yang awalnya didiagnosis dengan RRMS, di mana gejala sisa mulai memberat secara gradual seiring berjalannya tahun (fase sekunder)."
+  },
+  {
+    id: 38, category: "MS: Kriteria & Klasifikasi",
+    question: "Area otak atau medulla spinalis yang termasuk kategori area 'tipikal MS' untuk menghitung DIS pada kriteria McDonald adalah...",
+    options: [
+      "Periventrikuler, jukstakortikal, infratentorial, dan korda spinalis",
+      "Lobus oksipital superfisial dan epitel luar otak",
+      "Taut neuromuscular lengan atas",
+      "Selaput meninges"
+    ],
+    answer: 0,
+    explanation: "Minimal 2 dari 4 area tipikal: periventrikular, jukstakortikal, infratentorial, dan medula spinalis (korda spinalis) harus memiliki lesi radiologis untuk memenuhi syarat DIS."
+  },
+  {
+    id: 39, category: "MS: Kriteria & Klasifikasi",
+    question: "Syarat utama mendefinisikan sebuah 'Eksaserbasi/Relaps' MS yang sah adalah...",
+    options: [
+      "Berlangsung kilat kurang dari 5 menit",
+      "Gejala baru harus bertahan lebih dari 24 jam dan terpisah \ge 30 hari dari relaps sebelumnya",
+      "Dibarengi demam dan leukositosis",
+      "Terjadi perubahan genetik langsung dalam tubuh pasien"
+    ],
+    answer: 1,
+    explanation: "Relaps (flare-up) harus bertahan lebih dari 24 jam dan terpisah jarak waktu >30 hari (satu bulan) dari episode perburukan sebelumnya."
+  },
+
+  // ── 7. TATALAKSANA KOMPREHENSIF (11 Soal, tersebar ke Cat 7 & 8) ────────
+  {
+    id: 40, category: "Tatalaksana Komprehensif",
+    question: "Pilar utama pengobatan serangan akut (relapse) pada penderita MS untuk memadamkan inflamasi cepat adalah pemberian...",
+    options: [
+      "Antibiotik kombinasi makrolida",
+      "Injeksi racun botulinum (Botox)",
+      "Metilprednisolon (Solu-Medrol) atau Deksametason intravena dosis tinggi (3-5 hari)",
+      "Operasi dekompresi tulang belakang"
+    ],
+    answer: 2,
+    explanation: "Kortikosteroid dosis tinggi IV (seperti Solu-Medrol) diberikan selama 3-5 hari untuk menekan inflamasi segera dan menghentikan eksaserbasi lebih cepat."
+  },
+  {
+    id: 41, category: "Tatalaksana Komprehensif",
+    question: "Tujuan pengobatan jangka panjang DMT (Disease Modifying Therapies) seperti Interferon-beta pada MS adalah...",
+    options: [
+      "Hanya meredakan nyeri sementara",
+      "Memulihkan mielin secara sempurna seperti sedia kala",
+      "Menjamin pasien kebal selamanya dari infeksi virus primer",
+      "Mengurangi frekuensi relaps, mengurangi keparahan, dan memperlambat progresivitas disabilitas"
+    ],
+    answer: 3,
+    explanation: "DMT dirancang untuk memperlambat MS (slowing down MS): mencegah kekambuhan baru (relaps), menekan aktivitas lesi MRI, serta menunda progresivitas cacat."
+  },
+  {
+    id: 42, category: "Tatalaksana Komprehensif",
+    question: "Dua terapi utama yang dipakai jika steroid gagal atau pasien tidak dapat menolerir efek steroid pada eksaserbasi akut MS adalah...",
+    options: [
+      "ACTH gel (H.P. Acthar Gel) atau IVIG/Plasma exchange",
+      "Pil KB dan suplemen besi",
+      "Tensilon test berulang",
+      "Isoniazid dosis tinggi"
+    ],
+    answer: 0,
+    explanation: "Jika steroid kontraindikasi atau gagal, ACTH gel adalah alternatif hormon, begitu pula plasmapheresis atau IVIG sebagai langkah intervensi penyelamatan inflamasi eksaserbasi akut."
+  },
+  {
+    id: 43, category: "Tatalaksana Komprehensif",
+    question: "Pasien MS seringkali mengalami kekakuan ekstrem (spastisitas). Obat manakah yang diindikasikan untuk mengurangi gejala spastik (muscle spasms)?",
+    options: [
+      "Ritalin atau Provigil",
+      "Lioresal (Baclofen), Zanaflex (Tizanidine), atau Dantrium",
+      "Prozac atau Zoloft",
+      "Detrol atau Ditropan"
+    ],
+    answer: 1,
+    explanation: "Obat relaksan otot seperti Baclofen (Lioresal), Tizanidine, dan Diazepam diindikasikan langsung untuk meredakan spastisitas/kekakuan kaki pasien MS."
+  },
+  {
+    id: 44, category: "Tatalaksana Komprehensif",
+    question: "Bila pasien MS mengeluhkan fatigue (kelelahan berat), manajemen farmakologisnya meliputi pemberian...",
+    options: [
+      "Amantadine, Modafinil (Provigil), atau Ritalin",
+      "Tolterodine",
+      "Karbamazepin",
+      "Tadalafil"
+    ],
+    answer: 0,
+    explanation: "Fatigue kronis diobati menggunakan CNS stimulan ringan atau antiviral pengontrol letargi seperti Amantadine, Modafinil, atau methylphenidate (Ritalin)."
+  },
+  {
+    id: 45, category: "Tatalaksana Komprehensif",
+    question: "Berdasarkan bagan 'Take Home Messages', perbedaan esensial dari Guillain-Barre Syndrome (GBS) dan Myasthenia Gravis (MG) terletak pada...",
+    options: [
+      "GBS menyerang korda spinalis, sedangkan MG menyerang retina mata",
+      "GBS memberikan gejala kelemahan spastik, sementara MG kelemahan saraf otonom",
+      "GBS menyebabkan kelemahan asenderen menetap & arefleksia pasca infeksi, MG memberikan ptosis fluktuatif tanpa arefleksia murni akibat defek di NMJ",
+      "GBS dapat sembuh total dengan kompres es, MG tidak"
+    ],
+    answer: 2,
+    explanation: "Ringkasan membedakan jelas: GBS -> post infeksi, asimetris ascending, stocks/gloves, disosiasi sitoalbumin. MG -> NMJ, okular ptosis, fluktuatif, Tensilon & Ice pack test."
+  },
+  {
+    id: 46, category: "Tatalaksana Komprehensif",
+    question: "Tanda bahaya pada fase progresif GBS yang paling menuntut perawatan darurat ICU adalah...",
+    options: [
+      "Kerontokan rambut alis bilateral",
+      "Kehilangan kemampuan sensoris perabaan (hipestesi) di kaki dan jari tangan",
+      "Pandangan ganda ringan saat bangun tidur",
+      "Kelemahan otot respirasi interkostal dan diafragma yang memicu henti napas"
+    ],
+    answer: 3,
+    explanation: "Kelemahan ekstrem akibat GBS di fase progresif berisiko melumpuhkan otot pernapasan secara mendadak sehingga mutlak butuh bantuan ventilasi (ventilator) dan observasi ketat."
+  },
+  {
+    id: 47, category: "Tatalaksana Komprehensif",
+    question: "Kapan kelainan disosiasi sitoalbumin (LCS) pada GBS dipastikan paling spesifik/mudah terbaca secara biokimiawi?",
+    options: [
+      "Pada hari pertama gejala kelumpuhan muncul",
+      "Setelah relaps kedua berjarak 30 hari",
+      "Cairan LCS sering normal pada 48 jam awal, peningkatan protein lebih nyata dan diagnostik di akhir minggu pertama",
+      "Hanya setelah pengobatan IVIG usai"
+    ],
+    answer: 2,
+    explanation: "Peningkatan level protein seringkali belum tampak (normal) dalam 48 jam pertama paralisis, tetapi naik mencolok pada akhir minggu pertama penyakit (by the end of one week)."
+  },
+  {
+    id: 48, category: "Tatalaksana Komprehensif",
+    question: "Obat lini belakang MG, kelas 'immunosuppression' yang bertindak dengan cara mendepresi proliferasi imun kronik/jangka panjang di antaranya adalah...",
+    options: [
+      "Pyridostigmine & Neostigmine",
+      "Imuran (Azathioprine), Cellcept (Mycophenolate Mofetil), dan Siklosporin",
+      "Ampyra & Colace",
+      "Flomax & Hytrin"
+    ],
+    answer: 1,
+    explanation: "Untuk imunosupresi kronis, MG diterapi secara 'long term fix' menggunakan obat Imuran, Cellcept, Cyclosporine, atau kortikosteroid oral."
+  },
+  {
+    id: 49, category: "Tatalaksana Komprehensif",
+    question: "Komplikasi buang air kecil tak terkendali (Bladder Dysfunction) pada MS ditangani menggunakan lini farmasi antispasmodik saluran kemih, yaitu...",
+    options: [
+      "Miralax dan Dulcolax",
+      "Ditropan (Oxybutynin) atau Detrol (Tolterodine)",
+      "Tegretol dan Neurontin",
+      "Atarax"
+    ],
+    answer: 1,
+    explanation: "Disfungsi kandung kemih seperti overactive bladder diobati menggunakan obat antikolinergik penahan kandung kemih (Ditropan, Detrol, Vesicare, Enablex)."
+  },
+  {
+    id: 50, category: "Tatalaksana Komprehensif",
+    question: "Peran uji Wartenberg Test yang positif pada penderita Myasthenia Gravis bermakna...",
+    options: [
+      "Refleks fisiologis lutut melemah/hilang sempurna",
+      "Kaku persendian kaku leher saat menengok",
+      "Timbulnya ptosis bola mata setelah pasien diinstruksikan menatap fokus (sustained upward gaze) terus-menerus",
+      "Rasa kebas merambat di area dada"
+    ],
+    answer: 2,
+    explanation: "Wartenberg Test memprovokasi kelelahan otot mata: ptosis makin nampak turun/memburuk (fatigability) saat pasien diminta mempertahankan lirikan menatap ke atas beberapa detik."
   }
 ];
